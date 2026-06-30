@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-30T22:00:39.684Z",
+    "generatedAt": "2026-06-30T22:13:28.936Z",
     "buildOk": true,
     "tourStartsInDays": 4,
     "racing": false,
@@ -54,6 +54,18 @@
       }
     ],
     "recentRuns": [
+      {
+        "phase": "verify",
+        "status": "ok",
+        "message": "swaps team=true cap=true failed=0",
+        "created_at": "2026-06-30 22:06:09"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-06-30 22:03:42"
+      },
       {
         "phase": "collect",
         "status": "ok",
@@ -131,18 +143,6 @@
         "status": "ok",
         "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
         "created_at": "2026-06-30 17:04:17"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 16:49:58"
-      },
-      {
-        "phase": "verify",
-        "status": "warn",
-        "message": "swaps team=false cap=true failed=1",
-        "created_at": "2026-06-30 16:17:10"
       }
     ],
     "tradeWindow": {
@@ -585,21 +585,21 @@
   },
   "teamB": {
     "enabled": false,
-    "lastDecisionMd": "# Welcome to Machine — cycle decision 2026-06-30T21:07:47.799Z\n\nStage 1 (ttt). Bank 0.0M, contractsLeft 8, current captain Richard Carapaz.\nSignal strength: enriched.matchRate = 0.6420454545454546 (low pre-race ⇒ EV is weak, picks lean on odds/price + ownership fade).\n\n## Swap (forced ≥1 change)\n- **SOLD Jasper Philipsen** — e_horizon=44269, captain_ceiling=37774, gcOdds≈n/a, ownership=n/a%, value=11.5M, score=44.27 — lowest desirability among the 8 owned.\n- **BOUGHT Paul Seixas** — e_horizon=94872, captain_ceiling=73833, gcOdds≈11.0, ownership=n/a%, value=11.5M, score=105.78 — best affordable upgrade; differential = fades ownership.\n\n## Captain (always changed)\n- **Richard Carapaz → Paul Seixas** — e_horizon=94872, captain_ceiling=73833, gcOdds≈11.0, ownership=n/a%, value=11.5M, score=105.78 — highest captain-ceiling on the post-swap roster, ≠ previous captain.\n\n## Plan written to plan-latest-B.json\n```json\n{\n \"stage_number\": 1,\n \"stage_type\": \"ttt\",\n \"captain_name\": \"Paul Seixas\",\n \"swaps\": [\n  {\n   \"sell_name\": \"Jasper Philipsen\",\n   \"buy_name\": \"Paul Seixas\",\n   \"rationale\": \"EV/odds upgrade, ownership-faded\"\n  }\n ],\n \"summary\": \"Welcome to Machine cycle — SELL Jasper Philipsen → BUY Paul Seixas; captain Paul Seixas.\",\n \"source\": \"cycle-b\",\n \"generatedAt\": \"2026-06-30T21:07:47.798Z\",\n \"team_id\": 7164033\n}\n```",
+    "lastDecisionMd": "# Welcome to Machine — cycle decision 2026-06-30T22:05:33.590Z\n\nStage 1 (ttt). Bank 0.0M, contractsLeft 8, current captain Paul Seixas.\nSignal strength: enriched.matchRate = 0.6420454545454546 (low pre-race ⇒ EV is weak, picks lean on odds/price + ownership fade).\n\n## Swap (forced ≥1 change)\n- **SOLD Alex Aranburu** — e_horizon=43730, captain_ceiling=37044, gcOdds≈n/a, ownership=n/a%, value=4.0M, score=43.73 — lowest desirability among the 8 owned.\n- **BOUGHT Florian Vermeersch** — e_horizon=43655, captain_ceiling=36942, gcOdds≈n/a, ownership=n/a%, value=3.5M, score=43.66 — forced least-bad legal swap (no clear upgrade in thin pre-race data); differential = fades ownership.\n\n## Captain (always changed)\n- **Paul Seixas → Isaac Del Toro** — e_horizon=88453, captain_ceiling=68811, gcOdds≈38.0, ownership=n/a%, value=9.5M, score=91.61 — highest captain-ceiling on the post-swap roster, ≠ previous captain.\n\n## Plan written to plan-latest-B.json\n```json\n{\n \"stage_number\": 1,\n \"stage_type\": \"ttt\",\n \"captain_name\": \"Isaac Del Toro\",\n \"swaps\": [\n  {\n   \"sell_name\": \"Alex Aranburu\",\n   \"buy_name\": \"Florian Vermeersch\",\n   \"rationale\": \"forced test swap (thin pre-race signal)\"\n  }\n ],\n \"summary\": \"Welcome to Machine cycle — SELL Alex Aranburu → BUY Florian Vermeersch; captain Isaac Del Toro.\",\n \"source\": \"cycle-b\",\n \"generatedAt\": \"2026-06-30T22:05:33.589Z\",\n \"team_id\": 7164033\n}\n```",
     "plan": {
       "stage_number": 1,
       "stage_type": "ttt",
-      "captain_name": "Paul Seixas",
+      "captain_name": "Isaac Del Toro",
       "swaps": [
         {
-          "sell_name": "Jasper Philipsen",
-          "buy_name": "Paul Seixas",
-          "rationale": "EV/odds upgrade, ownership-faded"
+          "sell_name": "Alex Aranburu",
+          "buy_name": "Florian Vermeersch",
+          "rationale": "forced test swap (thin pre-race signal)"
         }
       ],
-      "summary": "Welcome to Machine cycle — SELL Jasper Philipsen → BUY Paul Seixas; captain Paul Seixas.",
+      "summary": "Welcome to Machine cycle — SELL Alex Aranburu → BUY Florian Vermeersch; captain Isaac Del Toro.",
       "source": "cycle-b",
-      "generatedAt": "2026-06-30T21:07:47.798Z",
+      "generatedAt": "2026-06-30T22:05:33.589Z",
       "team_id": 7164033
     }
   },
@@ -4119,6 +4119,11 @@
     ]
   },
   "brainJournal": [
+    {
+      "ts": "2026-06-30T22:03Z",
+      "action": "HELD",
+      "text": "no DNS (no owned rider isOut=true; C. Rodriguez still absent-without-isOut = feltet=ERR 3rd-hr outage artifact, kept per outage protocol, NOT withdrawal), no rollover (stage 1 TTT). DEGRADED snapshot: feltet=ERR, matchRate 0.642 (DOWN from 0.677 write → fails ratchet e). Transfers free pre-stage-1 but no NEW info enabling a better team (coverage rouleurs e_h~982/conf0.00 = engine can't model TTT flat placement; naive Σe_h chase would break deliberate 2-up TT-squad coverage), so no improving swap (d). Captain Pogacar cap_ceil 166k @ conf1.00, runaway pool top (next Vingegaard 93k; c unchanged). NOTE: live team still = OLD squad w/ captain Vingegaard (21:05 executor did not converge to plan target) — executor/guardian concern, plan target unchanged for 23:10 re-check. Plan kept. matchRate 0.642"
+    },
     {
       "ts": "2026-06-30T21:03Z",
       "action": "HELD",
