@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T13:15:31.286Z",
+    "generatedAt": "2026-07-01T14:09:11.619Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "825bd7c",
-    "gitHeadMsg": "chore(maintenance): verified doc-drift + dead-code sweep (7 fixes)",
+    "gitHead": "6ed5da2",
+    "gitHeadMsg": "docs: correct stale pre-race matchRate/EV-path claim (auditor run6)",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
@@ -54,6 +54,12 @@
       }
     ],
     "recentRuns": [
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=201 persons=0 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 13:37:58"
+      },
       {
         "phase": "improve",
         "status": "noop",
@@ -137,12 +143,6 @@
         "status": "ok",
         "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
         "created_at": "2026-06-30 19:05:41"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 19:03:43"
       }
     ],
     "tradeWindow": {
@@ -170,15 +170,15 @@
         "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "=== 2026-07-01 12:49:10 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 13:49:11 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 14:49:12 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 15:49:12 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
