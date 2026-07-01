@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T11:15:13.865Z",
+    "generatedAt": "2026-07-01T11:37:17.155Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "207339f",
-    "gitHeadMsg": "chore(maintenance): correct doc-drift + remove dead telegram config",
+    "gitHead": "4ed4e19",
+    "gitHeadMsg": "fix(brain): guard in-race DNS replacement against illegal roster + fusion stage-type key",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
