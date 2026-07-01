@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T09:56:26.094Z",
+    "generatedAt": "2026-07-01T10:56:27.765Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "ad2c27d",
-    "gitHeadMsg": "chore(maintenance): annotate forward-scaffold DB tables + fix doc drift",
+    "gitHead": "207339f",
+    "gitHeadMsg": "chore(maintenance): correct doc-drift + remove dead telegram config",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
@@ -170,15 +170,15 @@
         "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "=== 2026-07-01 00:28:23 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 08:22:27 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 11:49:09 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 12:49:10 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
