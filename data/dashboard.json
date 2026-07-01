@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-06-30T23:11:28.142Z",
+    "generatedAt": "2026-07-01T03:19:39.662Z",
     "buildOk": true,
-    "tourStartsInDays": 4,
+    "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "0328dba",
-    "gitHeadMsg": "feat(dashboard): add auto-derived 'Candor — what to distrust' weakness panel",
+    "gitHead": "0607759",
+    "gitHeadMsg": "chore(maintenance): verified dead-code + doc-drift sweep (8 fixes)",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
