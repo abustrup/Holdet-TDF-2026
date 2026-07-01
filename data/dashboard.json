@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T12:39:37.694Z",
+    "generatedAt": "2026-07-01T13:15:31.286Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "4ed4e19",
-    "gitHeadMsg": "fix(brain): guard in-race DNS replacement against illegal roster + fusion stage-type key",
+    "gitHead": "825bd7c",
+    "gitHeadMsg": "chore(maintenance): verified doc-drift + dead-code sweep (7 fixes)",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
@@ -41,7 +41,7 @@
         "label": "Self-improve backtest",
         "when": "not",
         "loaded": true,
-        "lastExit": null,
+        "lastExit": 0,
         "intervalSec": 18000
       },
       {
@@ -54,6 +54,12 @@
       }
     ],
     "recentRuns": [
+      {
+        "phase": "improve",
+        "status": "noop",
+        "message": "+2.16% changes=6 prose=0 llm=false",
+        "created_at": "2026-07-01 12:49:38"
+      },
       {
         "phase": "verify",
         "status": "ok",
@@ -137,12 +143,6 @@
         "status": "ok",
         "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
         "created_at": "2026-06-30 19:03:43"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 18:08:45"
       }
     ],
     "tradeWindow": {
@@ -170,10 +170,6 @@
         "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "=== 2026-07-01 11:49:09 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 12:49:10 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
@@ -181,21 +177,25 @@
         "=== 2026-07-01 13:49:11 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 14:49:12 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
       ],
       "improve": [
-        "[improve] LLM advisor: unavailable — claude said: {\"type\":\"result\",\"subtype\":\"success\",\"is_error\":true,\"api_error_status\":401,\"duration_ms\":2671,\"duration_api_ms\":0,\"num_turns\":1,\"result\":\"Failed to authenticate. API Error: 401 Invalid authentication credentials\",\"stop_reason\":\"stop_sequen",
-        "[improve] tracked source has uncommitted changes — skipping auto-merge to avoid clobbering.",
-        "[improve] no verified improvement this run. no change proposed",
-        "=== 2026-06-30 17:01:35 improve run ===",
-        "[improve] years: 2022(21) 2023(21,pre) 2024(21,pre) 2025(21,pre)",
-        "[improve] backtest 72,988,718 -> 74,795,052 (in-sample +2.47%, held-out +-0.22%) changes: starWeight:30->10 stageProbWeight:200->170 gcBaseWeight:100->120 byType.itt.gc:250->220 byType.flat.gc:40->130 byType.flat.stageProb:120->30 [hold]",
-        "[improve] autopsy: med:captain",
         "[improve] LLM advisor: unavailable — claude said: no LLM auth set (Max plan blocks headless claude -p) — deterministic only",
         "[improve] no verified improvement this run. no change proposed",
         "=== 2026-06-30 23:28:18 improve run ===",
         "[improve] years: 2022(21) 2023(21,pre) 2024(21,pre) 2025(21,pre)",
-        "[improve] fatal: last is not defined"
+        "[improve] fatal: last is not defined",
+        "=== 2026-07-01 14:49:08 improve run ===",
+        "[improve] years: 2022(21) 2023(21,pre) 2024(21,pre) 2025(21,pre)",
+        "[improve] backtest 72,124,718 -> 73,683,053 (in-sample +2.16%, held-out +-0.23%) changes: starWeight:30->10 stageProbWeight:200->170 gcBaseWeight:100->120 byType.itt.gc:250->220 byType.flat.gc:40->100 byType.flat.stageProb:120->60 [hold]",
+        "[improve] autopsy: med:captain",
+        "[improve] LLM advisor: unavailable — claude said: no LLM auth set (Max plan blocks headless claude -p) — deterministic only",
+        "[improve] tracked source has uncommitted changes — skipping auto-merge to avoid clobbering.",
+        "[improve] no verified improvement this run. no change proposed"
       ],
       "guard": [
         "=== 2026-06-30 08:30:05 run guard ===",
@@ -4116,6 +4116,11 @@
     {
       "ts": "-",
       "action": "other",
+      "text": "2026-07-01T13:04Z HELD — no DNS (0 isOut across entire pool; C. Rodriguez still absent-without-isOut = feltet coverage gap 4th+ hr, INEOS block at 5 riders, KEPT per outage protocol), no rollover (still S1 TTT, window closes 4 Jul, transfers free). Substrate identical to the 12:19 write — same 06:33Z snapshot, matchRate 0.642==write, no new collection since. Team re-validated: 49.50M≤50M, all four squads at 2/team, captain Pogacar cap_ceil 166k@conf1.00 runaway pool top (coverage rouleurs conf0.00/e_h~982 = engine can't model TTT flat placement, unchanged). No material change → plan-latest.json (12:18Z) left untouched, no churn. matchRate 0.642"
+    },
+    {
+      "ts": "-",
+      "action": "other",
       "text": "2026-07-01T12:19:12Z — **CHANGED (resync only)** S1 TTT. Composition + captain (Pogacar) HELD; nothing material changed. Rewrote swaps/sells/buys against the live post-incident roster (Mads Pedersen→Kwiatkowski already applied 30-Jun): now 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) → 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski/Rodriguez/Tratnik held. 2-up on UAE/Visma/RedBull/INEOS. matchRate 0.642. Note: Carlos Rodriguez silently absent from pool, NO isOut → kept as coverage gap, flagged for pre-flight guard."
     },
     {
@@ -4170,44 +4175,44 @@
     }
   ],
   "improve": {
-    "at": "2026-06-30T15:02:06.380Z",
+    "at": "2026-07-01T12:49:38.411Z",
     "years": [
       2022,
       2023,
       2024,
       2025
     ],
-    "baselineScore": 72988718,
-    "bestScore": 74795052,
-    "improvedPct": 2.47,
-    "heldOutPct": -0.22,
+    "baselineScore": 72124718,
+    "bestScore": 73683053,
+    "improvedPct": 2.16,
+    "heldOutPct": -0.23,
     "merged": false,
     "crossVal": {
-      "meanHeldOutPct": -0.22,
+      "meanHeldOutPct": -0.23,
       "folds": [
         {
           "year": 2022,
-          "base": 20567913,
-          "cand": 20433732,
-          "pct": -0.65
+          "base": 20447913,
+          "cand": 20313732,
+          "pct": -0.66
         },
         {
           "year": 2023,
-          "base": 14774549,
-          "cand": 14758591,
+          "base": 14631549,
+          "cand": 14615591,
           "pct": -0.11
         },
         {
           "year": 2024,
-          "base": 18782275,
-          "cand": 18828319,
+          "base": 18611275,
+          "cand": 18657319,
           "pct": 0.25
         },
         {
           "year": 2025,
-          "base": 18863981,
-          "cand": 18792871,
-          "pct": -0.38
+          "base": 18433981,
+          "cand": 18362871,
+          "pct": -0.39
         }
       ],
       "noFoldRegresses": false
@@ -4236,27 +4241,27 @@
       {
         "knob": "byType.flat.gc",
         "from": 40,
-        "to": 130
+        "to": 100
       },
       {
         "knob": "byType.flat.stageProb",
         "from": 120,
-        "to": 30
+        "to": 60
       }
     ],
     "autopsy": {
       "stats": {
         "stages": 84,
-        "captainMissPct": 33,
-        "captainAvgRegret": 29881,
-        "captainWorstType": "flat (avg regret 46667)",
+        "captainMissPct": 32,
+        "captainAvgRegret": 27024,
+        "captainWorstType": "flat (avg regret 42619)",
         "breadthByType": {
-          "itt": 4.43,
-          "flat": 2.81,
-          "hilly": 3,
-          "mountain": 3.41
+          "itt": 4.29,
+          "flat": 2.71,
+          "hilly": 2.83,
+          "mountain": 3.37
         },
-        "breadthWorst": "flat (2.81/8)",
+        "breadthWorst": "flat (2.71/8)",
         "swapsPerStage": 1.27,
         "heavyChurnStages": 0,
         "invalidTeams": 0
@@ -4265,7 +4270,7 @@
         {
           "area": "captain",
           "severity": "med",
-          "detail": "Captain miss on 33% of stages (avg 29881 kr left; worst: flat (avg regret 46667)). Tighten captain selection on flat stages."
+          "detail": "Captain miss on 32% of stages (avg 27024 kr left; worst: flat (avg regret 42619)). Tighten captain selection on flat stages."
         }
       ]
     },
@@ -4275,7 +4280,7 @@
         "no change proposed"
       ]
     },
-    "mergeGateExplanation": "Held (not merged): the conjunctive gate (in-sample ≥ MIN AND held-out ≥ MIN AND no fold regresses) was not met — held-out is -0.22% (must be positive / above floor); at least one cross-val fold regressed; no change proposed."
+    "mergeGateExplanation": "Held (not merged): the conjunctive gate (in-sample ≥ MIN AND held-out ≥ MIN AND no fold regresses) was not met — held-out is -0.23% (must be positive / above floor); at least one cross-val fold regressed; no change proposed."
   },
   "sources": {
     "channels": [
