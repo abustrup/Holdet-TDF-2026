@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T03:45:13.198Z",
+    "generatedAt": "2026-07-01T09:56:26.094Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "0607759",
-    "gitHeadMsg": "chore(maintenance): verified dead-code + doc-drift sweep (8 fixes)",
+    "gitHead": "ad2c27d",
+    "gitHeadMsg": "chore(maintenance): annotate forward-scaffold DB tables + fix doc drift",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
   },
@@ -33,7 +33,7 @@
         "label": "Guardian verify",
         "when": "not",
         "loaded": true,
-        "lastExit": null,
+        "lastExit": 0,
         "intervalSec": null
       },
       {
@@ -49,11 +49,29 @@
         "label": "In-race watch",
         "when": "not",
         "loaded": true,
-        "lastExit": null,
+        "lastExit": 0,
         "intervalSec": 3600
       }
     ],
     "recentRuns": [
+      {
+        "phase": "verify",
+        "status": "ok",
+        "message": "guard read",
+        "created_at": "2026-07-01 06:34:04"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 06:33:51"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 04:34:26"
+      },
       {
         "phase": "verify",
         "status": "ok",
@@ -125,24 +143,6 @@
         "status": "ok",
         "message": "swaps team=true cap=true failed=0",
         "created_at": "2026-06-30 18:08:45"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 18:03:29"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 17:09:07"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 17:04:17"
       }
     ],
     "tradeWindow": {
@@ -170,15 +170,15 @@
         "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "=== 2026-06-30 22:28:20 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
-        "=== 2026-06-30 23:28:21 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 00:28:23 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 08:22:27 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 11:49:09 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
@@ -200,6 +200,10 @@
       "guard": [
         "=== 2026-06-30 08:30:05 run guard ===",
         "[collect] upcoming stage 1 (ttt) — 178 players — next: S2:hilly S3:mountain S4:hilly",
+        "[collect] snapshot written for stage 1; sources: pcs=ok betxpert=ok axelgaard=ok feltet=ERR",
+        "=== 2026-07-01 08:33:38 run guard ===",
+        "[collect] upcoming stage 1 (ttt) — 198 players — next: S2:hilly S3:mountain S4:hilly",
+        "[collect] enrichment: fusion match 64% | leverage 0.54 | topByEv Tadej Pogacar, Jonas Vingegaard, Paul Seixas",
         "[collect] snapshot written for stage 1; sources: pcs=ok betxpert=ok axelgaard=ok feltet=ERR"
       ]
     }
