@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T14:09:11.619Z",
+    "generatedAt": "2026-07-01T22:11:23.865Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
     "mode": "live",
-    "gitHead": "6ed5da2",
-    "gitHeadMsg": "docs: correct stale pre-race matchRate/EV-path claim (auditor run6)",
+    "gitHead": "7d3cae7",
+    "gitHeadMsg": "feat(guard): no-phantom-holdings invariant — resolve off-pool owned riders or auto-sell",
     "substrateLive": true,
-    "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)"
+    "substrateNote": "recomputed from 185 pool riders via fuseRiders+scoreEv (live engine)"
   },
   "status": {
     "jobs": [
@@ -17,7 +17,7 @@
         "label": "Evening collect + plan",
         "when": "not",
         "loaded": true,
-        "lastExit": null,
+        "lastExit": 0,
         "intervalSec": null
       },
       {
@@ -25,7 +25,7 @@
         "label": "Late re-plan",
         "when": "not",
         "loaded": true,
-        "lastExit": null,
+        "lastExit": 0,
         "intervalSec": null
       },
       {
@@ -55,94 +55,94 @@
     ],
     "recentRuns": [
       {
+        "phase": "verify",
+        "status": "ok",
+        "message": "swaps team=true cap=true failed=0",
+        "created_at": "2026-07-01 22:08:39"
+      },
+      {
+        "phase": "verify",
+        "status": "ok",
+        "message": "swaps team=true cap=true failed=0",
+        "created_at": "2026-07-01 22:07:35"
+      },
+      {
         "phase": "collect",
         "status": "ok",
-        "message": "players=201 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-07-01 13:37:58"
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 21:50:15"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 21:29:26"
+      },
+      {
+        "phase": "execute",
+        "status": "error",
+        "message": "full",
+        "created_at": "2026-07-01 21:14:59"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 21:10:46"
+      },
+      {
+        "phase": "execute",
+        "status": "error",
+        "message": "full",
+        "created_at": "2026-07-01 19:50:23"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 19:48:03"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 19:46:02"
+      },
+      {
+        "phase": "verify",
+        "status": "ok",
+        "message": "swaps team=true cap=true failed=0",
+        "created_at": "2026-07-01 19:39:40"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=0 persons=0 statistik=n/a sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 19:05:08"
       },
       {
         "phase": "improve",
         "status": "noop",
         "message": "+2.16% changes=6 prose=0 llm=false",
-        "created_at": "2026-07-01 12:49:38"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "guard read",
-        "created_at": "2026-07-01 06:34:04"
+        "created_at": "2026-07-01 17:49:54"
       },
       {
         "phase": "collect",
         "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-07-01 06:33:51"
+        "message": "players=201 persons=0 statistik=n/a sources=pcs,betxpert,axelgaard,feltet",
+        "created_at": "2026-07-01 15:49:28"
       },
       {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-07-01 04:34:26"
+        "phase": "improve",
+        "status": "noop",
+        "message": "+0% changes=0 prose=0 llm=false",
+        "created_at": "2026-07-01 15:44:57"
       },
       {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 22:06:09"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 22:03:42"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 21:10:42"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 21:08:23"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 21:03:42"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 20:25:28"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 20:06:17"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 20:03:52"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-06-30 19:08:22"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=198 persons=0 sources=pcs,betxpert,axelgaard,feltet",
-        "created_at": "2026-06-30 19:05:41"
+        "phase": "improve",
+        "status": "noop",
+        "message": "+0% changes=0 prose=0 llm=false",
+        "created_at": "2026-07-01 15:40:15"
       }
     ],
     "tradeWindow": {
@@ -151,45 +151,45 @@
       "end": "2026-07-04T21:00:00Z",
       "state": "pre"
     },
-    "matchRate": 0.6420454545454546,
-    "matchRatePct": 64.2,
+    "matchRate": 0.6432432432432432,
+    "matchRatePct": 64.3,
     "matchRateNote": "Fraction of the pool a LIVE source (odds/startlist) actually covered. Low pre-race (only the GC odds board is live); rises ~24h out as stage odds + the startlist populate. When low, EV is thin — lean on raw research.",
     "logTails": {
       "evening": [
-        "=== 2026-06-30 21:05:03 run evening ===",
-        "[execute] pool: 176 riders | team 8 | captain Jonas Vingegaard",
-        "[collect] upcoming stage 1 (ttt) — 198 players — next: S2:hilly S3:mountain S4:hilly",
-        "[collect] enrichment: fusion match 64% | leverage 0.54 | topByEv Tadej Pogacar, Jonas Vingegaard, Paul Seixas",
-        "[collect] snapshot written for stage 1; sources: pcs=ok betxpert=ok axelgaard=ok feltet=ERR",
-        "[daily] stage 1 already handled for The Times They Are A Changin' — skipping.",
-        "=== 2026-06-30 23:10:04 run evening ===",
-        "[execute] pool: 176 riders | team 8 | captain Jonas Vingegaard",
-        "[collect] upcoming stage 1 (ttt) — 198 players — next: S2:hilly S3:mountain S4:hilly",
-        "[collect] enrichment: fusion match 64% | leverage 0.54 | topByEv Tadej Pogacar, Jonas Vingegaard, Paul Seixas",
-        "[collect] snapshot written for stage 1; sources: pcs=ok betxpert=ok axelgaard=ok feltet=ERR",
-        "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
+        "    2 × waiting for element to be visible, enabled and stable",
+        "      - element is not enabled",
+        "    - retrying click action",
+        "      - waiting 100ms",
+        "    14 × waiting for element to be visible, enabled and stable",
+        "       - element is not enabled",
+        "     - retrying click action",
+        "       - waiting 500ms",
+        "    - waiting for element to be visible, enabled and stable",
+        "   not persisted, retrying…",
+        "   ⚠️ swap Nils Politt -> Tadej Pogacar failed after 3 tries",
+        "[execute] fatal captain \"Tadej Pogacar\" not in options"
       ],
       "watch": [
-        "=== 2026-07-01 13:49:11 watch run ===",
+        "=== 2026-07-01 21:49:32 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op.",
-        "=== 2026-07-01 14:49:12 watch run ===",
+        "=== 2026-07-01 22:52:15 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op.",
-        "=== 2026-07-01 15:49:12 watch run ===",
+        "=== 2026-07-01 23:52:16 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
       ],
       "improve": [
+        "[improve] backtest 72,124,718 -> 73,683,053 (in-sample +2.16%, held-out +-0.23%) changes: starWeight:30->10 stageProbWeight:200->170 gcBaseWeight:100->120 byType.itt.gc:250->220 byType.flat.gc:40->100 byType.flat.stageProb:120->60 [hold]",
+        "[improve] autopsy: med:captain",
         "[improve] LLM advisor: unavailable — claude said: no LLM auth set (Max plan blocks headless claude -p) — deterministic only",
+        "[improve] tracked source has uncommitted changes — skipping auto-merge to avoid clobbering.",
         "[improve] no verified improvement this run. no change proposed",
-        "=== 2026-06-30 23:28:18 improve run ===",
-        "[improve] years: 2022(21) 2023(21,pre) 2024(21,pre) 2025(21,pre)",
-        "[improve] fatal: last is not defined",
-        "=== 2026-07-01 14:49:08 improve run ===",
+        "=== 2026-07-01 19:49:38 improve run ===",
         "[improve] years: 2022(21) 2023(21,pre) 2024(21,pre) 2025(21,pre)",
         "[improve] backtest 72,124,718 -> 73,683,053 (in-sample +2.16%, held-out +-0.23%) changes: starWeight:30->10 stageProbWeight:200->170 gcBaseWeight:100->120 byType.itt.gc:250->220 byType.flat.gc:40->100 byType.flat.stageProb:120->60 [hold]",
         "[improve] autopsy: med:captain",
@@ -274,8 +274,8 @@
     "teamId": 7159555,
     "teamName": "The Times They Are A Changin'",
     "captain": "Jonas Vingegaard",
-    "bank": 6000000,
-    "totalValue": 44000000,
+    "bank": 2000000,
+    "totalValue": 48000000,
     "squadSize": 8,
     "maxPerRealTeam": 2,
     "budget": 50000000,
@@ -310,14 +310,14 @@
         "owned": true,
         "ev": {
           "e_stage": 31567,
-          "e_horizon": 43768,
-          "roi_per_million": 7294.685164787879,
+          "e_horizon": 43587,
+          "roi_per_million": 7264.540888516797,
           "efficiency": "med",
-          "captain_ceiling": 37096
+          "captain_ceiling": 36850
         },
         "fused": {
-          "p_stage": 0.010109409332457998,
-          "p_top15": 0.03982855867553847,
+          "p_stage": 0.009633436400226588,
+          "p_top15": 0.037980494458154435,
           "p_gc": 0.15,
           "confidence": 0.4423076923076923,
           "coverage": 1,
@@ -334,14 +334,14 @@
         "owned": true,
         "ev": {
           "e_stage": 90333,
-          "e_horizon": 120964,
-          "roi_per_million": 8640.294007310682,
+          "e_horizon": 120862,
+          "roi_per_million": 8632.969452276433,
           "efficiency": "med",
-          "captain_ceiling": 93078
+          "captain_ceiling": 92961
         },
         "fused": {
-          "p_stage": 0.004746213481996903,
-          "p_top15": 0.018850121829159572,
+          "p_stage": 0.004522751450365719,
+          "p_top15": 0.01796864375555518,
           "p_gc": 0.4270474678001801,
           "confidence": 0.7027632339262884,
           "coverage": 2,
@@ -352,30 +352,21 @@
         }
       },
       {
-        "name": "C. Rodriguez",
-        "realTeam": null,
+        "name": "Carlos Rodríguez",
+        "realTeam": "Netcompany INEOS Cycling Team",
         "value": 6000000,
-        "isCaptain": false,
-        "owned": true,
-        "ev": null,
-        "fused": null
-      },
-      {
-        "name": "Nils Politt",
-        "realTeam": "UAE Team Emirates - XRG",
-        "value": 3000000,
         "isCaptain": false,
         "owned": true,
         "ev": {
           "e_stage": 31567,
-          "e_horizon": 43186,
-          "roi_per_million": 14395.280390136279,
-          "efficiency": "high",
-          "captain_ceiling": 36305
+          "e_horizon": 43078,
+          "roi_per_million": 7179.660741651055,
+          "efficiency": "med",
+          "captain_ceiling": 36158
         },
         "fused": {
-          "p_stage": 0.008577785998213861,
-          "p_top15": 0.033872192662796397,
+          "p_stage": 0.00829424591747668,
+          "p_top15": 0.03276649423969569,
           "p_gc": 0.15,
           "confidence": 0.4423076923076923,
           "coverage": 1,
@@ -385,25 +376,51 @@
         }
       },
       {
-        "name": "Edoardo Affini",
-        "realTeam": "Team Visma | Lease a Bike",
-        "value": 3500000,
+        "name": "Nils Politt",
+        "realTeam": "UAE Team Emirates - XRG",
+        "value": 3000000,
         "isCaptain": false,
         "owned": true,
         "ev": {
-          "e_stage": -250,
-          "e_horizon": 982,
-          "roi_per_million": 280.4480688581975,
-          "efficiency": "low",
-          "captain_ceiling": 2282
+          "e_stage": 31567,
+          "e_horizon": 43032,
+          "roi_per_million": 14344.059597932088,
+          "efficiency": "high",
+          "captain_ceiling": 36095
         },
         "fused": {
-          "p_stage": 0.001,
-          "p_top15": 0.02,
-          "p_gc": 0,
-          "confidence": 0,
-          "coverage": 0,
-          "sources": []
+          "p_stage": 0.008173925216702635,
+          "p_top15": 0.032297002581746725,
+          "p_gc": 0.15,
+          "confidence": 0.4423076923076923,
+          "coverage": 1,
+          "sources": [
+            "uci"
+          ]
+        }
+      },
+      {
+        "name": "Matteo Jorgenson",
+        "realTeam": "Team Visma | Lease a Bike",
+        "value": 7500000,
+        "isCaptain": false,
+        "owned": true,
+        "ev": {
+          "e_stage": 31567,
+          "e_horizon": 43793,
+          "roi_per_million": 5839.0494675047585,
+          "efficiency": "med",
+          "captain_ceiling": 37129
+        },
+        "fused": {
+          "p_stage": 0.010174584007152885,
+          "p_top15": 0.04008140553310491,
+          "p_gc": 0.15,
+          "confidence": 0.4423076923076923,
+          "coverage": 1,
+          "sources": [
+            "uci"
+          ]
         }
       },
       {
@@ -436,14 +453,14 @@
         "owned": true,
         "ev": {
           "e_stage": 31567,
-          "e_horizon": 43771,
-          "roi_per_million": 9726.920115003539,
+          "e_horizon": 43590,
+          "roi_per_million": 9686.696314178334,
           "efficiency": "high",
-          "captain_ceiling": 37100
+          "captain_ceiling": 36854
         },
         "fused": {
-          "p_stage": 0.010117383626537009,
-          "p_top15": 0.03985949783989362,
+          "p_stage": 0.009641035247233427,
+          "p_top15": 0.038010019505444026,
           "p_gc": 0.15,
           "confidence": 0.4423076923076923,
           "coverage": 1,
@@ -455,11 +472,19 @@
     ],
     "realTeamGroups": [
       {
+        "team": "Netcompany INEOS Cycling Team",
+        "count": 2,
+        "riders": [
+          "Michal Kwiatkowski",
+          "Carlos Rodríguez"
+        ]
+      },
+      {
         "team": "Team Visma | Lease a Bike",
         "count": 2,
         "riders": [
           "Jonas Vingegaard",
-          "Edoardo Affini"
+          "Matteo Jorgenson"
         ]
       },
       {
@@ -478,34 +503,20 @@
         ]
       },
       {
-        "team": "Netcompany INEOS Cycling Team",
-        "count": 1,
-        "riders": [
-          "Michal Kwiatkowski"
-        ]
-      },
-      {
         "team": "Red Bull - BORA - hansgrohe",
         "count": 1,
         "riders": [
           "Jan Tratnik"
-        ]
-      },
-      {
-        "team": "Unknown",
-        "count": 1,
-        "riders": [
-          "C. Rodriguez"
         ]
       }
     ]
   },
   "decision": {
     "source": "llm-routine",
-    "generatedAt": "2026-07-01T12:18:56.718Z",
+    "generatedAt": "2026-07-01T15:02:02.790Z",
     "matchRateAtWrite": 0.6420454545454546,
     "rebuild": null,
-    "summary": "Stage 1 is the 19.7km Barcelona TTT (Sat 4 Jul) and pre-stage-1 transfers are FREE. Composition and captain are HELD from the prior plan — nothing material changed — but the trade list is RESYNCED to the actual live roster: the 30-Jun maintenance incident already applied the Mads Pedersen→Kwiatkowski leg, so the live team is now Kwiatkowski, A.Yates, Vingegaard, C.Rodriguez, Politt, Affini, Tratnik, Simmons. Against that, the real delta is 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) and 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski, Rodriguez and Tratnik are already owned and held. Result: 2 riders on each of the four strongest TT squads — UAE (Pogacar+Wellens), Visma (Jorgenson+Campenaerts), Red Bull-BORA (Tratnik+Cattaneo), Netcompany INEOS (Rodriguez+Kwiatkowski) — ~49.5M spent, none flagged out. On a TTT only TTT placement scores, paid EQUALLY to every active rider of a top-5 team, so the EV engine’s per-rider e_stage does not model the stage and the cheap coverage rouleurs correctly show conf 0.00; I size the TTT from TT pedigree and use e_horizon only for the S2-S4 forward carry. Captain Tadej Pogacar: a free TTT inclusion who also carries the race’s highest-confidence ceiling (conf 1.00, captain_ceiling ~166k, e_horizon ~226k), is the S2 Montjuic favourite and an S3 contender — the certain right-tail over Jorgenson’s coin-flip 0.44-conf ceiling. Vingegaard is the deliberate cut: on a flat TTT his 14M buys no extra reward and forces min-price elsewhere; he’s re-bought free before the S3 summit. NOTE: Carlos Rodriguez (owned) has silently dropped out of this snapshot’s pool with NO isOut flag — treated as a feltet coverage gap, not a DNS, so he is kept; the pre-flight guard should re-verify his status ~hours before the start.",
+    "summary": "HELD (re-affirmed against the 13:37Z snapshot). Stage 1 is the 19.7km Barcelona TTT (Sat 4 Jul) and pre-stage-1 transfers are FREE. Composition and captain are unchanged — nothing material moved since the prior plan (~1h ago): the live team is still Kwiatkowski, A.Yates, Vingegaard, C.Rodriguez, Politt, Affini, Tratnik, Simmons, NO owned rider carries an isOut flag, and the EV signal is byte-stable (Pogacar conf 1.00 / e_horizon 226k / captain_ceiling 166k). Trade list stays synced to that live roster: 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) and 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski, Rodriguez and Tratnik are already owned and held. Result: 2 riders on each of the four strongest TT squads — UAE (Pogacar+Wellens), Visma (Jorgenson+Campenaerts), Red Bull-BORA (Tratnik+Cattaneo), Netcompany INEOS (Rodriguez+Kwiatkowski) — ~49.5M spent, none flagged out. On a TTT only TTT placement scores, paid EQUALLY to every active rider of a top-5 team, so the EV engine’s per-rider e_stage does not model the stage and the cheap coverage rouleurs correctly show conf 0.00; I size the TTT from TT pedigree and use e_horizon only for the S2-S4 forward carry. Captain Tadej Pogacar: a free TTT inclusion who also carries the race’s highest-confidence ceiling (conf 1.00, captain_ceiling ~166k, e_horizon ~226k), is the S2 Montjuic favourite and an S3 contender — the certain right-tail over Jorgenson’s coin-flip 0.44-conf ceiling. Vingegaard is the deliberate cut: on a flat TTT his 14M buys no extra reward and forces min-price elsewhere; he’s re-bought free before the S3 summit. NOTE: Carlos Rodriguez (owned) remains absent from this snapshot’s pool for a 2nd consecutive run with NO isOut flag — still treated as a feltet coverage gap, not a DNS, so he is kept; the pre-flight guard should re-verify his status ~hours before the start. matchRate 0.642 is the known pre-race false-green (season-list flood, live stage-odds still ~0/pool), so this plan is reasoned from TT pedigree, not the weak EV.",
     "total_value": null,
     "swaps": [
       {
@@ -579,21 +590,21 @@
   },
   "teamB": {
     "enabled": false,
-    "lastDecisionMd": "# Welcome to Machine — cycle decision 2026-06-30T22:05:33.590Z\n\nStage 1 (ttt). Bank 0.0M, contractsLeft 8, current captain Paul Seixas.\nSignal strength: enriched.matchRate = 0.6420454545454546 (low pre-race ⇒ EV is weak, picks lean on odds/price + ownership fade).\n\n## Swap (forced ≥1 change)\n- **SOLD Alex Aranburu** — e_horizon=43730, captain_ceiling=37044, gcOdds≈n/a, ownership=n/a%, value=4.0M, score=43.73 — lowest desirability among the 8 owned.\n- **BOUGHT Florian Vermeersch** — e_horizon=43655, captain_ceiling=36942, gcOdds≈n/a, ownership=n/a%, value=3.5M, score=43.66 — forced least-bad legal swap (no clear upgrade in thin pre-race data); differential = fades ownership.\n\n## Captain (always changed)\n- **Paul Seixas → Isaac Del Toro** — e_horizon=88453, captain_ceiling=68811, gcOdds≈38.0, ownership=n/a%, value=9.5M, score=91.61 — highest captain-ceiling on the post-swap roster, ≠ previous captain.\n\n## Plan written to plan-latest-B.json\n```json\n{\n \"stage_number\": 1,\n \"stage_type\": \"ttt\",\n \"captain_name\": \"Isaac Del Toro\",\n \"swaps\": [\n  {\n   \"sell_name\": \"Alex Aranburu\",\n   \"buy_name\": \"Florian Vermeersch\",\n   \"rationale\": \"forced test swap (thin pre-race signal)\"\n  }\n ],\n \"summary\": \"Welcome to Machine cycle — SELL Alex Aranburu → BUY Florian Vermeersch; captain Isaac Del Toro.\",\n \"source\": \"cycle-b\",\n \"generatedAt\": \"2026-06-30T22:05:33.589Z\",\n \"team_id\": 7164033\n}\n```",
+    "lastDecisionMd": "# Welcome to Machine — cycle decision 2026-07-01T19:39:03.672Z\n\nStage 0 (flat). Bank 0.5M, contractsLeft 8, current captain Isaac Del Toro.\nSignal strength: enriched.matchRate = 0 (low pre-race ⇒ EV is weak, picks lean on odds/price + ownership fade).\n\n## Swap (forced ≥1 change)\n- **SOLD Quinn Simmons** — e_horizon=982, captain_ceiling=2282, gcOdds≈n/a, ownership=n/a%, value=4.5M, score=0.98 — lowest desirability among the 8 owned.\n- **BOUGHT Aaron Gate** — e_horizon=982, captain_ceiling=2282, gcOdds≈n/a, ownership=n/a%, value=4.0M, score=0.98 — forced least-bad legal swap (no clear upgrade in thin pre-race data); differential = fades ownership.\n\n## Captain (always changed)\n- **Isaac Del Toro → Jasper Stuyven** — e_horizon=982, captain_ceiling=2282, gcOdds≈n/a, ownership=n/a%, value=4.0M, score=0.98 — highest captain-ceiling on the post-swap roster, ≠ previous captain.\n\n## Plan written to plan-latest-B.json\n```json\n{\n \"stage_number\": 0,\n \"stage_type\": \"flat\",\n \"captain_name\": \"Jasper Stuyven\",\n \"swaps\": [\n  {\n   \"sell_name\": \"Quinn Simmons\",\n   \"buy_name\": \"Aaron Gate\",\n   \"rationale\": \"forced test swap (thin pre-race signal)\"\n  }\n ],\n \"summary\": \"Welcome to Machine cycle — SELL Quinn Simmons → BUY Aaron Gate; captain Jasper Stuyven.\",\n \"source\": \"cycle-b\",\n \"generatedAt\": \"2026-07-01T19:39:03.670Z\",\n \"team_id\": 7164033\n}\n```",
     "plan": {
-      "stage_number": 1,
-      "stage_type": "ttt",
-      "captain_name": "Isaac Del Toro",
+      "stage_number": 0,
+      "stage_type": "flat",
+      "captain_name": "Jasper Stuyven",
       "swaps": [
         {
-          "sell_name": "Alex Aranburu",
-          "buy_name": "Florian Vermeersch",
+          "sell_name": "Quinn Simmons",
+          "buy_name": "Aaron Gate",
           "rationale": "forced test swap (thin pre-race signal)"
         }
       ],
-      "summary": "Welcome to Machine cycle — SELL Alex Aranburu → BUY Florian Vermeersch; captain Isaac Del Toro.",
+      "summary": "Welcome to Machine cycle — SELL Quinn Simmons → BUY Aaron Gate; captain Jasper Stuyven.",
       "source": "cycle-b",
-      "generatedAt": "2026-06-30T22:05:33.589Z",
+      "generatedAt": "2026-07-01T19:39:03.670Z",
       "team_id": 7164033
     }
   },
@@ -640,8 +651,8 @@
       "value": 6000000,
       "owned": true,
       "isOut": false,
-      "p_stage": 0.010109409332457998,
-      "p_top15": 0.03982855867553847,
+      "p_stage": 0.009633436400226588,
+      "p_top15": 0.037980494458154435,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -649,10 +660,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43768,
-      "roi_per_million": 7294.685164787879,
+      "e_horizon": 43587,
+      "roi_per_million": 7264.540888516797,
       "efficiency": "med",
-      "captain_ceiling": 37096
+      "captain_ceiling": 36850
     },
     {
       "name": "Alex Aranburu",
@@ -660,8 +671,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010007976077162273,
-      "p_top15": 0.03943494634466915,
+      "p_stage": 0.009536778842734876,
+      "p_top15": 0.03760487568072968,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -669,10 +680,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43730,
-      "roi_per_million": 10932.393366825332,
+      "e_horizon": 43551,
+      "roi_per_million": 10887.626794048327,
       "efficiency": "high",
-      "captain_ceiling": 37044
+      "captain_ceiling": 36800
     },
     {
       "name": "Alex Baudin",
@@ -680,8 +691,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010021931219532305,
-      "p_top15": 0.03948910653312421,
+      "p_stage": 0.009550076946714716,
+      "p_top15": 0.037656559670279255,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -689,10 +700,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43735,
-      "roi_per_million": 7951.795571512435,
+      "e_horizon": 43556,
+      "roi_per_million": 7919.193050484791,
       "efficiency": "med",
-      "captain_ceiling": 37051
+      "captain_ceiling": 36807
     },
     {
       "name": "Alex Kirsch",
@@ -718,8 +729,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008167289888205725,
-      "p_top15": 0.032271106542616224,
+      "p_stage": 0.007782756154469965,
+      "p_top15": 0.030769478835263486,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -727,10 +738,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43030,
-      "roi_per_million": 14343.217904202951,
+      "e_horizon": 42883,
+      "roi_per_million": 14294.431420789018,
       "efficiency": "high",
-      "captain_ceiling": 36092
+      "captain_ceiling": 35893
     },
     {
       "name": "Alexandre Delettre",
@@ -738,8 +749,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009441795614994834,
-      "p_top15": 0.037235656336155554,
+      "p_stage": 0.0089972553855306,
+      "p_top15": 0.03550622469533571,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -747,10 +758,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43514,
-      "roi_per_million": 12432.686404369157,
+      "e_horizon": 43345,
+      "roi_per_million": 12384.395874294058,
       "efficiency": "high",
-      "captain_ceiling": 36751
+      "captain_ceiling": 36522
     },
     {
       "name": "A. Halland Johannessen",
@@ -758,8 +769,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.01092805907111418,
-      "p_top15": 0.04300090739580609,
+      "p_stage": 0.007746302041825735,
+      "p_top15": 0.03062703266820832,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -767,10 +778,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44079,
-      "roi_per_million": 14693.005502701926,
+      "e_horizon": 42869,
+      "roi_per_million": 14289.805581009661,
       "efficiency": "high",
-      "captain_ceiling": 37517
+      "captain_ceiling": 35874
     },
     {
       "name": "Anders Skaarseth",
@@ -796,8 +807,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008969481053737549,
-      "p_top15": 0.03539809463631394,
+      "p_stage": 0.008547178418900672,
+      "p_top15": 0.03375288041627178,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -805,10 +816,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43335,
-      "roi_per_million": 12381.378124249239,
+      "e_horizon": 43174,
+      "roi_per_million": 12335.484962714127,
       "efficiency": "high",
-      "captain_ceiling": 36507
+      "captain_ceiling": 36289
     },
     {
       "name": "Anthony Turgis",
@@ -816,8 +827,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009414624614932053,
-      "p_top15": 0.03713001753060641,
+      "p_stage": 0.008971363655121092,
+      "p_top15": 0.035405424201538804,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -825,10 +836,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43504,
-      "roi_per_million": 9667.571934246276,
+      "e_horizon": 43336,
+      "roi_per_million": 9630.119858994729,
       "efficiency": "high",
-      "captain_ceiling": 36737
+      "captain_ceiling": 36508
     },
     {
       "name": "Antonio Tiberi",
@@ -836,8 +847,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.01014422412816426,
-      "p_top15": 0.03996362980121082,
+      "p_stage": 0.009666612039791043,
+      "p_top15": 0.038109392221460814,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -845,10 +856,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43781,
-      "roi_per_million": 5837.511651771583,
+      "e_horizon": 43600,
+      "roi_per_million": 5813.3138944596885,
       "efficiency": "med",
-      "captain_ceiling": 37114
+      "captain_ceiling": 36867
     },
     {
       "name": "Arnaud De Lie",
@@ -856,8 +867,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011334816320997242,
-      "p_top15": 0.04457420551208435,
+      "p_stage": 0.010801148568195137,
+      "p_top15": 0.04250963225554816,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -865,10 +876,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44233,
-      "roi_per_million": 5897.78828081513,
+      "e_horizon": 44031,
+      "roi_per_million": 5870.7777444437115,
       "efficiency": "med",
-      "captain_ceiling": 37727
+      "captain_ceiling": 37452
     },
     {
       "name": "Arvid de Kleijn",
@@ -876,8 +887,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008076351045113105,
-      "p_top15": 0.03191614244762242,
+      "p_stage": 0.007696098909478388,
+      "p_top15": 0.030430835857039318,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -885,10 +896,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42995,
-      "roi_per_million": 7817.280978482843,
+      "e_horizon": 42850,
+      "roi_per_million": 7790.964448769621,
       "efficiency": "med",
-      "captain_ceiling": 36045
+      "captain_ceiling": 35848
     },
     {
       "name": "A. Paret-Peintre",
@@ -932,8 +943,8 @@
       "value": 6000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010525548058838412,
-      "p_top15": 0.04144212137231418,
+      "p_stage": 0.010029982412206331,
+      "p_top15": 0.039520352332096054,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -941,10 +952,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43926,
-      "roi_per_million": 7321.029845004734,
+      "e_horizon": 43738,
+      "roi_per_million": 7289.6557697463095,
       "efficiency": "med",
-      "captain_ceiling": 37310
+      "captain_ceiling": 37055
     },
     {
       "name": "Ben O'Connor",
@@ -970,8 +981,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008438348583947812,
-      "p_top15": 0.033328558339566716,
+      "p_stage": 0.00804105281852688,
+      "p_top15": 0.03177833560143328,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -979,10 +990,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43133,
-      "roi_per_million": 14377.597864860218,
+      "e_horizon": 42982,
+      "roi_per_million": 14327.203768485635,
       "efficiency": "high",
-      "captain_ceiling": 36232
+      "captain_ceiling": 36027
     },
     {
       "name": "Bert van Lerberghe",
@@ -1008,8 +1019,8 @@
       "value": 8000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010415481005757555,
-      "p_top15": 0.04101553836617644,
+      "p_stage": 0.00992509755486749,
+      "p_top15": 0.03911324593551846,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1017,10 +1028,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43884,
-      "roi_per_million": 5485.547028667275,
+      "e_horizon": 43698,
+      "roi_per_million": 5462.260366157374,
       "efficiency": "med",
-      "captain_ceiling": 37254
+      "captain_ceiling": 37001
     },
     {
       "name": "Brandon McNulty",
@@ -1028,8 +1039,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010629431846032865,
-      "p_top15": 0.04184460954817826,
+      "p_stage": 0.010128975125236491,
+      "p_top15": 0.03990446992733465,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1037,10 +1048,30 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43966,
-      "roi_per_million": 7993.750887955626,
+      "e_horizon": 43776,
+      "roi_per_million": 7959.1898596129995,
       "efficiency": "med",
-      "captain_ceiling": 37364
+      "captain_ceiling": 37106
+    },
+    {
+      "name": "Brent Van Moer",
+      "realTeam": "Pinarello Q36.5 Pro Cycling Team",
+      "value": 4000000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.007754489182310718,
+      "p_top15": 0.030659025673454354,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 42873,
+      "roi_per_million": 10718.133374848841,
+      "efficiency": "high",
+      "captain_ceiling": 35878
     },
     {
       "name": "Bruno Armirail",
@@ -1048,8 +1079,8 @@
       "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00906295052316942,
-      "p_top15": 0.0357619505299519,
+      "p_stage": 0.008636247142851125,
+      "p_top15": 0.034100050950087724,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1057,10 +1088,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43370,
-      "roi_per_million": 8674.073467749931,
+      "e_horizon": 43208,
+      "roi_per_million": 8641.616045575181,
       "efficiency": "med",
-      "captain_ceiling": 36556
+      "captain_ceiling": 36335
     },
     {
       "name": "Carlos Verona",
@@ -1099,13 +1130,13 @@
       "captain_ceiling": 2282
     },
     {
-      "name": "Cian Uijtdebroeks",
-      "realTeam": "Movistar Team",
-      "value": 7500000,
+      "name": "Chris Harper",
+      "realTeam": "Pinarello Q36.5 Pro Cycling Team",
+      "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009930435554325757,
-      "p_top15": 0.03913396829290294,
+      "p_stage": 0.008013424523673615,
+      "p_top15": 0.03167046246289673,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1113,10 +1144,30 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43700,
-      "roi_per_million": 5826.681496611642,
+      "e_horizon": 42971,
+      "roi_per_million": 8594.219205237192,
       "efficiency": "med",
-      "captain_ceiling": 37004
+      "captain_ceiling": 36012
+    },
+    {
+      "name": "Cian Uijtdebroeks",
+      "realTeam": "Movistar Team",
+      "value": 7500000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.009462889096002831,
+      "p_top15": 0.03731766021090677,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 43522,
+      "roi_per_million": 5802.989422289289,
+      "efficiency": "med",
+      "captain_ceiling": 36762
     },
     {
       "name": "Clement Berthet",
@@ -1124,8 +1175,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008111692055878767,
-      "p_top15": 0.0320541015885617,
+      "p_stage": 0.00772977598875518,
+      "p_top15": 0.030562451163056115,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1133,10 +1184,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43008,
-      "roi_per_million": 12288.141522983597,
+      "e_horizon": 42863,
+      "roi_per_million": 12246.607252894712,
       "efficiency": "high",
-      "captain_ceiling": 36063
+      "captain_ceiling": 35865
     },
     {
       "name": "C. Braz Afonso",
@@ -1144,8 +1195,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008319354632623484,
-      "p_top15": 0.0328644469566467,
+      "p_stage": 0.007927661360688279,
+      "p_top15": 0.03133554754977386,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1153,10 +1204,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43088,
-      "roi_per_million": 10771.879618220184,
+      "e_horizon": 42938,
+      "roi_per_million": 10734.613280388246,
       "efficiency": "high",
-      "captain_ceiling": 36171
+      "captain_ceiling": 35968
     },
     {
       "name": "Clement Russo",
@@ -1200,8 +1251,8 @@
       "value": 6000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008724222982460433,
-      "p_top15": 0.034442869811473376,
+      "p_stage": 0.008313467629912776,
+      "p_top15": 0.03284148157823519,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1209,10 +1260,28 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43242,
-      "roi_per_million": 7206.924129577444,
+      "e_horizon": 43085,
+      "roi_per_million": 7180.879741697022,
       "efficiency": "med",
-      "captain_ceiling": 36380
+      "captain_ceiling": 36168
+    },
+    {
+      "name": "Damien Howson",
+      "realTeam": "Pinarello Q36.5 Pro Cycling Team",
+      "value": 3000000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.001,
+      "p_top15": 0.02,
+      "p_gc": 0,
+      "confidence": 0,
+      "coverage": 0,
+      "sources": [],
+      "e_stage": -250,
+      "e_horizon": 982,
+      "roi_per_million": 327.1894136678971,
+      "efficiency": "low",
+      "captain_ceiling": 2282
     },
     {
       "name": "Davide Ballerini",
@@ -1220,8 +1289,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00918229387783774,
-      "p_top15": 0.036226378080093546,
+      "p_stage": 0.008749971553365958,
+      "p_top15": 0.03454318799998024,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1229,10 +1298,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43416,
-      "roi_per_million": 10853.936550342172,
+      "e_horizon": 43251,
+      "roi_per_million": 10812.834656234394,
       "efficiency": "high",
-      "captain_ceiling": 36617
+      "captain_ceiling": 36394
     },
     {
       "name": "Davide Piganzoli",
@@ -1240,8 +1309,8 @@
       "value": 6000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009879689609108733,
-      "p_top15": 0.03893695666594299,
+      "p_stage": 0.009414532380022598,
+      "p_top15": 0.037129658913407804,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1249,10 +1318,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43681,
-      "roi_per_million": 7280.138126604441,
+      "e_horizon": 43504,
+      "roi_per_million": 7250.673106960519,
       "efficiency": "med",
-      "captain_ceiling": 36977
+      "captain_ceiling": 36737
     },
     {
       "name": "Derek Gee",
@@ -1260,8 +1329,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00992888092052299,
-      "p_top15": 0.03912793316816099,
+      "p_stage": 0.009461407657733583,
+      "p_top15": 0.037311901082276666,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1269,10 +1338,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43700,
-      "roi_per_million": 5826.602734237889,
+      "e_horizon": 43522,
+      "roi_per_million": 5802.914337831662,
       "efficiency": "med",
-      "captain_ceiling": 37003
+      "captain_ceiling": 36761
     },
     {
       "name": "Dorian Godon",
@@ -1280,8 +1349,8 @@
       "value": 8000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010157301943097942,
-      "p_top15": 0.04001436417877069,
+      "p_stage": 0.009679074122814338,
+      "p_top15": 0.03815780797517132,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1289,10 +1358,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43786,
-      "roi_per_million": 5473.288205535346,
+      "e_horizon": 43605,
+      "roi_per_million": 5450.573813519205,
       "efficiency": "med",
-      "captain_ceiling": 37121
+      "captain_ceiling": 36874
     },
     {
       "name": "Dylan Van Baarle",
@@ -1316,7 +1385,7 @@
       "name": "Edoardo Affini",
       "realTeam": "Team Visma | Lease a Bike",
       "value": 3500000,
-      "owned": true,
+      "owned": false,
       "isOut": false,
       "p_stage": 0.001,
       "p_top15": 0.02,
@@ -1349,13 +1418,13 @@
       "captain_ceiling": 2282
     },
     {
-      "name": "E. Augusto Rubio",
-      "realTeam": "Movistar Team",
-      "value": 5500000,
+      "name": "Egan Bernal",
+      "realTeam": "Netcompany INEOS Cycling Team",
+      "value": 7000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00845108297230421,
-      "p_top15": 0.03337821630039928,
+      "p_stage": 0.010088483158031404,
+      "p_top15": 0.0397473644409615,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1363,10 +1432,30 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43138,
-      "roi_per_million": 7843.207005673735,
+      "e_horizon": 43760,
+      "roi_per_million": 6251.451541091805,
       "efficiency": "med",
-      "captain_ceiling": 36239
+      "captain_ceiling": 37085
+    },
+    {
+      "name": "E. Augusto Rubio",
+      "realTeam": "Movistar Team",
+      "value": 5500000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.008053187644241502,
+      "p_top15": 0.0318257125038357,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 42986,
+      "roi_per_million": 7815.678130713103,
+      "efficiency": "med",
+      "captain_ceiling": 36033
     },
     {
       "name": "Emiel Verstrynge",
@@ -1374,8 +1463,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009247919577268164,
-      "p_top15": 0.036481690572575665,
+      "p_stage": 0.008812507452437094,
+      "p_top15": 0.03478679958048558,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1383,10 +1472,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43441,
-      "roi_per_million": 12411.627880126163,
+      "e_horizon": 43275,
+      "roi_per_million": 12364.321190103947,
       "efficiency": "high",
-      "captain_ceiling": 36651
+      "captain_ceiling": 36426
     },
     {
       "name": "Ewen Costiou",
@@ -1394,8 +1483,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008890804319060844,
-      "p_top15": 0.03509174376362023,
+      "p_stage": 0.008472205955647839,
+      "p_top15": 0.033460581509214715,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1403,10 +1492,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43305,
-      "roi_per_million": 14434.967526278859,
+      "e_horizon": 43146,
+      "roi_per_million": 14381.891627484094,
       "efficiency": "high",
-      "captain_ceiling": 36467
+      "captain_ceiling": 36250
     },
     {
       "name": "Felix Engelhardt",
@@ -1414,8 +1503,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008609973357685357,
-      "p_top15": 0.0339976511737442,
+      "p_stage": 0.008204597125432684,
+      "p_top15": 0.032416700669830156,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1423,10 +1512,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43198,
-      "roi_per_million": 14399.361874075976,
+      "e_horizon": 43044,
+      "roi_per_million": 14347.950277500233,
       "efficiency": "high",
-      "captain_ceiling": 36321
+      "captain_ceiling": 36111
     },
     {
       "name": "F. Grossschartner",
@@ -1434,8 +1523,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008600763986295513,
-      "p_top15": 0.03396175652838196,
+      "p_stage": 0.008195821351235345,
+      "p_top15": 0.03238245406925411,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1443,10 +1532,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43195,
-      "roi_per_million": 12341.309229529525,
+      "e_horizon": 43041,
+      "roi_per_million": 12297.288939403565,
       "efficiency": "high",
-      "captain_ceiling": 36316
+      "captain_ceiling": 36107
     },
     {
       "name": "F. Gaviria Rendon",
@@ -1472,8 +1561,8 @@
       "value": 8500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009774481674393728,
-      "p_top15": 0.038528410052724116,
+      "p_stage": 0.009314277863211005,
+      "p_top15": 0.03673980156307233,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1481,10 +1570,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43641,
-      "roi_per_million": 5134.217541880492,
+      "e_horizon": 43466,
+      "roi_per_million": 5113.638359239385,
       "efficiency": "med",
-      "captain_ceiling": 36923
+      "captain_ceiling": 36685
     },
     {
       "name": "Florian Lipowitz",
@@ -1492,8 +1581,8 @@
       "value": 9500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0017120027769850022,
-      "p_top15": 0.006830445449501399,
+      "p_stage": 0.0016313979706157914,
+      "p_top15": 0.006509640486946244,
       "p_gc": 0.3035857802387691,
       "confidence": 0.5493251616734893,
       "coverage": 2,
@@ -1502,10 +1591,10 @@
         "uci"
       ],
       "e_stage": 64145,
-      "e_horizon": 83657,
-      "roi_per_million": 8806.028754103545,
+      "e_horizon": 83623,
+      "roi_per_million": 8802.41663795584,
       "efficiency": "med",
-      "captain_ceiling": 65298
+      "captain_ceiling": 65256
     },
     {
       "name": "Florian Vermeersch",
@@ -1513,8 +1602,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009812038281152534,
-      "p_top15": 0.038674265943066555,
+      "p_stage": 0.009350066223412987,
+      "p_top15": 0.03687898449142202,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1522,10 +1611,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43655,
-      "roi_per_million": 12472.891789289655,
+      "e_horizon": 43480,
+      "roi_per_million": 12422.723335949433,
       "efficiency": "high",
-      "captain_ceiling": 36942
+      "captain_ceiling": 36704
     },
     {
       "name": "F. van den Broek",
@@ -1533,8 +1622,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00803549976642931,
-      "p_top15": 0.031756654742532864,
+      "p_stage": 0.0076571709976562055,
+      "p_top15": 0.030278682775956467,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1542,10 +1631,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42979,
-      "roi_per_million": 14326.499281329046,
+      "e_horizon": 42835,
+      "roi_per_million": 14278.4946954666,
       "efficiency": "high",
-      "captain_ceiling": 36024
+      "captain_ceiling": 35828
     },
     {
       "name": "Fred Wright",
@@ -1553,8 +1642,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009571057422401458,
-      "p_top15": 0.0377380974892344,
+      "p_stage": 0.009120431266502398,
+      "p_top15": 0.03598565918037455,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1562,10 +1651,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43564,
-      "roi_per_million": 10890.884081441773,
+      "e_horizon": 43392,
+      "roi_per_million": 10848.056069737639,
       "efficiency": "high",
-      "captain_ceiling": 36818
+      "captain_ceiling": 36585
     },
     {
       "name": "Frits Biesterbos",
@@ -1573,8 +1662,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008572453753687061,
-      "p_top15": 0.03385140768863959,
+      "p_stage": 0.00816884402582094,
+      "p_top15": 0.032277172002343035,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1582,10 +1671,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43184,
-      "roi_per_million": 12338.23219676775,
+      "e_horizon": 43030,
+      "roi_per_million": 12294.355755028486,
       "efficiency": "high",
-      "captain_ceiling": 36302
+      "captain_ceiling": 36093
     },
     {
       "name": "Georg Steinhauser",
@@ -1593,8 +1682,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008822267258827381,
-      "p_top15": 0.034824815212832316,
+      "p_stage": 0.008406895768958917,
+      "p_top15": 0.033205899361512525,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1602,10 +1691,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43279,
-      "roi_per_million": 10819.709048353194,
+      "e_horizon": 43121,
+      "roi_per_million": 10780.206700066898,
       "efficiency": "high",
-      "captain_ceiling": 36431
+      "captain_ceiling": 36216
     },
     {
       "name": "Georg Zimmermann",
@@ -1613,8 +1702,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009216483723657312,
-      "p_top15": 0.036359397770051816,
+      "p_stage": 0.008782551667040743,
+      "p_top15": 0.03467011114166629,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1622,10 +1711,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43429,
-      "roi_per_million": 12408.21303196535,
+      "e_horizon": 43264,
+      "roi_per_million": 12361.06589644298,
       "efficiency": "high",
-      "captain_ceiling": 36635
+      "captain_ceiling": 36411
     },
     {
       "name": "George Bennett",
@@ -1633,8 +1722,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00770233130453273,
-      "p_top15": 0.03045519404459751,
+      "p_stage": 0.007339688830034683,
+      "p_top15": 0.029037107811771046,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1642,10 +1731,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42853,
-      "roi_per_million": 12243.62205112304,
+      "e_horizon": 42715,
+      "roi_per_million": 12204.17020895953,
       "efficiency": "high",
-      "captain_ceiling": 35851
+      "captain_ceiling": 35663
     },
     {
       "name": "Guillaume Martin",
@@ -1653,8 +1742,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008391596055510429,
-      "p_top15": 0.033146229664398175,
+      "p_stage": 0.00799650150059723,
+      "p_top15": 0.031604383010382264,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1662,10 +1751,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43115,
-      "roi_per_million": 10778.75140723996,
+      "e_horizon": 42965,
+      "roi_per_million": 10741.163757522601,
       "efficiency": "high",
-      "captain_ceiling": 36208
+      "captain_ceiling": 36004
     },
     {
       "name": "Harold Tejada",
@@ -1673,8 +1762,8 @@
       "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009746423888769921,
-      "p_top15": 0.03841943321928132,
+      "p_stage": 0.00928754109902931,
+      "p_top15": 0.036635810952076464,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1682,10 +1771,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43630,
-      "roi_per_million": 8726.037272390595,
+      "e_horizon": 43456,
+      "roi_per_million": 8691.152258343875,
       "efficiency": "med",
-      "captain_ceiling": 36909
+      "captain_ceiling": 36672
     },
     {
       "name": "Hugo Page",
@@ -1729,8 +1818,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009465292262199512,
-      "p_top15": 0.037327002525142094,
+      "p_stage": 0.009019645759589159,
+      "p_top15": 0.03559338749950269,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1738,10 +1827,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43523,
-      "roi_per_million": 9671.85203821299,
+      "e_horizon": 43354,
+      "roi_per_million": 9634.200015366654,
       "efficiency": "high",
-      "captain_ceiling": 36763
+      "captain_ceiling": 36533
     },
     {
       "name": "I. Izagirre Insausti",
@@ -1767,8 +1856,8 @@
       "value": 9500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.001554336769306811,
-      "p_top15": 0.006202866315515143,
+      "p_stage": 0.0014811552207679925,
+      "p_top15": 0.005911470951087461,
       "p_gc": 0.32053775662870926,
       "confidence": 0.536758091289839,
       "coverage": 2,
@@ -1777,10 +1866,10 @@
         "uci"
       ],
       "e_stage": 67741,
-      "e_horizon": 88453,
-      "roi_per_million": 9310.859844453393,
+      "e_horizon": 88422,
+      "roi_per_million": 9307.543293188157,
       "efficiency": "med",
-      "captain_ceiling": 68811
+      "captain_ceiling": 68772
     },
     {
       "name": "Jai Hindley",
@@ -1788,8 +1877,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010999083841134787,
-      "p_top15": 0.043275764326198396,
+      "p_stage": 0.010481223102138362,
+      "p_top15": 0.04127034981646549,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1797,10 +1886,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44106,
-      "roi_per_million": 5880.797304648837,
+      "e_horizon": 43909,
+      "roi_per_million": 5854.57935775362,
       "efficiency": "med",
-      "captain_ceiling": 37554
+      "captain_ceiling": 37287
     },
     {
       "name": "Jake Stewart",
@@ -1862,8 +1951,8 @@
       "value": 11500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011427563100643986,
-      "p_top15": 0.044932669423742744,
+      "p_stage": 0.01088952862816403,
+      "p_top15": 0.04285177464963663,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1871,10 +1960,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44269,
-      "roi_per_million": 3849.444261076981,
+      "e_horizon": 44064,
+      "roi_per_million": 3831.6859498723834,
       "efficiency": "med",
-      "captain_ceiling": 37774
+      "captain_ceiling": 37498
     },
     {
       "name": "Jasper Stuyven",
@@ -1882,8 +1971,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010486433769225456,
-      "p_top15": 0.04129054380041397,
+      "p_stage": 0.009992709708239676,
+      "p_top15": 0.039375694636235026,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1891,10 +1980,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43911,
-      "roi_per_million": 10977.831035509931,
+      "e_horizon": 43724,
+      "roi_per_million": 10930.943256224444,
       "efficiency": "high",
-      "captain_ceiling": 37290
+      "captain_ceiling": 37036
     },
     {
       "name": "Javier Romo",
@@ -1902,8 +1991,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008730976510298817,
-      "p_top15": 0.034469182772889795,
+      "p_stage": 0.008319903187003076,
+      "p_top15": 0.03286658686330135,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1911,10 +2000,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43244,
-      "roi_per_million": 9609.803022702712,
+      "e_horizon": 43088,
+      "roi_per_million": 9575.050488652087,
       "efficiency": "high",
-      "captain_ceiling": 36384
+      "captain_ceiling": 36171
     },
     {
       "name": "J. Cepeda",
@@ -1940,8 +2029,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009398834129509388,
-      "p_top15": 0.03706862131641386,
+      "p_stage": 0.008956316620022853,
+      "p_top15": 0.03534684014667,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1949,10 +2038,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43498,
-      "roi_per_million": 12428.020297048382,
+      "e_horizon": 43330,
+      "roi_per_million": 12379.947750541605,
       "efficiency": "high",
-      "captain_ceiling": 36729
+      "captain_ceiling": 36500
     },
     {
       "name": "Jenthe Biermans",
@@ -1960,8 +2049,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008672216567267722,
-      "p_top15": 0.0342402254291555,
+      "p_stage": 0.008263909789618962,
+      "p_top15": 0.03264813870707117,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -1969,10 +2058,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43222,
-      "roi_per_million": 10805.440676941293,
+      "e_horizon": 43066,
+      "roi_per_million": 10766.605271778317,
       "efficiency": "high",
-      "captain_ceiling": 36353
+      "captain_ceiling": 36142
     },
     {
       "name": "Joel Nicolau",
@@ -2016,8 +2105,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009870240152124055,
-      "p_top15": 0.038900267573513725,
+      "p_stage": 0.009405527823981297,
+      "p_top15": 0.037094647948877735,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2025,10 +2114,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43677,
-      "roi_per_million": 9706.052901669833,
+      "e_horizon": 43501,
+      "roi_per_million": 9666.803471129937,
       "efficiency": "high",
-      "captain_ceiling": 36972
+      "captain_ceiling": 36733
     },
     {
       "name": "Jonas Rickaert",
@@ -2054,8 +2143,8 @@
       "value": 14000000,
       "owned": true,
       "isOut": false,
-      "p_stage": 0.004746213481996903,
-      "p_top15": 0.018850121829159572,
+      "p_stage": 0.004522751450365719,
+      "p_top15": 0.01796864375555518,
       "p_gc": 0.4270474678001801,
       "confidence": 0.7027632339262884,
       "coverage": 2,
@@ -2064,10 +2153,10 @@
         "uci"
       ],
       "e_stage": 90333,
-      "e_horizon": 120964,
-      "roi_per_million": 8640.294007310682,
+      "e_horizon": 120862,
+      "roi_per_million": 8632.969452276433,
       "efficiency": "med",
-      "captain_ceiling": 93078
+      "captain_ceiling": 92961
     },
     {
       "name": "Jordan Jegat",
@@ -2075,8 +2164,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009572600235389757,
-      "p_top15": 0.03774409322150185,
+      "p_stage": 0.009121901440506779,
+      "p_top15": 0.03599138042325478,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2084,10 +2173,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43564,
-      "roi_per_million": 9680.916163034468,
+      "e_horizon": 43393,
+      "roi_per_million": 9642.84073232941,
       "efficiency": "high",
-      "captain_ceiling": 36819
+      "captain_ceiling": 36586
     },
     {
       "name": "Joris Delbove",
@@ -2095,8 +2184,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008591183778967398,
-      "p_top15": 0.03392441544328606,
+      "p_stage": 0.00818669220086055,
+      "p_top15": 0.03234682748797335,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2104,10 +2193,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43191,
-      "roi_per_million": 14396.979295300198,
+      "e_horizon": 43037,
+      "roi_per_million": 14345.679080736563,
       "efficiency": "high",
-      "captain_ceiling": 36312
+      "captain_ceiling": 36102
     },
     {
       "name": "Jose Felix Parra",
@@ -2115,8 +2204,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007884935533106461,
-      "p_top15": 0.03116866591229428,
+      "p_stage": 0.007513695655213832,
+      "p_top15": 0.02971774246068204,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2124,10 +2213,28 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42922,
-      "roi_per_million": 10730.547512255469,
+      "e_horizon": 42781,
+      "roi_per_million": 10695.214195600292,
       "efficiency": "high",
-      "captain_ceiling": 35946
+      "captain_ceiling": 35753
+    },
+    {
+      "name": "Joshua Tarling",
+      "realTeam": "Netcompany INEOS Cycling Team",
+      "value": 7000000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.001,
+      "p_top15": 0.02,
+      "p_gc": 0,
+      "confidence": 0,
+      "coverage": 0,
+      "sources": [],
+      "e_stage": -250,
+      "e_horizon": 982,
+      "roi_per_million": 140.22403442909874,
+      "efficiency": "low",
+      "captain_ceiling": 2282
     },
     {
       "name": "Juan Ayuso",
@@ -2135,8 +2242,8 @@
       "value": 9000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00022200578621682572,
-      "p_top15": 0.000887727469217614,
+      "p_stage": 0.00021155327197361525,
+      "p_top15": 0.0008459445970433466,
       "p_gc": 0.016887944100745567,
       "confidence": 0.5576923076923077,
       "coverage": 1,
@@ -2144,10 +2251,10 @@
         "gcOdds"
       ],
       "e_stage": 3332,
-      "e_horizon": 4125,
-      "roi_per_million": 458.34203963454445,
+      "e_horizon": 4121,
+      "roi_per_million": 457.9404785664467,
       "efficiency": "med",
-      "captain_ceiling": 3700
+      "captain_ceiling": 3694
     },
     {
       "name": "Julian Alaphilippe",
@@ -2155,8 +2262,8 @@
       "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009890060319871283,
-      "p_top15": 0.03897722147073723,
+      "p_stage": 0.009424414815214475,
+      "p_top15": 0.03716808209509548,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2164,10 +2271,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43685,
-      "roi_per_million": 8736.953899085758,
+      "e_horizon": 43508,
+      "roi_per_million": 8701.559070522893,
       "efficiency": "med",
-      "captain_ceiling": 36983
+      "captain_ceiling": 36742
     },
     {
       "name": "J. van den Berg",
@@ -2247,8 +2354,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010247878579217093,
-      "p_top15": 0.04036569408410062,
+      "p_stage": 0.009765386214322866,
+      "p_top15": 0.0384930841727813,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2256,10 +2363,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43821,
-      "roi_per_million": 5842.761883006414,
+      "e_horizon": 43637,
+      "roi_per_million": 5818.31901398694,
       "efficiency": "med",
-      "captain_ceiling": 37167
+      "captain_ceiling": 36918
     },
     {
       "name": "Krists Neilands",
@@ -2303,8 +2410,8 @@
       "value": 6500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0083951658950038,
-      "p_top15": 0.03316015247554627,
+      "p_stage": 0.007999903264299486,
+      "p_top15": 0.031617666173674897,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2312,10 +2419,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43116,
-      "roi_per_million": 6633.286749772676,
+      "e_horizon": 42966,
+      "roi_per_million": 6610.146118110285,
       "efficiency": "med",
-      "captain_ceiling": 36210
+      "captain_ceiling": 36005
     },
     {
       "name": "Lenny Martinez",
@@ -2323,8 +2430,8 @@
       "value": 8000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010820020003487679,
-      "p_top15": 0.04258269623222166,
+      "p_stage": 0.010310589978597158,
+      "p_top15": 0.04060888342245683,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2332,10 +2439,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44038,
-      "roi_per_million": 5504.7497793429575,
+      "e_horizon": 43845,
+      "roi_per_million": 5480.566937919988,
       "efficiency": "med",
-      "captain_ceiling": 37462
+      "captain_ceiling": 37200
     },
     {
       "name": "Lewis Askey",
@@ -2343,8 +2450,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009038807510499026,
-      "p_top15": 0.03566797700361268,
+      "p_stage": 0.008613240835615809,
+      "p_top15": 0.034010386326070674,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2352,10 +2459,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43361,
-      "roi_per_million": 12388.910480353865,
+      "e_horizon": 43199,
+      "roi_per_million": 12342.665311537598,
       "efficiency": "high",
-      "captain_ceiling": 36543
+      "captain_ceiling": 36323
     },
     {
       "name": "Liam Slock",
@@ -2363,8 +2470,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007998635416808456,
-      "p_top15": 0.03161271551502054,
+      "p_stage": 0.007622042301623688,
+      "p_top15": 0.0301413638846314,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2372,10 +2479,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42965,
-      "roi_per_million": 12275.847775880493,
+      "e_horizon": 42822,
+      "roi_per_million": 12234.888482732096,
       "efficiency": "high",
-      "captain_ceiling": 36005
+      "captain_ceiling": 35809
     },
     {
       "name": "Lorenzo Germani",
@@ -2401,8 +2508,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007687068718866955,
-      "p_top15": 0.03039554217788132,
+      "p_stage": 0.007325144840027058,
+      "p_top15": 0.028980202202462557,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2410,10 +2517,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42847,
-      "roi_per_million": 14282.288865696539,
+      "e_horizon": 42709,
+      "roi_per_million": 14236.352330533511,
       "efficiency": "high",
-      "captain_ceiling": 35843
+      "captain_ceiling": 35655
     },
     {
       "name": "Luke Durbridge",
@@ -2439,8 +2546,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.01024003837720539,
-      "p_top15": 0.04033528721332669,
+      "p_stage": 0.009757915146037782,
+      "p_top15": 0.03846406654394263,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2448,10 +2555,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43818,
-      "roi_per_million": 7966.861067965682,
+      "e_horizon": 43635,
+      "roi_per_million": 7933.555162316688,
       "efficiency": "med",
-      "captain_ceiling": 37163
+      "captain_ceiling": 36915
     },
     {
       "name": "Mads Pedersen",
@@ -2459,8 +2566,8 @@
       "value": 9500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010953039713891177,
-      "p_top15": 0.04309758609348602,
+      "p_stage": 0.01043734683233681,
+      "p_top15": 0.0411002943119011,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2468,10 +2575,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44089,
-      "roi_per_million": 4640.894752552054,
+      "e_horizon": 43893,
+      "roi_per_million": 4620.282217187625,
       "efficiency": "med",
-      "captain_ceiling": 37530
+      "captain_ceiling": 37265
     },
     {
       "name": "Magnus Cort",
@@ -2497,8 +2604,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009249861154750225,
-      "p_top15": 0.03648924338014892,
+      "p_stage": 0.008814357616237415,
+      "p_top15": 0.03479400627966722,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2506,10 +2613,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43441,
-      "roi_per_million": 9653.652391346879,
+      "e_horizon": 43276,
+      "roi_per_million": 9616.85063464498,
       "efficiency": "high",
-      "captain_ceiling": 36652
+      "captain_ceiling": 36427
     },
     {
       "name": "Marco Frigo",
@@ -2517,8 +2624,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009081008139589631,
-      "p_top15": 0.03583223295571125,
+      "p_stage": 0.0086534545674991,
+      "p_top15": 0.034167110968421954,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2526,10 +2633,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43377,
-      "roi_per_million": 12393.495379764074,
+      "e_horizon": 43215,
+      "roi_per_million": 12347.035956280972,
       "efficiency": "high",
-      "captain_ceiling": 36565
+      "captain_ceiling": 36344
     },
     {
       "name": "Marco Haller",
@@ -2555,8 +2662,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009221046152994104,
-      "p_top15": 0.036377147406428834,
+      "p_stage": 0.008786899287302334,
+      "p_top15": 0.034687047325260845,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2564,10 +2671,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43430,
-      "roi_per_million": 12408.708650273815,
+      "e_horizon": 43265,
+      "roi_per_million": 12361.538357345942,
       "efficiency": "high",
-      "captain_ceiling": 36637
+      "captain_ceiling": 36413
     },
     {
       "name": "Mathias Vacek",
@@ -2575,8 +2682,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009359371304859998,
-      "p_top15": 0.03691517000123812,
+      "p_stage": 0.00891871179080572,
+      "p_top15": 0.0352004180153741,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2584,10 +2691,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43483,
-      "roi_per_million": 10870.767277391978,
+      "e_horizon": 43316,
+      "roi_per_million": 10828.879014172464,
       "efficiency": "high",
-      "captain_ceiling": 36709
+      "captain_ceiling": 36481
     },
     {
       "name": "M. van der Poel",
@@ -2595,8 +2702,8 @@
       "value": 11000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011376842251079985,
-      "p_top15": 0.04473664714824266,
+      "p_stage": 0.01084119582627901,
+      "p_top15": 0.04266467705899113,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2604,10 +2711,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44249,
-      "roi_per_million": 4022.6691879913383,
+      "e_horizon": 44046,
+      "roi_per_million": 4004.1852892645784,
       "efficiency": "med",
-      "captain_ceiling": 37748
+      "captain_ceiling": 37473
     },
     {
       "name": "Mathis Le Berre",
@@ -2649,10 +2756,10 @@
       "name": "Matteo Jorgenson",
       "realTeam": "Team Visma | Lease a Bike",
       "value": 7500000,
-      "owned": false,
+      "owned": true,
       "isOut": false,
-      "p_stage": 0.010677294191029271,
-      "p_top15": 0.04203000514270838,
+      "p_stage": 0.010174584007152885,
+      "p_top15": 0.04008140553310491,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2660,10 +2767,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43984,
-      "roi_per_million": 5864.50731328183,
+      "e_horizon": 43793,
+      "roi_per_million": 5839.0494675047585,
       "efficiency": "med",
-      "captain_ceiling": 37388
+      "captain_ceiling": 37129
     },
     {
       "name": "Matteo Trentin",
@@ -2671,8 +2778,8 @@
       "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009996734080506994,
-      "p_top15": 0.039391314263603205,
+      "p_stage": 0.009526066143681086,
+      "p_top15": 0.03756323853001786,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2680,10 +2787,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43725,
-      "roi_per_million": 8745.06041775421,
+      "e_horizon": 43546,
+      "roi_per_million": 8709.2870486575,
       "efficiency": "med",
-      "captain_ceiling": 37038
+      "captain_ceiling": 36795
     },
     {
       "name": "Matteo Vercher",
@@ -2691,8 +2798,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007805849110265891,
-      "p_top15": 0.030859707527970848,
+      "p_stage": 0.007438332792805052,
+      "p_top15": 0.029423001557478567,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2700,10 +2807,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42892,
-      "roi_per_million": 14297.36172297186,
+      "e_horizon": 42752,
+      "roi_per_million": 14250.720050222293,
       "efficiency": "high",
-      "captain_ceiling": 35905
+      "captain_ceiling": 35714
     },
     {
       "name": "Matthew Riccitello",
@@ -2711,8 +2818,8 @@
       "value": 7000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010351953109372317,
-      "p_top15": 0.04076926073716047,
+      "p_stage": 0.009864560689721228,
+      "p_top15": 0.0388782156082742,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2720,10 +2827,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43860,
-      "roi_per_million": 6265.74955439789,
+      "e_horizon": 43675,
+      "roi_per_million": 6239.297128954726,
       "efficiency": "med",
-      "captain_ceiling": 37221
+      "captain_ceiling": 36970
     },
     {
       "name": "Mattia Cattaneo",
@@ -2767,8 +2874,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011007437073388568,
-      "p_top15": 0.043308086393304634,
+      "p_stage": 0.010489183046088278,
+      "p_top15": 0.04130119851736269,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2776,10 +2883,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44109,
-      "roi_per_million": 8019.845605481442,
+      "e_horizon": 43912,
+      "roi_per_million": 7984.0669611100375,
       "efficiency": "med",
-      "captain_ceiling": 37558
+      "captain_ceiling": 37292
     },
     {
       "name": "Max Kanter",
@@ -2787,8 +2894,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00947672974881352,
-      "p_top15": 0.037371464849310976,
+      "p_stage": 0.009030544744510139,
+      "p_top15": 0.035635813687589724,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2796,10 +2903,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43528,
-      "roi_per_million": 7914.123968437622,
+      "e_horizon": 43358,
+      "roi_per_million": 7883.280841025926,
       "efficiency": "med",
-      "captain_ceiling": 36769
+      "captain_ceiling": 36539
     },
     {
       "name": "Max Walker",
@@ -2825,8 +2932,8 @@
       "value": 6500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00864203794858298,
-      "p_top15": 0.03412261901327229,
+      "p_stage": 0.008235152045799771,
+      "p_top15": 0.032535931165895926,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2834,10 +2941,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43210,
-      "roi_per_million": 6647.735851164377,
+      "e_horizon": 43055,
+      "roi_per_million": 6623.919699109496,
       "efficiency": "med",
-      "captain_ceiling": 36338
+      "captain_ceiling": 36127
     },
     {
       "name": "Michael Matthews",
@@ -2845,8 +2952,8 @@
       "value": 6500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00924227377915416,
-      "p_top15": 0.03645972795867847,
+      "p_stage": 0.0088071274707516,
+      "p_top15": 0.0347658434176662,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2854,10 +2961,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43439,
-      "roi_per_million": 6682.854009494084,
+      "e_horizon": 43273,
+      "roi_per_million": 6657.3966059914965,
       "efficiency": "med",
-      "captain_ceiling": 36648
+      "captain_ceiling": 36423
     },
     {
       "name": "Michael Storer",
@@ -2865,8 +2972,8 @@
       "value": 6000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010569985052835469,
-      "p_top15": 0.04161430393358856,
+      "p_stage": 0.010072327216082604,
+      "p_top15": 0.039684675340500686,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2874,10 +2981,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43943,
-      "roi_per_million": 7323.842476283687,
+      "e_horizon": 43754,
+      "roi_per_million": 7292.337129748487,
       "efficiency": "med",
-      "captain_ceiling": 37333
+      "captain_ceiling": 37077
     },
     {
       "name": "Michael Valgren",
@@ -2939,8 +3046,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009074208740940995,
-      "p_top15": 0.035805769325315207,
+      "p_stage": 0.00864697529929585,
+      "p_top15": 0.03414186065930491,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2948,10 +3055,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43375,
-      "roi_per_million": 9638.810742141537,
+      "e_horizon": 43212,
+      "roi_per_million": 9602.702483751991,
       "efficiency": "high",
-      "captain_ceiling": 36561
+      "captain_ceiling": 36340
     },
     {
       "name": "Milan Fretin",
@@ -2959,8 +3066,8 @@
       "value": 7000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00910766664595679,
-      "p_top15": 0.035935984061708726,
+      "p_stage": 0.00867885793352846,
+      "p_top15": 0.03426610546615261,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -2968,10 +3075,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43387,
-      "roi_per_million": 6198.195807265111,
+      "e_horizon": 43224,
+      "roi_per_million": 6174.898426221897,
       "efficiency": "med",
-      "captain_ceiling": 36579
+      "captain_ceiling": 36357
     },
     {
       "name": "Nelson Oliveira",
@@ -3015,8 +3122,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007910841631746856,
-      "p_top15": 0.03126985440528107,
+      "p_stage": 0.007538382038505185,
+      "p_top15": 0.029814275242827426,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3024,10 +3131,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42932,
-      "roi_per_million": 14310.683655208957,
+      "e_horizon": 42790,
+      "roi_per_million": 14263.418814849501,
       "efficiency": "high",
-      "captain_ceiling": 35959
+      "captain_ceiling": 35766
     },
     {
       "name": "Nicolas Prodhomme",
@@ -3035,8 +3142,8 @@
       "value": 3000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.00860905513273624,
-      "p_top15": 0.033994072325194025,
+      "p_stage": 0.008203722132507033,
+      "p_top15": 0.03241328613630956,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3044,10 +3151,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43198,
-      "roi_per_million": 14399.245441110499,
+      "e_horizon": 43044,
+      "roi_per_million": 14347.839287561861,
       "efficiency": "high",
-      "captain_ceiling": 36321
+      "captain_ceiling": 36111
     },
     {
       "name": "Nicolas Vinokurov",
@@ -3055,8 +3162,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008977276604862052,
-      "p_top15": 0.03542844492159691,
+      "p_stage": 0.008554606938559233,
+      "p_top15": 0.03378183874851759,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3064,10 +3171,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43338,
-      "roi_per_million": 12382.225137536076,
+      "e_horizon": 43177,
+      "roi_per_million": 12336.292391767638,
       "efficiency": "high",
-      "captain_ceiling": 36511
+      "captain_ceiling": 36293
     },
     {
       "name": "Niklas Märkl",
@@ -3093,8 +3200,8 @@
       "value": 3000000,
       "owned": true,
       "isOut": false,
-      "p_stage": 0.008577785998213861,
-      "p_top15": 0.033872192662796397,
+      "p_stage": 0.008173925216702635,
+      "p_top15": 0.032297002581746725,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3102,10 +3209,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43186,
-      "roi_per_million": 14395.280390136279,
+      "e_horizon": 43032,
+      "roi_per_million": 14344.059597932088,
       "efficiency": "high",
-      "captain_ceiling": 36305
+      "captain_ceiling": 36095
     },
     {
       "name": "Olav Kooij",
@@ -3113,8 +3220,8 @@
       "value": 10500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009542993048880203,
-      "p_top15": 0.03762902787653144,
+      "p_stage": 0.009093688224595768,
+      "p_top15": 0.03588158308294764,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3122,10 +3229,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43553,
-      "roi_per_million": 4147.892304716523,
+      "e_horizon": 43382,
+      "roi_per_million": 4131.624326172241,
       "efficiency": "med",
-      "captain_ceiling": 36804
+      "captain_ceiling": 36571
     },
     {
       "name": "Pablo Castrillo",
@@ -3151,8 +3258,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0086899595500574,
-      "p_top15": 0.03430936501874515,
+      "p_stage": 0.00828081739427059,
+      "p_top15": 0.03271410458141355,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3160,10 +3267,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43229,
-      "roi_per_million": 7859.7294252777565,
+      "e_horizon": 43073,
+      "roi_per_million": 7831.428132331798,
       "efficiency": "med",
-      "captain_ceiling": 36363
+      "captain_ceiling": 36151
     },
     {
       "name": "Pascal Eenkhoorn",
@@ -3171,8 +3278,8 @@
       "value": 2500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.007669249480965324,
-      "p_top15": 0.030325894479645954,
+      "p_stage": 0.007308164570519648,
+      "p_top15": 0.028913761108110836,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3180,10 +3287,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42840,
-      "roi_per_million": 17136.0330325865,
+      "e_horizon": 42703,
+      "roi_per_million": 17081.03614541772,
       "efficiency": "high",
-      "captain_ceiling": 35834
+      "captain_ceiling": 35646
     },
     {
       "name": "Paul Seixas",
@@ -3191,8 +3298,8 @@
       "value": 11500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0030112429995750134,
-      "p_top15": 0.011990675628464231,
+      "p_stage": 0.0028694671437327476,
+      "p_top15": 0.011428559963953644,
       "p_gc": 0.3406021330842712,
       "confidence": 0.6222305590215561,
       "coverage": 2,
@@ -3201,10 +3308,10 @@
         "uci"
       ],
       "e_stage": 71996,
-      "e_horizon": 94872,
-      "roi_per_million": 8249.708543248937,
+      "e_horizon": 94810,
+      "roi_per_million": 8244.339039459019,
       "efficiency": "med",
-      "captain_ceiling": 73833
+      "captain_ceiling": 73758
     },
     {
       "name": "Pavel Bittner",
@@ -3212,8 +3319,8 @@
       "value": 5500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.01003486170329573,
-      "p_top15": 0.03953928795663353,
+      "p_stage": 0.009562398635239009,
+      "p_top15": 0.03770444689638741,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3221,10 +3328,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43740,
-      "roi_per_million": 7952.688808907632,
+      "e_horizon": 43560,
+      "roi_per_million": 7920.044580411638,
       "efficiency": "med",
-      "captain_ceiling": 37057
+      "captain_ceiling": 36814
     },
     {
       "name": "Per Strand Hagenes",
@@ -3232,8 +3339,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008970901648247267,
-      "p_top15": 0.03540362546588294,
+      "p_stage": 0.008548532128737697,
+      "p_top15": 0.03375815758336831,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3241,10 +3348,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43335,
-      "roi_per_million": 12381.532477126135,
+      "e_horizon": 43175,
+      "roi_per_million": 12335.632102059983,
       "efficiency": "high",
-      "captain_ceiling": 36508
+      "captain_ceiling": 36289
     },
     {
       "name": "Phil Bauhaus",
@@ -3252,8 +3359,8 @@
       "value": 6000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008482590380410715,
-      "p_top15": 0.033501071743599065,
+      "p_stage": 0.008083211615192553,
+      "p_top15": 0.03194292490512529,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3261,10 +3368,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43150,
-      "roi_per_million": 7191.6042730360305,
+      "e_horizon": 42998,
+      "roi_per_million": 7166.276063952217,
       "efficiency": "med",
-      "captain_ceiling": 36255
+      "captain_ceiling": 36048
     },
     {
       "name": "Piet Allegaert",
@@ -3308,8 +3415,8 @@
       "value": 4500000,
       "owned": true,
       "isOut": false,
-      "p_stage": 0.010117383626537009,
-      "p_top15": 0.03985949783989362,
+      "p_stage": 0.009641035247233427,
+      "p_top15": 0.038010019505444026,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3317,10 +3424,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43771,
-      "roi_per_million": 9726.920115003539,
+      "e_horizon": 43590,
+      "roi_per_million": 9686.696314178334,
       "efficiency": "high",
-      "captain_ceiling": 37100
+      "captain_ceiling": 36854
     },
     {
       "name": "Quinten Hermans",
@@ -3328,8 +3435,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009560210024216325,
-      "p_top15": 0.03769594117070607,
+      "p_stage": 0.009110094587366368,
+      "p_top15": 0.03594543284747109,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3337,10 +3444,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43559,
-      "roi_per_million": 12445.546661537186,
+      "e_horizon": 43388,
+      "roi_per_million": 12396.655387741612,
       "efficiency": "high",
-      "captain_ceiling": 36812
+      "captain_ceiling": 36580
     },
     {
       "name": "Ramses Debruyne",
@@ -3348,8 +3455,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008049249283228506,
-      "p_top15": 0.03181033650774934,
+      "p_stage": 0.0076702731573633645,
+      "p_top15": 0.030329895689762854,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3357,10 +3464,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 42985,
-      "roi_per_million": 9552.16240374982,
+      "e_horizon": 42840,
+      "roi_per_million": 9520.10495804708,
       "efficiency": "med",
-      "captain_ceiling": 36031
+      "captain_ceiling": 35834
     },
     {
       "name": "Raul Garcia Pierna",
@@ -3368,8 +3475,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008566154500599063,
-      "p_top15": 0.03382685290385412,
+      "p_stage": 0.00816284135523985,
+      "p_top15": 0.03225374473228848,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3377,10 +3484,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43181,
-      "roi_per_million": 9595.870294992279,
+      "e_horizon": 43028,
+      "roi_per_million": 9561.769069030026,
       "efficiency": "med",
-      "captain_ceiling": 36299
+      "captain_ceiling": 36090
     },
     {
       "name": "Remco Evenepoel",
@@ -3388,8 +3495,8 @@
       "value": 10500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0019495577499351413,
-      "p_top15": 0.007775455972097278,
+      "p_stage": 0.0018577683398642878,
+      "p_top15": 0.007410391175205366,
       "p_gc": 0.3269728774779573,
       "confidence": 0.5550401657868349,
       "coverage": 2,
@@ -3398,10 +3505,10 @@
         "uci"
       ],
       "e_stage": 69106,
-      "e_horizon": 90476,
-      "roi_per_million": 8616.728179467544,
+      "e_horizon": 90436,
+      "roi_per_million": 8612.950176686907,
       "efficiency": "med",
-      "captain_ceiling": 70384
+      "captain_ceiling": 70336
     },
     {
       "name": "Richard Carapaz",
@@ -3409,8 +3516,8 @@
       "value": 8000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0007365959227761397,
-      "p_top15": 0.0029431298481190638,
+      "p_stage": 0.0007019153880679645,
+      "p_top15": 0.002804706824050429,
       "p_gc": 0.24648142886555105,
       "confidence": 0.5144452573565688,
       "coverage": 2,
@@ -3419,10 +3526,10 @@
         "uci"
       ],
       "e_stage": 52032,
-      "e_horizon": 67031,
-      "roi_per_million": 8378.851036365988,
+      "e_horizon": 67017,
+      "roi_per_million": 8377.073296844983,
       "efficiency": "med",
-      "captain_ceiling": 52671
+      "captain_ceiling": 52653
     },
     {
       "name": "Rick Pluimers",
@@ -3430,8 +3537,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008701760454306795,
-      "p_top15": 0.034355347884896914,
+      "p_stage": 0.008292062686335944,
+      "p_top15": 0.03275797678872927,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3439,10 +3546,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43233,
-      "roi_per_million": 9607.3334770072,
+      "e_horizon": 43077,
+      "roi_per_million": 9572.696379337449,
       "efficiency": "high",
-      "captain_ceiling": 36369
+      "captain_ceiling": 36157
     },
     {
       "name": "Robbe Dhondt",
@@ -3486,8 +3593,8 @@
       "value": 6500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011032748228166927,
-      "p_top15": 0.04340602058786991,
+      "p_stage": 0.010513302496765851,
+      "p_top15": 0.04139466871546471,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3495,10 +3602,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44119,
-      "roi_per_million": 6787.501428303828,
+      "e_horizon": 43922,
+      "roi_per_million": 6757.158226513921,
       "efficiency": "med",
-      "captain_ceiling": 37571
+      "captain_ceiling": 37304
     },
     {
       "name": "Sean Quinn",
@@ -3524,8 +3631,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009078818379076616,
-      "p_top15": 0.03582371034782916,
+      "p_stage": 0.008651367905663563,
+      "p_top15": 0.03415897910776644,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3533,10 +3640,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43376,
-      "roi_per_million": 10844.100292134483,
+      "e_horizon": 43214,
+      "roi_per_million": 10803.458024086533,
       "efficiency": "high",
-      "captain_ceiling": 36564
+      "captain_ceiling": 36343
     },
     {
       "name": "Sepp Kuss",
@@ -3544,8 +3651,8 @@
       "value": 6500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009972005298200031,
-      "p_top15": 0.039295332466620314,
+      "p_stage": 0.00950250164611501,
+      "p_top15": 0.03747164541560444,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3553,10 +3660,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43716,
-      "roi_per_million": 6725.5240432891715,
+      "e_horizon": 43537,
+      "roi_per_million": 6698.07356395297,
       "efficiency": "med",
-      "captain_ceiling": 37025
+      "captain_ceiling": 36783
     },
     {
       "name": "Sergio Higuita",
@@ -3564,8 +3671,8 @@
       "value": 5000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009115587881628008,
-      "p_top15": 0.03596681076788122,
+      "p_stage": 0.0086864062202325,
+      "p_top15": 0.03429551895386285,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3573,10 +3680,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43390,
-      "roi_per_million": 8678.076526653263,
+      "e_horizon": 43227,
+      "roi_per_million": 8645.432044122723,
       "efficiency": "med",
-      "captain_ceiling": 36583
+      "captain_ceiling": 36361
     },
     {
       "name": "Silvan Dillier",
@@ -3602,8 +3709,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009126221778621968,
-      "p_top15": 0.03600819305015601,
+      "p_stage": 0.008696539450276805,
+      "p_top15": 0.03433500416088153,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3611,10 +3718,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43394,
-      "roi_per_million": 9643.205788796937,
+      "e_horizon": 43231,
+      "roi_per_million": 9606.892154604284,
       "efficiency": "high",
-      "captain_ceiling": 36588
+      "captain_ceiling": 36366
     },
     {
       "name": "Søren Wærenskjold",
@@ -3658,8 +3765,8 @@
       "value": 17000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.011090934303624895,
-      "p_top15": 0.043631126272095644,
+      "p_stage": 0.010568749045507668,
+      "p_top15": 0.041609515018981136,
       "p_gc": 0.7565900777129215,
       "confidence": 1,
       "coverage": 2,
@@ -3668,10 +3775,10 @@
         "uci"
       ],
       "e_stage": 160233,
-      "e_horizon": 226137,
-      "roi_per_million": 13302.202573257551,
+      "e_horizon": 225852,
+      "roi_per_million": 13285.413206896395,
       "efficiency": "high",
-      "captain_ceiling": 166268
+      "captain_ceiling": 165999
     },
     {
       "name": "Thibault Guernalec",
@@ -3697,8 +3804,8 @@
       "value": 8500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.000806954051105204,
-      "p_top15": 0.003223911256825862,
+      "p_stage": 0.0007689609030142095,
+      "p_top15": 0.0030722976252341994,
       "p_gc": 0.2991605199832136,
       "confidence": 0.5118934347619044,
       "coverage": 2,
@@ -3707,10 +3814,10 @@
         "uci"
       ],
       "e_stage": 63206,
-      "e_horizon": 82007,
-      "roi_per_million": 9647.858143406904,
+      "e_horizon": 81991,
+      "roi_per_million": 9645.9591852583,
       "efficiency": "high",
-      "captain_ceiling": 63882
+      "captain_ceiling": 63862
     },
     {
       "name": "Thymen Arensman",
@@ -3718,8 +3825,8 @@
       "value": 7500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010780121156800689,
-      "p_top15": 0.042428216124434814,
+      "p_stage": 0.01027256965620627,
+      "p_top15": 0.04046144944499963,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3727,10 +3834,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44023,
-      "roi_per_million": 5869.713227693305,
+      "e_horizon": 43830,
+      "roi_per_million": 5844.012448275698,
       "efficiency": "med",
-      "captain_ceiling": 37441
+      "captain_ceiling": 37180
     },
     {
       "name": "Tiesj Benoot",
@@ -3738,8 +3845,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008746609608995228,
-      "p_top15": 0.03453009007911634,
+      "p_stage": 0.008334800245483715,
+      "p_top15": 0.03292469882267157,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3747,10 +3854,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43250,
-      "roi_per_million": 10812.514968087982,
+      "e_horizon": 43093,
+      "roi_per_million": 10773.348880512105,
       "efficiency": "high",
-      "captain_ceiling": 36392
+      "captain_ceiling": 36179
     },
     {
       "name": "Tim Marsman",
@@ -3776,8 +3883,8 @@
       "value": 12500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.010139597379329473,
-      "p_top15": 0.03994568020326539,
+      "p_stage": 0.009662203128333017,
+      "p_top15": 0.03809226296420676,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3785,10 +3892,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43780,
-      "roi_per_million": 3502.3663740009315,
+      "e_horizon": 43598,
+      "roi_per_million": 3487.854284745539,
       "efficiency": "med",
-      "captain_ceiling": 37111
+      "captain_ceiling": 36865
     },
     {
       "name": "Tim van Dijke",
@@ -3796,8 +3903,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.0088913052930621,
-      "p_top15": 0.03509369468319834,
+      "p_stage": 0.00847268334270583,
+      "p_top15": 0.03346244293187561,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3805,10 +3912,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43305,
-      "roi_per_million": 12372.883744654011,
+      "e_horizon": 43146,
+      "roi_per_million": 12327.387572914007,
       "efficiency": "high",
-      "captain_ceiling": 36467
+      "captain_ceiling": 36250
     },
     {
       "name": "Tim Wellens",
@@ -3816,8 +3923,8 @@
       "value": 4500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009488402342983518,
-      "p_top15": 0.037416839547503855,
+      "p_stage": 0.009041667767613112,
+      "p_top15": 0.03567911053985262,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3825,10 +3932,30 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43532,
-      "roi_per_million": 9673.804179182327,
+      "e_horizon": 43362,
+      "roi_per_million": 9636.060963739968,
       "efficiency": "high",
-      "captain_ceiling": 36775
+      "captain_ceiling": 36545
+    },
+    {
+      "name": "Tobias Foss",
+      "realTeam": "Netcompany INEOS Cycling Team",
+      "value": 4000000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.007999903264299486,
+      "p_top15": 0.031617666173674897,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 42966,
+      "roi_per_million": 10741.487441929214,
+      "efficiency": "high",
+      "captain_ceiling": 36005
     },
     {
       "name": "T. Halland Johannessen",
@@ -3836,8 +3963,8 @@
       "value": 8500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.01092805907111418,
-      "p_top15": 0.04300090739580609,
+      "p_stage": 0.010413542332438252,
+      "p_top15": 0.04100802344242016,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3845,10 +3972,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 44079,
-      "roi_per_million": 5185.766648012444,
+      "e_horizon": 43884,
+      "roi_per_million": 5162.781164294627,
       "efficiency": "med",
-      "captain_ceiling": 37517
+      "captain_ceiling": 37253
     },
     {
       "name": "Tom Van Asbroeck",
@@ -3874,8 +4001,8 @@
       "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.009437218559200397,
-      "p_top15": 0.03721786169616037,
+      "p_stage": 0.008992893827456733,
+      "p_top15": 0.03548924503142503,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3883,10 +4010,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43513,
-      "roi_per_million": 12432.189292164567,
+      "e_horizon": 43344,
+      "roi_per_million": 12383.921984989678,
       "efficiency": "high",
-      "captain_ceiling": 36749
+      "captain_ceiling": 36519
     },
     {
       "name": "Torstein Træen",
@@ -3930,8 +4057,8 @@
       "value": 4000000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008109509101150977,
-      "p_top15": 0.03204558051201012,
+      "p_stage": 0.00772769581227373,
+      "p_top15": 0.030554321895516545,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3939,10 +4066,10 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43008,
-      "roi_per_million": 10751.916140414158,
+      "e_horizon": 42862,
+      "roi_per_million": 10715.583367372596,
       "efficiency": "high",
-      "captain_ceiling": 36062
+      "captain_ceiling": 35864
     },
     {
       "name": "Vlad Van Mechelen",
@@ -3981,13 +4108,31 @@
       "captain_ceiling": 2282
     },
     {
-      "name": "Yannis Voisard",
-      "realTeam": "Tudor Pro Cycling Team",
-      "value": 4000000,
+      "name": "X. Mikel Azparren",
+      "realTeam": "Pinarello Q36.5 Pro Cycling Team",
+      "value": 3500000,
       "owned": false,
       "isOut": false,
-      "p_stage": 0.008886538811016182,
-      "p_top15": 0.03507513267568885,
+      "p_stage": 0.001,
+      "p_top15": 0.02,
+      "p_gc": 0,
+      "confidence": 0,
+      "coverage": 0,
+      "sources": [],
+      "e_stage": -250,
+      "e_horizon": 982,
+      "roi_per_million": 280.4480688581975,
+      "efficiency": "low",
+      "captain_ceiling": 2282
+    },
+    {
+      "name": "Xandro Meurisse",
+      "realTeam": "Pinarello Q36.5 Pro Cycling Team",
+      "value": 3500000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.007598864585199775,
+      "p_top15": 0.03005075366580834,
       "p_gc": 0.15,
       "confidence": 0.4423076923076923,
       "coverage": 1,
@@ -3995,10 +4140,50 @@
         "uci"
       ],
       "e_stage": 31567,
-      "e_horizon": 43303,
-      "roi_per_million": 10825.82008571077,
+      "e_horizon": 42813,
+      "roi_per_million": 12232.367175829237,
       "efficiency": "high",
-      "captain_ceiling": 36464
+      "captain_ceiling": 35797
+    },
+    {
+      "name": "Yannis Voisard",
+      "realTeam": "Tudor Pro Cycling Team",
+      "value": 4000000,
+      "owned": false,
+      "isOut": false,
+      "p_stage": 0.008468141276979525,
+      "p_top15": 0.03344473244744173,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 43144,
+      "roi_per_million": 10786.032116314953,
+      "efficiency": "high",
+      "captain_ceiling": 36248
+    },
+    {
+      "name": "Carlos Rodríguez",
+      "realTeam": "Netcompany INEOS Cycling Team",
+      "value": 6000000,
+      "owned": true,
+      "isOut": false,
+      "p_stage": 0.00829424591747668,
+      "p_top15": 0.03276649423969569,
+      "p_gc": 0.15,
+      "confidence": 0.4423076923076923,
+      "coverage": 1,
+      "sources": [
+        "uci"
+      ],
+      "e_stage": 31567,
+      "e_horizon": 43078,
+      "roi_per_million": 7179.660741651055,
+      "efficiency": "med",
+      "captain_ceiling": 36158
     }
   ],
   "boards": {
@@ -4026,7 +4211,6 @@
     ],
     "topByRoi": [
       "Pascal Eenkhoorn",
-      "A. Halland Johannessen",
       "Ewen Costiou",
       "Felix Engelhardt",
       "Nicolas Prodhomme",
@@ -4034,6 +4218,7 @@
       "Nils Politt",
       "Benjamin Thomas",
       "Alex Molenaar",
+      "A. Halland Johannessen",
       "F. van den Broek",
       "Nicolas Breuillard",
       "Matteo Vercher",
@@ -4059,6 +4244,7 @@
       "Cees Bol",
       "Clement Russo",
       "Daan Hoole",
+      "Damien Howson",
       "Dylan Van Baarle",
       "Edoardo Affini",
       "Edward Planckaert",
@@ -4073,6 +4259,7 @@
       "Joel Nicolau",
       "John Degenkolb",
       "Jonas Rickaert",
+      "Joshua Tarling",
       "J. van den Berg",
       "Kamil Gradek",
       "Kasper Asgreen",
@@ -4109,10 +4296,26 @@
       "Torstein Træen",
       "V. Paret-Peintre",
       "Vlad Van Mechelen",
-      "Warren Barguil"
+      "Warren Barguil",
+      "X. Mikel Azparren"
     ]
   },
   "brainJournal": [
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-01T15:02Z HELD — no DNS (0 isOut across the full 176-rider pool + current team), no rollover (still S1 TTT, window free until 4 Jul). SAME 13:37Z snapshot the 14:09/14:59 plans were written against — no new collection, no new info. Re-validated HARD constraints: target 8 = 49.5M ≤ 50M; UAE/Visma/Red Bull/INEOS each exactly 2/team; captain Pogacar cap_ceiling 166268 (4.4× next owned, pool top). Carlos Rodriguez (owned 6.0M) STILL absent-without-isOut and NO Rodriguez surname-collision in pool this run → feltet coverage gap, KEPT not sold. Coverage rouleurs floor at conf0.00/e_h~982 (engine can't model flat TTT placement) so TTT sized from TT pedigree, not naive Σe_h. Trade list stays synced: 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) → 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski/Rodriguez/Tratnik held. Composition/captain untouched; only timestamp refreshed. matchRate 0.642 (pre-race false green)."
+    },
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-01T14:59Z HELD — no DNS (0 isOut across the full 176-rider pool), no rollover (still S1 TTT, window closes 4 Jul 15:05, transfers free). SAME 13:37Z snapshot the 14:09Z plan was already written against — no new collection, no new info. Re-verified all HARD constraints against live pool: total 49.50M ≤ 50M; each of UAE/Visma/Red Bull/INEOS at exactly 2/team; captain Pogacar runaway cap_ceiling 166268 (4.4× next Jorgenson 37388, pool top). Carlos Rodriguez (owned 6.0M) STILL absent-without-isOut — confirmed distinct from pool's Carlos Verona (surname-collision guard) → feltet coverage gap, KEPT not sold. Trade list stays synced to live roster: 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) → 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski/Rodriguez/Tratnik held. TTT sized from TT pedigree (engine floors coverage rouleurs at cap_ceil~2282/e_h~982 = cannot model flat TTT placement; naive Σe_h chase would break the deliberate 2-up structure). No material change → composition/captain untouched, only timestamp refreshed. matchRate 0.642."
+    },
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-01T14:09Z — HELD (S1 TTT). Re-affirmed vs 13:37Z snapshot: live team unchanged, no owned rider isOut, EV byte-stable (Pogacar conf 1.00, cap_ceiling 166k). Carlos Rodriguez absent from pool 2nd run running, no isOut → kept as feltet coverage gap (pre-flight to re-verify). matchRate 0.642 = pre-race false green; sized TTT from TT pedigree. No trades changed; only timestamp refreshed."
+    },
     {
       "ts": "-",
       "action": "other",
@@ -4175,7 +4378,7 @@
     }
   ],
   "improve": {
-    "at": "2026-07-01T12:49:38.411Z",
+    "at": "2026-07-01T17:49:54.452Z",
     "years": [
       2022,
       2023,
@@ -4315,7 +4518,7 @@
         "coverageNote": "none"
       }
     ],
-    "matchRate": 0.6420454545454546,
+    "matchRate": 0.6432432432432432,
     "fusionWeightsSummary": {
       "channelBase": {
         "stageOdds": 1,
