@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-01T11:37:17.155Z",
+    "generatedAt": "2026-07-01T12:34:31.357Z",
     "buildOk": true,
     "tourStartsInDays": 3,
     "racing": false,
@@ -170,15 +170,15 @@
         "[daily] stage 1 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "=== 2026-07-01 08:22:27 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 11:49:09 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op.",
         "=== 2026-07-01 12:49:10 watch run ===",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] no material change (stage 1, startlist pending). no-op.",
+        "=== 2026-07-01 13:49:11 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
         "[watch] no material change (stage 1, startlist pending). no-op."
@@ -502,67 +502,58 @@
   },
   "decision": {
     "source": "llm-routine",
-    "generatedAt": "2026-06-30T14:11:30Z",
-    "matchRateAtWrite": 0.677,
-    "rebuild": true,
-    "summary": "Stage 1 is the 19.7km Barcelona TTT and pre-stage-1 transfers are FREE, so this is a full rebuild. The startlist + stage odds have now populated (matchRate 0.68, up from 0.06 at first write), so I re-optimised over LIVE data this hour and the plan is CONFIRMED unchanged. On a TTT only TTT placement scores - paid EQUALLY to every active rider of a top-5 team - so the EV engine's per-rider e_stage (which leaks individual sprint/GC odds) does NOT model the stage; the genuine coverage rouleurs correctly show conf 0.00. I therefore size the TTT from TT pedigree and use e_horizon only for the S2-S4 forward carry. Team: 2 riders on each of the four strongest TT squads - UAE (Pogacar+Wellens), Visma (Jorgenson+Campenaerts), Red Bull-BORA (Tratnik+Cattaneo), Netcompany INEOS (Rodriguez+Kwiatkowski) - 49.5M spent, 0.5M bank, all four confirmed present in the live pool, none flagged out. Captain Tadej Pogacar: he is a free TTT inclusion (1 of UAE's 2 slots) yet carries the race's highest-confidence forward ceiling (conf 1.00, e_horizon ~226k, captain_ceiling ~166k), is the S2 Montjuic punch-finish favourite and an S3 contender, and captaining a UAE rider doubles the placement of a likely TTT winner. Live note: Matteo Jorgenson nominally tops captain_ceiling (178k vs 166k) but only at conf 0.44 and is equivalent for the TTT-doubling, so I keep the captaincy on the certain right-tail rather than flip the biggest lever on a coin-flip. Vingegaard remains the painful cut: both 14M+ kings only fit by forcing six min-price rouleurs that would all churn at the S1->S2 boundary, and his 14M buys no extra flat TTT reward, so he and a pure climber are better re-bought for the S3 summit once stage odds confirm roles. Cheap slots chosen for forward utility (Wellens puncheur S2, Rodriguez climber S3, Jorgenson rouleur/GC, plus TT engines) so the squad rolls into the hilly/summit block with minimal churn.",
-    "total_value": 49500000,
+    "generatedAt": "2026-07-01T12:18:56.718Z",
+    "matchRateAtWrite": 0.6420454545454546,
+    "rebuild": null,
+    "summary": "Stage 1 is the 19.7km Barcelona TTT (Sat 4 Jul) and pre-stage-1 transfers are FREE. Composition and captain are HELD from the prior plan — nothing material changed — but the trade list is RESYNCED to the actual live roster: the 30-Jun maintenance incident already applied the Mads Pedersen→Kwiatkowski leg, so the live team is now Kwiatkowski, A.Yates, Vingegaard, C.Rodriguez, Politt, Affini, Tratnik, Simmons. Against that, the real delta is 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) and 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski, Rodriguez and Tratnik are already owned and held. Result: 2 riders on each of the four strongest TT squads — UAE (Pogacar+Wellens), Visma (Jorgenson+Campenaerts), Red Bull-BORA (Tratnik+Cattaneo), Netcompany INEOS (Rodriguez+Kwiatkowski) — ~49.5M spent, none flagged out. On a TTT only TTT placement scores, paid EQUALLY to every active rider of a top-5 team, so the EV engine’s per-rider e_stage does not model the stage and the cheap coverage rouleurs correctly show conf 0.00; I size the TTT from TT pedigree and use e_horizon only for the S2-S4 forward carry. Captain Tadej Pogacar: a free TTT inclusion who also carries the race’s highest-confidence ceiling (conf 1.00, captain_ceiling ~166k, e_horizon ~226k), is the S2 Montjuic favourite and an S3 contender — the certain right-tail over Jorgenson’s coin-flip 0.44-conf ceiling. Vingegaard is the deliberate cut: on a flat TTT his 14M buys no extra reward and forces min-price elsewhere; he’s re-bought free before the S3 summit. NOTE: Carlos Rodriguez (owned) has silently dropped out of this snapshot’s pool with NO isOut flag — treated as a feltet coverage gap, not a DNS, so he is kept; the pre-flight guard should re-verify his status ~hours before the start.",
+    "total_value": null,
     "swaps": [
       {
-        "sell_name": "Mads Pedersen",
+        "sell_name": "Adam Yates",
         "buy_name": "Tadej Pogacar",
-        "rationale": "Anchor + captain. UAE is a TTT co-favourite, so Pogacar banks TTT placement like any UAE rider, but he uniquely carries the race's highest-CONFIDENCE forward ceiling (live conf 1.00; e_horizon ~226k, captain_ceiling ~166k) as the S2 Montjuic punch-finish favourite and an S3 summit contender. Owning him costs zero TTT coverage (1 of UAE's 2 slots) and locks the captaincy across the opening block. Live re-validation (matchRate 0.68): Jorgenson nominally edges his captain_ceiling (178k vs 166k) but only at conf 0.44 and is equivalent for the TTT-doubling, so captaincy stays on the certain right-tail.",
-        "expected_value": 226351,
-        "confidence": "high",
-        "human_gated": false
+        "rationale": "Anchor + captain. Buys into UAE (a TTT co-favourite) while carrying the race’s highest-confidence forward ceiling (live conf 1.00, e_horizon ~226k, captain_ceiling ~166k) as the S2 Montjuic punch-finish favourite and an S3 summit contender. Captaining a likely-TTT-winning UAE rider doubles his placement. Yates is the disposable UAE slot he replaces.",
+        "expected_value": null,
+        "confidence": null,
+        "human_gated": null
       },
       {
-        "sell_name": "Adam Yates",
+        "sell_name": "Nils Politt",
         "buy_name": "Tim Wellens",
-        "rationale": "Second UAE slot to double up on a top TTT favourite. Cheap (4.5M) so equal-per-rider TTT placement is high-ROI, and Wellens is a puncheur who carries straight into the S2 hilly Montjuic finish (live e_horizon ~214k).",
-        "expected_value": 214272,
-        "confidence": "med",
-        "human_gated": false
+        "rationale": "Second UAE slot to double up on a top TTT favourite (flat per-rider placement is high-ROI at 4.5M). Wellens is a puncheur who carries straight into the S2 hilly Montjuic finish, so the slot rolls forward with no churn. Replaces the min-price UAE rouleur Politt.",
+        "expected_value": null,
+        "confidence": null,
+        "human_gated": null
       },
       {
         "sell_name": "Jonas Vingegaard",
         "buy_name": "Matteo Jorgenson",
-        "rationale": "Reluctant sell of an elite GC asset, but Pogacar 17M + Vingegaard 14M = 31M forces the other six riders to minimum-price disposable rouleurs that all churn at the S1->S2 boundary. TTT placement pays FLAT per top-5-team rider, so holding Vingegaard's 14M through a TTT buys no extra reward vs a 3.5M rouleur. Jorgenson keeps Visma (a TTT co-favourite) as a 2-rider team via a strong TT-engine rouleur who is ALSO useful S2/GC (live e_horizon ~244k, the squad's highest). Transfers are free now, so Vingegaard can be re-bought for the S3 summit (~1% fee) once stage odds confirm his role.",
-        "expected_value": 244179,
-        "confidence": "med",
-        "human_gated": false
+        "rationale": "Keeps Visma (a TTT co-favourite) 2-up via a strong TT-engine rouleur who is also useful S2/GC. On a flat TTT, placement pays FLAT per top-5-team rider, so Vingegaard’s 14M buys no extra reward vs a cheap rouleur while it would force the other slots to rock-bottom prices; transfers are free now, so Vingegaard is better re-bought for the S3 summit (~1% fee) once stage odds confirm his role.",
+        "expected_value": null,
+        "confidence": null,
+        "human_gated": null
       },
       {
         "sell_name": "Edoardo Affini",
         "buy_name": "Victor Campenaerts",
-        "rationale": "Second Visma slot. Campenaerts is an elite TT engine (former Hour-record holder) - exactly the rider you want drilling a 19.7km TTT - for only 4.0M, keeping Visma at 2 riders on a top TTT squad (live e_horizon ~180k).",
-        "expected_value": 180423,
-        "confidence": "med",
-        "human_gated": false
-      },
-      {
-        "sell_name": "Nils Politt",
-        "buy_name": "Mattia Cattaneo",
-        "rationale": "Pairs with the kept Jan Tratnik to put 2 riders on Red Bull - BORA - hansgrohe, called the toughest TTT rival on paper. Cattaneo is a pure TT rouleur at 3.5M - cheap placement-scoring coverage on a podium-threat squad. (Zero live fusion coverage, conf 0.00 - a TT-pedigree coverage pick the EV engine cannot value, not a stage-points play.)",
-        "expected_value": 982,
-        "confidence": "med",
-        "human_gated": false
+        "rationale": "Second Visma slot. Campenaerts is an elite TT engine (former Hour-record holder) for only 4.0M — exactly the rider you want drilling a 19.7km TTT — keeping Visma at 2 on a top TT squad. Replaces the equivalent-price Affini.",
+        "expected_value": null,
+        "confidence": null,
+        "human_gated": null
       },
       {
         "sell_name": "Quinn Simmons",
-        "buy_name": "Michal Kwiatkowski",
-        "rationale": "Pairs with the kept Carlos Rodriguez to put 2 riders on Netcompany INEOS Cycling Team, the fourth named TTT favourite. Kwiatkowski is a 3.5M experienced rouleur/puncheur, completing 2-up coverage of all four strongest TT squads; Carlos Rodriguez (kept) doubles as INEOS's GC climber for the S3 summit (live e_horizon ~195k). (Kwiatkowski conf 0.00 - TT-pedigree coverage, not an EV pick.)",
-        "expected_value": 982,
-        "confidence": "med",
-        "human_gated": false
+        "buy_name": "Mattia Cattaneo",
+        "rationale": "Pairs with the kept Jan Tratnik to put 2 riders on Red Bull - BORA - hansgrohe, one of the four strongest TT squads. Cattaneo is a pure TT rouleur at 3.5M — cheap placement-scoring coverage on a podium-threat squad. Simmons (Lidl-Trek, off the four strong TT teams) is the sell that frees the slot. (conf 0.00 is expected: the EV engine cannot value flat TTT placement — a TT-pedigree coverage pick.)",
+        "expected_value": null,
+        "confidence": null,
+        "human_gated": null
       }
     ],
     "sells": [
-      "Mads Pedersen",
       "Adam Yates",
       "Jonas Vingegaard",
-      "Edoardo Affini",
       "Nils Politt",
+      "Edoardo Affini",
       "Quinn Simmons"
     ],
     "buys": [
@@ -570,8 +561,7 @@
       "Tim Wellens",
       "Matteo Jorgenson",
       "Victor Campenaerts",
-      "Mattia Cattaneo",
-      "Michal Kwiatkowski"
+      "Mattia Cattaneo"
     ],
     "target_team": [
       "Tadej Pogacar",
@@ -4123,6 +4113,11 @@
     ]
   },
   "brainJournal": [
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-01T12:19:12Z — **CHANGED (resync only)** S1 TTT. Composition + captain (Pogacar) HELD; nothing material changed. Rewrote swaps/sells/buys against the live post-incident roster (Mads Pedersen→Kwiatkowski already applied 30-Jun): now 5 sells (Yates, Vingegaard, Politt, Affini, Simmons) → 5 buys (Pogacar, Wellens, Jorgenson, Campenaerts, Cattaneo); Kwiatkowski/Rodriguez/Tratnik held. 2-up on UAE/Visma/RedBull/INEOS. matchRate 0.642. Note: Carlos Rodriguez silently absent from pool, NO isOut → kept as coverage gap, flagged for pre-flight guard."
+    },
     {
       "ts": "2026-06-30T22:03Z",
       "action": "HELD",
