@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-07-13T02:18:48.890Z",
+    "generatedAt": "2026-07-14T02:22:41.425Z",
     "buildOk": true,
-    "tourStartsInDays": -9,
+    "tourStartsInDays": -10,
     "racing": true,
     "mode": "live",
-    "gitHead": "6fc2008",
-    "gitHeadMsg": "coach(stage 10): gcBaseWeight 100->140 (cross-type GC-anchor under-credit); anchor-leasing vindicated by 0/25->21/25 best-team pivot",
+    "gitHead": "b8f032f",
+    "gitHeadMsg": "chore(maintenance): 6 verified doc-drift + dead-export fixes (find→verify sweep)",
     "substrateLive": true,
     "substrateNote": "recomputed from 176 pool riders via fuseRiders+scoreEv (live engine)",
     "snapshotStale": null
@@ -59,6 +59,54 @@
         "phase": "collect",
         "status": "ok",
         "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-14 00:30:56"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 20:31:08"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 20:00:43"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 19:29:33"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 16:28:30"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 10:10:43"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 06:16:42"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
+        "created_at": "2026-07-13 03:16:02"
+      },
+      {
+        "phase": "collect",
+        "status": "ok",
+        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
         "created_at": "2026-07-13 00:15:17"
       },
       {
@@ -96,54 +144,6 @@
         "status": "ok",
         "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
         "created_at": "2026-07-12 18:28:47"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 18:12:13"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 14:59:01"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 11:58:09"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "captain Mads Pedersen",
-        "created_at": "2026-07-12 11:20:07"
-      },
-      {
-        "phase": "verify",
-        "status": "ok",
-        "message": "swaps team=true cap=true failed=0",
-        "created_at": "2026-07-12 10:27:58"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 09:57:15"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 09:56:50"
-      },
-      {
-        "phase": "collect",
-        "status": "ok",
-        "message": "players=206 persons=0 statistik=206 sources=pcs,betxpert,oddschecker,axelgaard,feltet,cyclingstage,checkthechance",
-        "created_at": "2026-07-12 06:23:13"
       }
     ],
     "tradeWindow": {
@@ -152,37 +152,37 @@
       "end": "2026-07-14T18:30:00Z",
       "state": "pre"
     },
-    "matchRate": 0.26136363636363635,
-    "matchRatePct": 26.1,
+    "matchRate": 0.6875,
+    "matchRatePct": 68.8,
     "matchRateNote": "Fraction of the pool a LIVE source (odds/startlist) actually covered. Low pre-race (only the GC odds board is live); rises ~24h out as stage odds + the startlist populate. When low, EV is thin — lean on raw research.",
     "logTails": {
       "evening": [
-        "[execute] verify: OK ",
-        "  roster: P. Castrillo, Max Kanter, Ben Healy, W. Barguil, T. Pogacar, B. Girmay, A. Charmig, M. Vacek | captain: Mathias Vacek | values: 54.463.000 | bank: 2.094.902",
-        "[reconcile] captured prediction for stage 9: 8 riders, captain Mathias Vacek, matchRate 0.20",
-        "=== 2026-07-12 22:30:05 run evening ===",
-        "[execute] pool: 176 riders | team 8 | captain Tadej Pogacar",
-        "[collect] upcoming stage 10 (mountain) — 206 players — next: S11:flat S12:flat S13:hilly",
         "[collect] enrichment: fusion match 16% | leverage 0.78 | topByEv Tadej Pogacar, Jonas Vingegaard, Paul Seixas",
         "[collect] snapshot written for stage 10; sources: pcs=ERR betxpert=ok oddschecker=ok axelgaard=ok feltet=ERR cyclingstage=ok checkthechance=ok",
         "[decide] using the LLM-routine plan (age 0.8h) — captain Tadej Pogacar; skipping fallback.",
         "[execute] captain -> Tadej Pogacar | now: Tadej Pogacar OK",
         "[execute] pool.json currentTeam refreshed from live read-back",
-        "[reconcile] captured prediction for stage 10: 8 riders, captain Tadej Pogacar, matchRate 0.16"
+        "[reconcile] captured prediction for stage 10: 8 riders, captain Tadej Pogacar, matchRate 0.16",
+        "=== 2026-07-13 22:30:05 run evening ===",
+        "[execute] pool: 176 riders | team 8 | captain Tadej Pogacar",
+        "[collect] upcoming stage 10 (mountain) — 206 players — next: S11:flat S12:flat S13:hilly",
+        "[collect] enrichment: fusion match 69% | leverage 0.78 | topByEv Tadej Pogacar, Jonas Vingegaard, Isaac Del Toro",
+        "[collect] snapshot written for stage 10; sources: pcs=ERR betxpert=ok oddschecker=ok axelgaard=ok feltet=ERR cyclingstage=ok checkthechance=ok",
+        "[daily] stage 10 already handled for The Times They Are A Changin' — skipping."
       ],
       "watch": [
-        "[collect] enrichment: fusion match 26% | leverage 0.78 | topByEv Tadej Pogacar, Jonas Vingegaard, Paul Seixas",
+        "[reconcile] stage 1: results not posted yet",
+        "[reconcile] stage 10: results not posted yet",
+        "[reconcile] reconciled 0 new stage(s).",
+        "[watch] refreshing snapshot via collect.js (snapshot 4.0h old (>3h))",
+        "[collect] upcoming stage 10 (mountain) — 206 players — next: S11:flat S12:flat S13:hilly",
+        "[collect] enrichment: fusion match 69% | leverage 0.78 | topByEv Tadej Pogacar, Jonas Vingegaard, Isaac Del Toro",
         "[collect] snapshot written for stage 10; sources: pcs=ERR betxpert=ok oddschecker=ok axelgaard=ok feltet=ERR cyclingstage=ok checkthechance=ok",
-        "=== 2026-07-13 03:15:16 watch run ===",
+        "=== 2026-07-14 03:30:56 watch run ===",
         "[reconcile] stage 1: results not posted yet",
         "[reconcile] stage 10: results not posted yet",
         "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 10, startlist pending, snapshot 1.0h). no-op.",
-        "=== 2026-07-13 04:15:18 watch run ===",
-        "[reconcile] stage 1: results not posted yet",
-        "[reconcile] stage 10: results not posted yet",
-        "[reconcile] reconciled 0 new stage(s).",
-        "[watch] no material change (stage 10, startlist pending, snapshot 2.0h). no-op."
+        "[watch] no material change (stage 10, startlist pending, snapshot 1.0h). no-op."
       ],
       "improve": [
         "[improve] backtest 72,124,718 -> 73,683,053 (in-sample +2.16%, held-out +-0.23%) changes: starWeight:30->10 stageProbWeight:200->170 gcBaseWeight:100->120 byType.itt.gc:250->220 byType.flat.gc:40->100 byType.flat.stageProb:120->60 [hold]",
@@ -294,19 +294,20 @@
         "owned": true,
         "growth": 149000,
         "ev": {
-          "e_stage": 11789,
-          "e_horizon": 20753,
-          "roi_per_million": -1086.5978020633304,
+          "e_stage": 5914,
+          "e_horizon": 10373,
+          "roi_per_million": -3613.200787106386,
           "efficiency": "high",
-          "captain_ceiling": 12039
+          "captain_ceiling": 6164
         },
         "fused": {
-          "p_stage": 0.014214383116207782,
-          "p_top15": 0.09535676258916581,
+          "p_stage": 0.007148778961241435,
+          "p_top15": 0.04898094270846465,
           "p_gc": 0,
-          "confidence": 0.39583333333333337,
-          "coverage": 1,
+          "confidence": 0.33577194752774975,
+          "coverage": 2,
           "sources": [
+            "stageOdds",
             "stars"
           ]
         }
@@ -342,19 +343,20 @@
         "owned": true,
         "growth": -247000,
         "ev": {
-          "e_stage": 31008,
-          "e_horizon": 55511,
-          "roi_per_million": 3646.9993288350224,
+          "e_stage": 17031,
+          "e_horizon": 30107,
+          "roi_per_million": -832.5642748450215,
           "efficiency": "high",
-          "captain_ceiling": 31258
+          "captain_ceiling": 17281
         },
         "fused": {
-          "p_stage": 0.03929555912198022,
-          "p_top15": 0.2446841684206762,
+          "p_stage": 0.020742211897671167,
+          "p_top15": 0.13646640226330964,
           "p_gc": 0,
-          "confidence": 0.34375,
-          "coverage": 1,
+          "confidence": 0.3422186021601356,
+          "coverage": 2,
           "sources": [
+            "stageOdds",
             "ctc"
           ]
         }
@@ -367,19 +369,21 @@
         "owned": true,
         "growth": -297000,
         "ev": {
-          "e_stage": 2019,
-          "e_horizon": 3476,
-          "roi_per_million": -4849.101099495466,
-          "efficiency": "med",
-          "captain_ceiling": 2269
+          "e_stage": 314,
+          "e_horizon": 1772,
+          "roi_per_million": -5479.760820492211,
+          "efficiency": "low",
+          "captain_ceiling": 564
         },
         "fused": {
-          "p_stage": 0.001,
-          "p_top15": 0.02,
+          "p_stage": 0.0006436858180236596,
+          "p_top15": 0.004497109094554919,
           "p_gc": 0,
-          "confidence": 0,
-          "coverage": 0,
-          "sources": []
+          "confidence": 0.39705882352941174,
+          "coverage": 1,
+          "sources": [
+            "stageOdds"
+          ]
         }
       },
       {
@@ -390,19 +394,20 @@
         "owned": true,
         "growth": 2394000,
         "ev": {
-          "e_stage": 168015,
-          "e_horizon": 322348,
-          "roi_per_million": 11149.438154772026,
+          "e_stage": 137406,
+          "e_horizon": 271897,
+          "roi_per_million": 8571.003761458718,
           "efficiency": "high",
-          "captain_ceiling": 168265
+          "captain_ceiling": 137656
         },
         "fused": {
-          "p_stage": 0.21052542659052542,
-          "p_top15": 0.8088532004709937,
-          "p_gc": 0.6348851165693822,
-          "confidence": 1,
-          "coverage": 4,
+          "p_stage": 0.21868229477282755,
+          "p_top15": 0.8222565273349877,
+          "p_gc": 0.24942444586568857,
+          "confidence": 0.954489544895449,
+          "coverage": 5,
           "sources": [
+            "stageOdds",
             "gcOdds",
             "stars",
             "csFav",
@@ -418,19 +423,21 @@
         "owned": true,
         "growth": 1431000,
         "ev": {
-          "e_stage": 2019,
-          "e_horizon": 37405,
-          "roi_per_million": -2474.591415678322,
+          "e_stage": 651,
+          "e_horizon": 36037,
+          "roi_per_million": -2599.706640725825,
           "efficiency": "high",
-          "captain_ceiling": 2269
+          "captain_ceiling": 901
         },
         "fused": {
-          "p_stage": 0.001,
-          "p_top15": 0.02,
+          "p_stage": 0.001029126427618665,
+          "p_top15": 0.007181681977027288,
           "p_gc": 0,
-          "confidence": 0,
-          "coverage": 0,
-          "sources": []
+          "confidence": 0.39705882352941174,
+          "coverage": 1,
+          "sources": [
+            "stageOdds"
+          ]
         }
       },
       {
@@ -441,19 +448,21 @@
         "owned": true,
         "growth": -228000,
         "ev": {
-          "e_stage": 2019,
-          "e_horizon": 3476,
-          "roi_per_million": -5072.750251277649,
-          "efficiency": "med",
-          "captain_ceiling": 2269
+          "e_stage": 202,
+          "e_horizon": 1659,
+          "roi_per_million": -5628.153578585652,
+          "efficiency": "low",
+          "captain_ceiling": 452
         },
         "fused": {
-          "p_stage": 0.001,
-          "p_top15": 0.02,
+          "p_stage": 0.0005150772629739774,
+          "p_top15": 0.003599974224864022,
           "p_gc": 0,
-          "confidence": 0,
-          "coverage": 0,
-          "sources": []
+          "confidence": 0.39705882352941174,
+          "coverage": 1,
+          "sources": [
+            "stageOdds"
+          ]
         }
       },
       {
@@ -464,19 +473,21 @@
         "owned": true,
         "growth": 443000,
         "ev": {
-          "e_stage": 2019,
-          "e_horizon": 3476,
-          "roi_per_million": -5352.765457623028,
-          "efficiency": "low",
-          "captain_ceiling": 2269
+          "e_stage": 1544,
+          "e_horizon": 3144,
+          "roi_per_million": -5423.905452766669,
+          "efficiency": "med",
+          "captain_ceiling": 1794
         },
         "fused": {
-          "p_stage": 0.001,
-          "p_top15": 0.02,
+          "p_stage": 0.002054152749948013,
+          "p_top15": 0.014290761578864442,
           "p_gc": 0,
-          "confidence": 0,
-          "coverage": 0,
-          "sources": []
+          "confidence": 0.39705882352941174,
+          "coverage": 1,
+          "sources": [
+            "stageOdds"
+          ]
         }
       }
     ],
@@ -535,7 +546,7 @@
   },
   "results": {
     "available": true,
-    "asOf": "2026-07-13",
+    "asOf": "2026-07-14",
     "stagesDone": 9,
     "captainDoublesPositiveGrowth": true,
     "trajectory": {
@@ -645,7 +656,7 @@
           "bank": 327413,
           "portfolio": 57028413,
           "captain": "Tadej Pogacar",
-          "capturedAt": "2026-07-13T00:15:16.997Z",
+          "capturedAt": "2026-07-14T00:30:56.306Z",
           "delta": 470511,
           "dup": false,
           "captainChanged": true
@@ -919,19 +930,19 @@
   },
   "standing": {
     "available": true,
-    "asOf": "2026-07-12",
-    "round": 9,
+    "asOf": "2026-07-14",
+    "round": 10,
     "liveStage": 10,
-    "roundsBehind": 1,
+    "roundsBehind": 0,
     "posture": {
-      "globalRank": 16375,
-      "globalPctile": 0.2958,
+      "globalRank": 16042,
+      "globalPctile": 0.2895,
       "miniRank": 6,
       "miniSize": 6,
       "trend": "worsening",
-      "arc": "rank r1 5137 → r8 16375",
+      "arc": "rank r1 5137 → r9 16042",
       "stance": "chaser",
-      "rationale": "Global pctile 29.6% and a bottom-half mini-league seat with 12 rounds left: expected rank gain leans toward higher-variance, differentiated picks — favouring lower-ownership riders at comparable EV over mirroring the consensus template."
+      "rationale": "Global pctile 28.9% and a bottom-half mini-league seat with 11 rounds left: expected rank gain leans toward higher-variance, differentiated picks — favouring lower-ownership riders at comparable EV over mirroring the consensus template."
     },
     "leader": {
       "teamName": "Denvarmedansker",
@@ -940,153 +951,129 @@
     },
     "templateTop": [
       {
-        "name": "Anthony Turgis",
-        "price": 4558000,
-        "ownedByPct": 0.28,
+        "name": "Mads Pedersen",
+        "price": 10931000,
+        "ownedByPct": 0.56,
+        "captainPct": 0.52,
+        "weOwn": false
+      },
+      {
+        "name": "Sean Quinn",
+        "price": 3378000,
+        "ownedByPct": 0.52,
         "captainPct": 0,
         "weOwn": false
       },
       {
-        "name": "Max Kanter",
-        "price": 5953000,
-        "ownedByPct": 0.28,
+        "name": "Mathias Vacek",
+        "price": 4443000,
+        "ownedByPct": 0.52,
         "captainPct": 0,
         "weOwn": true
       },
       {
-        "name": "Jasper Philipsen",
-        "price": 11831000,
+        "name": "Tadej Pogacar",
+        "price": 19394000,
+        "ownedByPct": 0.44,
+        "captainPct": 0,
+        "weOwn": false
+      },
+      {
+        "name": "Maxim Van Gils",
+        "price": 6335000,
+        "ownedByPct": 0.4,
+        "captainPct": 0,
+        "weOwn": false
+      },
+      {
+        "name": "Jonas Abrahamsen",
+        "price": 4287000,
+        "ownedByPct": 0.36,
+        "captainPct": 0,
+        "weOwn": false
+      },
+      {
+        "name": "Michael Matthews",
+        "price": 6581000,
         "ownedByPct": 0.28,
         "captainPct": 0,
         "weOwn": false
       },
       {
-        "name": "Tim Merlier",
-        "price": 13027000,
-        "ownedByPct": 0.28,
-        "captainPct": 0.28,
-        "weOwn": false
-      },
-      {
-        "name": "Biniam Girmay",
-        "price": 8418000,
-        "ownedByPct": 0.28,
-        "captainPct": 0,
-        "weOwn": true
-      },
-      {
-        "name": "Søren Wærenskjold",
-        "price": 5700000,
-        "ownedByPct": 0.28,
-        "captainPct": 0,
-        "weOwn": false
-      },
-      {
-        "name": "Huub Artz",
-        "price": 3101000,
-        "ownedByPct": 0.28,
-        "captainPct": 0,
-        "weOwn": false
-      },
-      {
-        "name": "Pavel Bittner",
-        "price": 5351000,
+        "name": "M. van der Poel",
+        "price": 11262000,
         "ownedByPct": 0.24,
-        "captainPct": 0,
+        "captainPct": 0.04,
         "weOwn": false
       }
     ],
     "templateN": 8,
-    "ownedCore": 2,
+    "ownedCore": 1,
     "missingCore": [],
     "consensusCaptain": {
-      "name": "Tim Merlier",
-      "personId": 4531,
-      "price": 13027000,
-      "ownedByPct": 0.28,
-      "captainPct": 0.28,
+      "name": "Mads Pedersen",
+      "personId": 3564,
+      "price": 10931000,
+      "ownedByPct": 0.56,
+      "captainPct": 0.52,
       "weOwn": false
     },
     "winnersLoad": [],
     "winnersFade": [
       {
-        "name": "Tadej Pogacar",
-        "edge": -0.419,
-        "topPct": 0,
-        "crowdPopularity": 0.419
-      },
-      {
-        "name": "Mads Pedersen",
-        "edge": -0.328,
-        "topPct": 0,
-        "crowdPopularity": 0.328
-      },
-      {
         "name": "Jonas Vingegaard",
-        "edge": -0.316,
+        "edge": -0.338,
         "topPct": 0,
-        "crowdPopularity": 0.316
+        "crowdPopularity": 0.338
       },
       {
         "name": "Nils Politt",
-        "edge": -0.25,
-        "topPct": 0,
-        "crowdPopularity": 0.25
+        "edge": -0.208,
+        "topPct": 0.04,
+        "crowdPopularity": 0.248
       },
       {
-        "name": "Mathias Vacek",
-        "edge": -0.191,
+        "name": "Alex Kirsch",
+        "edge": -0.18,
         "topPct": 0,
-        "crowdPopularity": 0.191
-      },
-      {
-        "name": null,
-        "edge": -0.182,
-        "topPct": 0,
-        "crowdPopularity": 0.182
-      },
-      {
-        "name": "Olav Kooij",
-        "edge": -0.173,
-        "topPct": 0,
-        "crowdPopularity": 0.173
-      },
-      {
-        "name": null,
-        "edge": -0.164,
-        "topPct": 0,
-        "crowdPopularity": 0.164
+        "crowdPopularity": 0.18
       },
       {
         "name": "Magnus Cort",
-        "edge": -0.16,
+        "edge": -0.17,
         "topPct": 0,
-        "crowdPopularity": 0.16
+        "crowdPopularity": 0.17
       },
       {
-        "name": "Max Kanter",
-        "edge": -0.045,
-        "topPct": 0.28,
-        "crowdPopularity": 0.325
+        "name": "Tadej Pogacar",
+        "edge": -0.126,
+        "topPct": 0.44,
+        "crowdPopularity": 0.566
+      },
+      {
+        "name": "Isaac Del Toro",
+        "edge": -0.099,
+        "topPct": 0.04,
+        "crowdPopularity": 0.139
       }
     ],
     "churn": {
-      "topAvgSubsPerRound": 2.09,
-      "topAvgFeesKr": 1081275,
-      "ourSubsPerRound": 2.25,
-      "ourFeesKr": 1041460,
+      "topAvgSubsPerRound": 2.4,
+      "topAvgFeesKr": 1440875,
+      "ourSubsPerRound": 2.22,
+      "ourFeesKr": 1189810,
       "captainBonusGap": {
-        "topAvg": 2070800,
-        "ours": 2785000
+        "topAvg": 2208840,
+        "ours": 3030000
       }
     }
   },
   "decision": {
     "source": "llm-routine",
-    "generatedAt": "2026-07-12T21:21:22Z",
-    "matchRateAtWrite": 0.16477272727272727,
+    "generatedAt": "2026-07-13T23:05:13Z",
+    "matchRateAtWrite": 0.6875,
     "rebuild": null,
-    "summary": "SECOND-OPINION HELD (concur w/ 19:42Z evening definitive) — EARNED FREEZE for a GC-INTERNAL SOFT transition, not a default. S10 Aurillac->Le Lioran (Bastille Day Tue 14 Jul, 166.6km/~3,900m, Font de Cere crests <3km out -> downhill -> 7.4% ramp last 500m = HARD UPHILL finish, not a summit; 13 Jul = REST DAY 1, window open to 14 Jul 11:10Z). Transition class: S9 hilly -> S10 mountain = GC-internal SOFT (doctrine 1-5 swaps, hilly<->mountain), GC core (Pogacar) already fits, squad 6/8 on-profile -> correct action is captain-to-chalk + minimal/zero discretionary swaps (the next HARD flip is S10->S11 flat block, Tue-night's decision incl. Pogacar anchor-lease, NOT tonight's). CAPTAIN Pogacar CONCUR (live-confirmed): Kalshi 64% runaway (only liquid price, browser read) + cyclingstage top tier + idlprocycling top + cyclinguptodate Pogacar-vs-Vingegaard framing + Axelgaard 5-star pre-race board; substrate capC 177,324 conf 1.00 pool-#1 (~2x next Vingegaard 91,535; next OWNED Healy 22,450); floor (yellow+KOM+GC1 passive doubled) > every owned alt's ceiling even in the ~40-50% break scenario. Cleanest captain of the Tour; web-verified (idlprocycling/cyclingstage/velo S10 previews all #1 Pogacar). ROSTER HELD 8/8 on THREE independently re-derived grounds: (1) FUNDING WALL, re-priced on the CORRECTED LIVE BANK 327,413 (NOT the plan's stale 74,042 -- the ~253k delta is S9 winnings [Pogacar yellow+KOM+GC1, Pedersen 6th+intermediate] crediting after the 19:42 write): even at the higher bank the CHEAPEST corroborated upgrade Vacek->Simmons is SHORT 85,667, and the named climbers Johannessen/Martinez/Seixas are short 1.07M-6.12M via ANY legal single/double sell that keeps the sprint pair + break breadth. No fundable EV-positive corroborated upgrade exists tonight. (2) The one fundable-adjacent move (Vacek->Simmons) is LATERAL-TO-NEGATIVE anyway: Simmons is conf-0.34, cyclingstage's LOWEST (1-star) tier, a classics rouleur not a 3,900m climber; selling Vacek forfeits his GC-points floor + squad-best S13 read + the Lidl 2-up holdbonus stack -> not an upgrade, and 86k unfunded regardless. (3) PRE-REST-DAY protocol: substrate floored (matchRate 0.165, 6/8 owned floored p15 0.020 -- engine has NO S10 read for the break punts), so size from research boards and let tomorrow's rest-day evening run upgrade on FRESH odds with the window still open -- Racing Post 2026 S10 (does not exist yet) + Axelgaard S10 optakt + a filled Kalshi board all land Mon 13 Jul -> Monday run is materially sharper. SPRINTERS HELD per single-off-profile-stage rule: Kanter + Pedersen (green 268, +45 on Girmay) are wrong-terrain for S10 but S11-12 flat sprints resume Wed-Thu (48h) -> selling either forces a 60-107k re-buy inside 2 days. BREAK BREADTH kept: Healy (p15 0.177 conf 0.54, the only other owned rider w/ real signal + Kalshi ~4c) + Castrillo (hottest legs, IN the S9 break) + Charmig + Barguil -> ~4 break cards for a coin-flip (~40-50% break) Bastille Day (expected_breadth ~4). DEFENSIVE: 0 isOut / 0 isOutUnconfirmed pool-wide (176 riders); web-verified withdrawals tracker still ends at Traen (S7 DNS) -- NO new abandonment, none owned; all 8 raced S8-S9 healthy. Vacek 'losing form' flag (Axelgaard, SINGLE-source) noted -- he is healthy, monitor at tomorrow's re-check. Standing constraints honored: no Waerenskjold re-buy, no Girmay round-trip, never Carlos Rodriguez. Legal: 8 riders, only Lidl-Trek 2-up (Pedersen+Vacek), captain in team, funded (no buys), live bank 327,413. Live ground-truth: execute.js read == this target_team + captain (converge already applied the 19:42 plan). Forward: Mon evening = definitive S10 sizing on fresh odds (candidate corroborated+fundable climber upgrade IF one appears); S11-12 flat block Wed-Thu = the real HARD FLIP (anchor-lease Pogacar out only if the doctrine bar clears AND re-buy stays affordable).",
+    "summary": "NIGHT PASS (Tue 14 Jul ~00:55 CEST, third independent pass tonight) — FREEZE RE-VERIFIED ADVERSARIALLY, 0/3 skeptic lenses refuted (all HIGH conf). VERDICT: HELD, identical to the 19:40Z definitive and the 21:23Z/22:36Z second opinions. S10 Aurillac->Le Lioran (Bastille Day, 166.6km/~3,900m, summit punch finish; window closes 14 Jul 11:10Z). Transition: S9 hilly -> S10 mountain = GC-INTERNAL SOFT boundary; 6/8 already on-profile (Pogacar+Healy+Castrillo+Barguil+Charmig+Vacek), sprinters Pedersen (GREEN leader 268, +45) + Kanter (points 5th, 172) held ONE day under the single-off-profile-island rule (S11+S12 both flat). SWAP-SEARCH EXHAUSTIVE (verify agent): all 748 funded, 2-per-team-legal single swaps FAIL the doctrine 1.2x-fee bar for a 1-day climber hold — best candidate (Charmig->Gradek) short by 23.6k before even counting the S11 round-trip second fee; Vingegaard unfundable (needs 15.85M vs max liquidity 15.41M), Del Toro short 27k off the biggest single sell AND 4x under the bar. CAPTAIN POGACAR re-confirmed: eS 137,406 / capC 137,656 / p15 0.822 / conf 0.95, pool #1 by 1.76x over Vingegaard, 8x over next owned (Healy); RP/bet365 4/7 (~64%) + William Hill corroborate, unanimous #1 on all 7 expert boards, Axelgaard 5*. DEFENSIVE — IMPORTANT CAVEAT FOUND: this snapshot MERGE is degraded (persons=[] + statistik names null -> isOut keys attached to 0/176 pool rows, so pool-level 0-isOut is vacuously true); DNS safety was instead confirmed 3 INDEPENDENT ways by the verify pass: (1) market.players price-join — all 8 owned pids isOut=false (30 isOut pids all non-owned), (2) pool == exactly the 176 non-out market players, (3) grey-name owned-dns.json fresh 22:37Z and empty; abandon list still ends at 8, none owned. Fix chip filed for the dead identity merge. OPS: converge live==plan + captain OK on every full tick through 22:52 local; 00:52 iframe-not-found tick is a known self-recovering transient (4th occurrence, prior 3 all recovered next tick), and a freeze needs no trades anyway. Legal: exactly 8, captain in team, funded trivially (0 buys, bank 327,413), only Lidl-Trek 2-up. Standing constraints honored: no Waerenskjold re-buy, no Girmay round-trip, never Carlos Rodriguez. This rewrite refreshes generatedAt so the plan stays far inside the 24h gate through the 11:10Z close. FORWARD (Tue evening = the real work): S10->S11 flat block HARD FLIP — full sprint reshape, anchor-lease Pogacar OUT if funded re-buy affordability clears, captain = sprint chalk bought fresh (Merlier/Philipsen class), Vacek/Charmig/Barguil/Castrillo prime rotation candidates, Kanter+Pedersen carry green.",
     "total_value": null,
     "swaps": [],
     "sells": [],
@@ -1127,7 +1114,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5212.848041763357,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1137,17 +1124,19 @@
       "owned": false,
       "isOut": false,
       "growth": -216000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5216.504228118825,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5617.4780997308935,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 752
     },
     {
       "name": "Adam Yates",
@@ -1156,19 +1145,20 @@
       "owned": false,
       "isOut": false,
       "growth": 273000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.007148778961241435,
+      "p_top15": 0.04898094270846465,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.33577194752774975,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -2780.2486435582864,
+      "e_stage": 5914,
+      "e_horizon": 10373,
+      "roi_per_million": -4459.760894507977,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 6164
     },
     {
       "name": "Alex Aranburu",
@@ -1177,17 +1167,19 @@
       "owned": false,
       "isOut": false,
       "growth": -180000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5225.161924269879,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5582.053491273861,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Alex Baudin",
@@ -1196,19 +1188,20 @@
       "owned": false,
       "isOut": false,
       "growth": 277000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.011291268214481521,
+      "p_top15": 0.07641134935588267,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.42453798767967144,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -2496.200396408668,
+      "e_stage": 9385,
+      "e_horizon": 16492,
+      "roi_per_million": -3244.13006358346,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 9635
     },
     {
       "name": "Alex Kirsch",
@@ -1226,7 +1219,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4567.879625133928,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -1236,17 +1229,19 @@
       "owned": false,
       "isOut": false,
       "growth": -149000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5097.797134916042,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5606.502961789871,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 564
     },
     {
       "name": "A. Halland Johannessen",
@@ -1255,17 +1250,19 @@
       "owned": false,
       "isOut": false,
       "growth": -237000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4877.029023206084,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5370.49088316348,
       "efficiency": "med",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Anders Skaarseth",
@@ -1283,7 +1280,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4655.915332233116,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -1293,17 +1290,19 @@
       "owned": true,
       "isOut": false,
       "growth": -228000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5072.750251277649,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5628.153578585652,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Anthony Turgis",
@@ -1321,7 +1320,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5369.482286541179,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1331,19 +1330,20 @@
       "owned": false,
       "isOut": false,
       "growth": -159000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.004149262235958147,
+      "p_top15": 0.028685781618430384,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3946808510638298,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4953.803984453898,
+      "e_stage": 3355,
+      "e_horizon": 5885,
+      "roi_per_million": -5322.406620785651,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 3605
     },
     {
       "name": "A. Paret-Peintre",
@@ -1352,17 +1352,19 @@
       "owned": false,
       "isOut": false,
       "growth": -160000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0012857664345061128,
+      "p_top15": 0.00896572224096015,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5094.380597980118,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 875,
+      "e_horizon": 2371,
+      "roi_per_million": -5424.25774034654,
       "efficiency": "med",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1125
     },
     {
       "name": "B. Veistroffer",
@@ -1371,17 +1373,19 @@
       "owned": false,
       "isOut": false,
       "growth": -65000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4950.760644897431,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5569.936006720868,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Ben Healy",
@@ -1390,19 +1394,20 @@
       "owned": true,
       "isOut": false,
       "growth": -247000,
-      "p_stage": 0.03929555912198022,
-      "p_top15": 0.2446841684206762,
+      "p_stage": 0.020742211897671167,
+      "p_top15": 0.13646640226330964,
       "p_gc": 0,
-      "confidence": 0.34375,
-      "coverage": 1,
+      "confidence": 0.3422186021601356,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "ctc"
       ],
-      "e_stage": 31008,
-      "e_horizon": 55511,
-      "roi_per_million": 3646.9993288350224,
+      "e_stage": 17031,
+      "e_horizon": 30107,
+      "roi_per_million": -832.5642748450215,
       "efficiency": "high",
-      "captain_ceiling": 31258
+      "captain_ceiling": 17281
     },
     {
       "name": "Ben O'Connor",
@@ -1411,17 +1416,19 @@
       "owned": false,
       "isOut": false,
       "growth": -204000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.007695408063238081,
+      "p_top15": 0.05264007894024936,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5535.4103098304,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 6377,
+      "e_horizon": 11186,
+      "roi_per_million": -4181.5230340658345,
+      "efficiency": "high",
+      "captain_ceiling": 6627
     },
     {
       "name": "Benjamin Thomas",
@@ -1468,17 +1475,19 @@
       "owned": false,
       "isOut": false,
       "growth": 279000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.006365337533789524,
+      "p_top15": 0.04371546430637785,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5533.645970238575,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 5250,
+      "e_horizon": 9206,
+      "roi_per_million": -4523.215242960425,
+      "efficiency": "high",
+      "captain_ceiling": 5500
     },
     {
       "name": "Brent Van Moer",
@@ -1496,7 +1505,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5207.432683668526,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1506,17 +1515,19 @@
       "owned": false,
       "isOut": false,
       "growth": -31000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5435.589183547887,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5740.939380806906,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 752
     },
     {
       "name": "Carlos Verona",
@@ -1525,19 +1536,20 @@
       "owned": false,
       "isOut": false,
       "growth": 8000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.003315550153635271,
+      "p_top15": 0.022979272184831978,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3514925373134328,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3682.024358414733,
+      "e_stage": 2637,
+      "e_horizon": 4628,
+      "roi_per_million": -4807.662154672478,
       "efficiency": "high",
-      "captain_ceiling": 5123
+      "captain_ceiling": 2887
     },
     {
       "name": "Cees Bol",
@@ -1555,7 +1567,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5395.863263013357,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1565,19 +1577,20 @@
       "owned": false,
       "isOut": false,
       "growth": -121000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.004149262235958147,
+      "p_top15": 0.028685781618430384,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3946808510638298,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4366.4636053492795,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 3355,
+      "e_horizon": 5885,
+      "roi_per_million": -4917.904159219877,
+      "efficiency": "med",
+      "captain_ceiling": 3605
     },
     {
       "name": "C. Braz Afonso",
@@ -1586,19 +1599,20 @@
       "owned": false,
       "isOut": false,
       "growth": -180000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.002523866462500542,
+      "p_top15": 0.017533858566537774,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31355140186915886,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3880.9631608266272,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 1952,
+      "e_horizon": 3615,
+      "roi_per_million": -5183.540276876069,
+      "efficiency": "med",
+      "captain_ceiling": 2202
     },
     {
       "name": "Clement Russo",
@@ -1616,7 +1630,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5253.773102692889,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1635,7 +1649,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5209.655725128672,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1645,17 +1659,19 @@
       "owned": false,
       "isOut": false,
       "growth": -255000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.002054152749948013,
+      "p_top15": 0.014290761578864442,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5530.085965965563,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1544,
+      "e_horizon": 3144,
+      "roi_per_million": -5584.255449211177,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1794
     },
     {
       "name": "Damien Howson",
@@ -1664,17 +1680,19 @@
       "owned": false,
       "isOut": false,
       "growth": -274000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4859.9521121139915,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5526.59909925698,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Davide Ballerini",
@@ -1692,7 +1710,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5196.408927438755,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1702,19 +1720,20 @@
       "owned": false,
       "isOut": false,
       "growth": 237000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.0036645385836850874,
+      "p_top15": 0.025371480452284656,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3692982456140351,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4747.776121367552,
+      "e_stage": 2938,
+      "e_horizon": 5155,
+      "roi_per_million": -5299.28411296466,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 3188
     },
     {
       "name": "Derek Gee",
@@ -1723,19 +1742,19 @@
       "owned": false,
       "isOut": false,
       "growth": -49000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.018348623853211007,
+      "p_top15": 0.12158254263123469,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
+      "confidence": 0.3529411764705882,
       "coverage": 1,
       "sources": [
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -3303.2990353158307,
+      "e_stage": 15130,
+      "e_horizon": 26703,
+      "roi_per_million": -2490.334521925974,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 15380
     },
     {
       "name": "Dorian Godon",
@@ -1744,17 +1763,19 @@
       "owned": false,
       "isOut": false,
       "growth": 93000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5705.640822744059,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5916.2763381097075,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 564
     },
     {
       "name": "Dylan Van Baarle",
@@ -1791,7 +1812,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5117.238607974027,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -1820,19 +1841,20 @@
       "owned": false,
       "isOut": false,
       "growth": 222000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.007148778961241435,
+      "p_top15": 0.04898094270846465,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.33577194752774975,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -3214.980567314551,
+      "e_stage": 5914,
+      "e_horizon": 10373,
+      "roi_per_million": -4677.058754875202,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 6164
     },
     {
       "name": "E. Augusto Rubio",
@@ -1841,17 +1863,19 @@
       "owned": false,
       "isOut": false,
       "growth": -193000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.007695408063238081,
+      "p_top15": 0.05264007894024936,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5480.145876096162,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 6377,
+      "e_horizon": 11186,
+      "roi_per_million": -4003.690602383842,
+      "efficiency": "high",
+      "captain_ceiling": 6627
     },
     {
       "name": "Emiel Verstrynge",
@@ -1860,17 +1884,19 @@
       "owned": false,
       "isOut": false,
       "growth": -246000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5066.873247211377,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5485.860441865118,
+      "efficiency": "low",
+      "captain_ceiling": 901
     },
     {
       "name": "Ewen Costiou",
@@ -1879,17 +1905,19 @@
       "owned": false,
       "isOut": false,
       "growth": -213000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4887.8634943635725,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5377.075061127042,
       "efficiency": "med",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Felix Engelhardt",
@@ -1898,17 +1926,19 @@
       "owned": false,
       "isOut": false,
       "growth": -172000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4905.946966135936,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5548.5494014088445,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "F. Grossschartner",
@@ -1917,17 +1947,19 @@
       "owned": false,
       "isOut": false,
       "growth": 186000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5192.079263303698,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5561.948944947301,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "F. Gaviria Rendon",
@@ -1955,17 +1987,19 @@
       "owned": false,
       "isOut": false,
       "growth": 101000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0012857664345061128,
+      "p_top15": 0.00896572224096015,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5731.010769392321,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 875,
+      "e_horizon": 2371,
+      "roi_per_million": -5858.490287695481,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1125
     },
     {
       "name": "Florian Lipowitz",
@@ -1974,20 +2008,21 @@
       "owned": false,
       "isOut": false,
       "growth": 557000,
-      "p_stage": 0.025307570470713657,
-      "p_top15": 0.164256225335085,
-      "p_gc": 0.02814657350124261,
-      "confidence": 0.44919064748201437,
-      "coverage": 2,
+      "p_stage": 0.012897718713288724,
+      "p_top15": 0.0868647900642735,
+      "p_gc": 0.014134051932389018,
+      "confidence": 0.3676470588235294,
+      "coverage": 3,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars"
       ],
-      "e_stage": 23012,
-      "e_horizon": 40306,
-      "roi_per_million": -2042.334296313643,
+      "e_stage": 11924,
+      "e_horizon": 20729,
+      "roi_per_million": -4032.0446879063934,
       "efficiency": "high",
-      "captain_ceiling": 23262
+      "captain_ceiling": 12174
     },
     {
       "name": "Florian Vermeersch",
@@ -2005,7 +2040,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5146.198590289687,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -2015,17 +2050,19 @@
       "owned": false,
       "isOut": false,
       "growth": -186000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006865410655618518,
+      "p_top15": 0.004795900665598429,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4899.831369020346,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 352,
+      "e_horizon": 1809,
+      "roi_per_million": -5492.285772922213,
+      "efficiency": "low",
+      "captain_ceiling": 602
     },
     {
       "name": "Fred Wright",
@@ -2043,7 +2080,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5196.155342063571,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -2072,17 +2109,19 @@
       "owned": false,
       "isOut": false,
       "growth": -301000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0025651360210793596,
+      "p_top15": 0.0178183629995029,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5195.393763276625,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1988,
+      "e_horizon": 3656,
+      "roi_per_million": -5141.264305438059,
+      "efficiency": "med",
+      "captain_ceiling": 2238
     },
     {
       "name": "Georg Zimmermann",
@@ -2091,17 +2130,19 @@
       "owned": false,
       "isOut": false,
       "growth": -234000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5070.798447722674,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5488.245811518456,
+      "efficiency": "low",
+      "captain_ceiling": 901
     },
     {
       "name": "George Bennett",
@@ -2110,17 +2151,19 @@
       "owned": false,
       "isOut": false,
       "growth": -157000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0012857664345061128,
+      "p_top15": 0.00896572224096015,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5095.31461059309,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 875,
+      "e_horizon": 2371,
+      "roi_per_million": -5424.894811434904,
+      "efficiency": "med",
+      "captain_ceiling": 1125
     },
     {
       "name": "Guillaume Martin",
@@ -2129,19 +2172,20 @@
       "owned": false,
       "isOut": false,
       "growth": -141000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.002839189138283708,
+      "p_top15": 0.01970584183747448,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.32816091954022986,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3903.568671284677,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 2225,
+      "e_horizon": 3930,
+      "roi_per_million": -5110.173827545095,
+      "efficiency": "med",
+      "captain_ceiling": 2475
     },
     {
       "name": "Harold Tejada",
@@ -2150,19 +2194,20 @@
       "owned": false,
       "isOut": false,
       "growth": 22000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.008940303723429141,
+      "p_top15": 0.06092840465648841,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.37301013024602026,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -1956.1230415888188,
+      "e_stage": 7424,
+      "e_horizon": 13031,
+      "roi_per_million": -3512.352890539689,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 7674
     },
     {
       "name": "Hugo Page",
@@ -2190,17 +2235,19 @@
       "owned": false,
       "isOut": false,
       "growth": 74000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5004.317758256121,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5644.403831528606,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Ilan van Wilder",
@@ -2209,19 +2256,20 @@
       "owned": false,
       "isOut": false,
       "growth": 248000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.006116379986728109,
+      "p_top15": 0.042037007420880346,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31584043377226945,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -1717.6434406164667,
+      "e_stage": 5038,
+      "e_horizon": 8834,
+      "roi_per_million": -4256.486330507396,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 5288
     },
     {
       "name": "I. Izagirre Insausti",
@@ -2230,17 +2278,19 @@
       "owned": false,
       "isOut": false,
       "growth": -147000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0034145188095162354,
+      "p_top15": 0.023658182544350703,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5418.866998275417,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 2722,
+      "e_horizon": 4777,
+      "roi_per_million": -5142.178544912731,
+      "efficiency": "med",
+      "captain_ceiling": 2972
     },
     {
       "name": "Isaac Del Toro",
@@ -2249,22 +2299,23 @@
       "owned": false,
       "isOut": false,
       "growth": 1674000,
-      "p_stage": 0.04579035656547055,
-      "p_top15": 0.2797112873360148,
-      "p_gc": 0.022220979079928375,
-      "confidence": 0.6813872808553022,
-      "coverage": 4,
+      "p_stage": 0.042282070223031654,
+      "p_top15": 0.2609678590375656,
+      "p_gc": 0.011158462051886066,
+      "confidence": 0.613288358097503,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
         "csFav",
         "ctc"
       ],
-      "e_stage": 37503,
-      "e_horizon": 67033,
-      "roi_per_million": 18.892424485896917,
+      "e_stage": 34094,
+      "e_horizon": 60959,
+      "roi_per_million": -536.5457661591051,
       "efficiency": "high",
-      "captain_ceiling": 37753
+      "captain_ceiling": 34344
     },
     {
       "name": "Jai Hindley",
@@ -2273,19 +2324,20 @@
       "owned": false,
       "isOut": false,
       "growth": -108000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.004149262235958147,
+      "p_top15": 0.028685781618430384,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3946808510638298,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4961.834452283094,
+      "e_stage": 3355,
+      "e_horizon": 5885,
+      "roi_per_million": -5327.937219600239,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 3605
     },
     {
       "name": "Jake Stewart",
@@ -2303,7 +2355,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5209.655725128672,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -2313,17 +2365,19 @@
       "owned": false,
       "isOut": false,
       "growth": -165000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5092.820176108469,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5682.812556690064,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Jan Tratnik",
@@ -2332,17 +2386,19 @@
       "owned": false,
       "isOut": false,
       "growth": -222000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5074.694909731143,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5537.564076961181,
+      "efficiency": "low",
+      "captain_ceiling": 752
     },
     {
       "name": "Jasper Philipsen",
@@ -2370,17 +2426,19 @@
       "owned": false,
       "isOut": false,
       "growth": -52000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5254.666120812115,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5753.051275128128,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 301
     },
     {
       "name": "Javier Romo",
@@ -2389,17 +2447,19 @@
       "owned": false,
       "isOut": false,
       "growth": -220000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0034145188095162354,
+      "p_top15": 0.023658182544350703,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5322.967818794601,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 2722,
+      "e_horizon": 4777,
+      "roi_per_million": -5010.38311716295,
+      "efficiency": "med",
+      "captain_ceiling": 2972
     },
     {
       "name": "J. Cepeda",
@@ -2408,17 +2468,19 @@
       "owned": false,
       "isOut": false,
       "growth": -265000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001712931362913459,
+      "p_top15": 0.011929078337395538,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5204.451963017277,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1248,
+      "e_horizon": 2801,
+      "roi_per_million": -5382.762295744774,
+      "efficiency": "med",
+      "captain_ceiling": 1498
     },
     {
       "name": "Jenno Berckmoes",
@@ -2427,17 +2489,19 @@
       "owned": false,
       "isOut": false,
       "growth": -143000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5099.65126333687,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5640.991652658224,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 452
     },
     {
       "name": "Jenthe Biermans",
@@ -2455,7 +2519,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5184.860325018885,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -2465,17 +2529,19 @@
       "owned": false,
       "isOut": false,
       "growth": -300000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4555.056242178363,
-      "efficiency": "high",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5449.431055469099,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "John Degenkolb",
@@ -2493,7 +2559,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4813.906183549085,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -2503,17 +2569,19 @@
       "owned": false,
       "isOut": false,
       "growth": -213000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5324.294037402724,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5678.221056339058,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 752
     },
     {
       "name": "Jonas Rickaert",
@@ -2531,7 +2599,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4590.856514481228,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -2541,10 +2609,10 @@
       "owned": false,
       "isOut": false,
       "growth": 1698000,
-      "p_stage": 0.10330297494773577,
-      "p_top15": 0.5338559958641798,
-      "p_gc": 0.15636985278468116,
-      "confidence": 0.7714771137713253,
+      "p_stage": 0.09398625995317916,
+      "p_top15": 0.4988779787069455,
+      "p_gc": 0.07852251073549454,
+      "confidence": 0.6248990105302358,
       "coverage": 4,
       "sources": [
         "gcOdds",
@@ -2552,11 +2620,11 @@
         "csFav",
         "ctc"
       ],
-      "e_stage": 83646,
-      "e_horizon": 153324,
-      "roi_per_million": 3974.945594072881,
+      "e_stage": 72015,
+      "e_horizon": 132325,
+      "roi_per_million": 2607.585333800359,
       "efficiency": "high",
-      "captain_ceiling": 83896
+      "captain_ceiling": 72265
     },
     {
       "name": "Jordan Jegat",
@@ -2565,19 +2633,20 @@
       "owned": false,
       "isOut": false,
       "growth": 155000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.007148778961241435,
+      "p_top15": 0.04898094270846465,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.33577194752774975,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -1630.3180282463343,
+      "e_stage": 5914,
+      "e_horizon": 10373,
+      "roi_per_million": -3884.9757254801125,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 6164
     },
     {
       "name": "Joris Delbove",
@@ -2586,17 +2655,19 @@
       "owned": false,
       "isOut": false,
       "growth": -156000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006865410655618518,
+      "p_top15": 0.004795900665598429,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4912.862493675927,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 352,
+      "e_horizon": 1809,
+      "roi_per_million": -5499.067378549294,
+      "efficiency": "low",
+      "captain_ceiling": 602
     },
     {
       "name": "Jose Felix Parra",
@@ -2605,19 +2676,20 @@
       "owned": false,
       "isOut": false,
       "growth": -168000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.002523866462500542,
+      "p_top15": 0.017533858566537774,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31355140186915886,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3887.967710758987,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 1952,
+      "e_horizon": 3615,
+      "roi_per_million": -5186.5034334138845,
+      "efficiency": "med",
+      "captain_ceiling": 2202
     },
     {
       "name": "Joshua Tarling",
@@ -2645,21 +2717,22 @@
       "owned": false,
       "isOut": false,
       "growth": 876000,
-      "p_stage": 0.027366580499465082,
-      "p_top15": 0.17653657486864982,
-      "p_gc": 0.016887944100745567,
-      "confidence": 0.43289172732504066,
-      "coverage": 3,
+      "p_stage": 0.015376527877510558,
+      "p_top15": 0.10279581233702706,
+      "p_gc": 0.008480431159433411,
+      "confidence": 0.43382352941176466,
+      "coverage": 4,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
         "csFav"
       ],
-      "e_stage": 23625,
-      "e_horizon": 41649,
-      "roi_per_million": -1825.7104466877147,
+      "e_stage": 13464,
+      "e_horizon": 23570,
+      "roi_per_million": -3697.9185171136114,
       "efficiency": "high",
-      "captain_ceiling": 23875
+      "captain_ceiling": 13714
     },
     {
       "name": "Julian Alaphilippe",
@@ -2668,17 +2741,19 @@
       "owned": false,
       "isOut": false,
       "growth": -297000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0012857664345061128,
+      "p_top15": 0.00896572224096015,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5396.020464527998,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 875,
+      "e_horizon": 2371,
+      "roi_per_million": -5630.000184727601,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1125
     },
     {
       "name": "J. van den Berg",
@@ -2744,19 +2819,20 @@
       "owned": false,
       "isOut": false,
       "growth": 151000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.006169115985613813,
+      "p_top15": 0.04239276100510336,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.5018518518518519,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -5000.96423683655,
+      "e_stage": 5083,
+      "e_horizon": 8913,
+      "roi_per_million": -4951.958953259222,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 5333
     },
     {
       "name": "Krists Neilands",
@@ -2765,17 +2841,19 @@
       "owned": false,
       "isOut": false,
       "growth": -268000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4862.752763375167,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5486.71807298505,
+      "efficiency": "low",
+      "captain_ceiling": 564
     },
     {
       "name": "Lars Craps",
@@ -2784,17 +2862,19 @@
       "owned": false,
       "isOut": false,
       "growth": -222000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4883.8225057285645,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5374.619326284531,
       "efficiency": "med",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "L. Van Eetvelt",
@@ -2803,20 +2883,21 @@
       "owned": false,
       "isOut": false,
       "growth": 179000,
-      "p_stage": 0.01955473137598977,
-      "p_top15": 0.12910963565909417,
+      "p_stage": 0.012681048710268423,
+      "p_top15": 0.08546082675643663,
       "p_gc": 0,
-      "confidence": 0.5395833333333333,
-      "coverage": 2,
+      "confidence": 0.4265592759854005,
+      "coverage": 3,
       "sources": [
+        "stageOdds",
         "stars",
         "csFav"
       ],
-      "e_stage": 16091,
-      "e_horizon": 28422,
-      "roi_per_million": -1814.5340253829524,
+      "e_stage": 10532,
+      "e_horizon": 18524,
+      "roi_per_million": -3320.569277937299,
       "efficiency": "high",
-      "captain_ceiling": 16341
+      "captain_ceiling": 10782
     },
     {
       "name": "Lenny Martinez",
@@ -2825,21 +2906,21 @@
       "owned": false,
       "isOut": false,
       "growth": 454000,
-      "p_stage": 0.028844448148355326,
-      "p_top15": 0.18525523093281404,
+      "p_stage": 0.01920145250856571,
+      "p_top15": 0.12691063520324608,
       "p_gc": 0,
-      "confidence": 0.5492045479794614,
+      "confidence": 0.33131975596551805,
       "coverage": 3,
       "sources": [
+        "stageOdds",
         "stars",
-        "csFav",
-        "ctc"
+        "csFav"
       ],
-      "e_stage": 23298,
-      "e_horizon": 41411,
-      "roi_per_million": -1139.4177514227392,
+      "e_stage": 15810,
+      "e_horizon": 27919,
+      "roi_per_million": -2768.699526016582,
       "efficiency": "high",
-      "captain_ceiling": 23548
+      "captain_ceiling": 16060
     },
     {
       "name": "Lewis Askey",
@@ -2867,17 +2948,19 @@
       "owned": false,
       "isOut": false,
       "growth": -241000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5068.512260312263,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5591.578607613337,
+      "efficiency": "low",
+      "captain_ceiling": 564
     },
     {
       "name": "Lorenzo Germani",
@@ -2886,17 +2969,19 @@
       "owned": false,
       "isOut": false,
       "growth": -249000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4590.856514481228,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5464.967837999495,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Louis Vervaeke",
@@ -2905,17 +2990,19 @@
       "owned": false,
       "isOut": false,
       "growth": -121000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4927.72223047491,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5401.297471999243,
       "efficiency": "med",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Luke Durbridge",
@@ -2943,17 +3030,19 @@
       "owned": false,
       "isOut": false,
       "growth": -258000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0034145188095162354,
+      "p_top15": 0.023658182544350703,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5472.023528296131,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 2722,
+      "e_horizon": 4777,
+      "roi_per_million": -5215.232221176724,
+      "efficiency": "med",
+      "captain_ceiling": 2972
     },
     {
       "name": "Mads Pedersen",
@@ -2962,17 +3051,19 @@
       "owned": true,
       "isOut": false,
       "growth": 1431000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 37405,
-      "roi_per_million": -2474.591415678322,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 36037,
+      "roi_per_million": -2599.706640725825,
       "efficiency": "high",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Magnus Cort",
@@ -2990,7 +3081,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5325.427353893244,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -3000,17 +3091,19 @@
       "owned": false,
       "isOut": false,
       "growth": -192000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5328.246833811336,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5644.698855308033,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Marco Frigo",
@@ -3019,17 +3112,19 @@
       "owned": false,
       "isOut": false,
       "growth": -64000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001712931362913459,
+      "p_top15": 0.011929078337395538,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5123.460031415909,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1248,
+      "e_horizon": 2801,
+      "roi_per_million": -5317.507125426734,
+      "efficiency": "med",
+      "captain_ceiling": 1498
     },
     {
       "name": "Marco Haller",
@@ -3047,7 +3142,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4810.88612457121,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -3057,17 +3152,19 @@
       "owned": false,
       "isOut": false,
       "growth": -285000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5053.913981013191,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5619.164272444539,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Mathias Vacek",
@@ -3076,17 +3173,19 @@
       "owned": true,
       "isOut": false,
       "growth": 443000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.002054152749948013,
+      "p_top15": 0.014290761578864442,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5352.765457623028,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1544,
+      "e_horizon": 3144,
+      "roi_per_million": -5423.905452766669,
+      "efficiency": "med",
+      "captain_ceiling": 1794
     },
     {
       "name": "M. van der Poel",
@@ -3095,17 +3194,19 @@
       "owned": false,
       "isOut": false,
       "growth": 262000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.002054152749948013,
+      "p_top15": 0.014290761578864442,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5826.508869940731,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1544,
+      "e_horizon": 3144,
+      "roi_per_million": -5852.309111152362,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1794
     },
     {
       "name": "Mathis Le Berre",
@@ -3114,17 +3215,19 @@
       "owned": false,
       "isOut": false,
       "growth": -267000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4863.218343039637,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5528.157855279588,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Matis Louvel",
@@ -3152,19 +3255,20 @@
       "owned": false,
       "isOut": false,
       "growth": 146000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.006169115985613813,
+      "p_top15": 0.04239276100510336,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.5018518518518519,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -5000.233930007886,
+      "e_stage": 5083,
+      "e_horizon": 8913,
+      "roi_per_million": -4951.197169112514,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 5333
     },
     {
       "name": "Matteo Trentin",
@@ -3173,17 +3277,19 @@
       "owned": false,
       "isOut": false,
       "growth": -339000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5389.3599230310365,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5779.250437288017,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 452
     },
     {
       "name": "Matteo Vercher",
@@ -3192,17 +3298,19 @@
       "owned": false,
       "isOut": false,
       "growth": -198000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4894.540788217994,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5436.041548453563,
+      "efficiency": "low",
+      "captain_ceiling": 752
     },
     {
       "name": "Matthew Riccitello",
@@ -3211,17 +3319,19 @@
       "owned": false,
       "isOut": false,
       "growth": null,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.002054152749948013,
+      "p_top15": 0.014290761578864442,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5623.588662275218,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1544,
+      "e_horizon": 3144,
+      "roi_per_million": -5668.809442209225,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 1794
     },
     {
       "name": "Mattia Cattaneo",
@@ -3230,17 +3340,19 @@
       "owned": false,
       "isOut": false,
       "growth": -198000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5082.40287152379,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5541.907756496554,
+      "efficiency": "low",
+      "captain_ceiling": 752
     },
     {
       "name": "Mattias Skjelmose",
@@ -3249,19 +3361,20 @@
       "owned": false,
       "isOut": false,
       "growth": 547000,
-      "p_stage": 0.033166893937818166,
-      "p_top15": 0.2103028130670127,
+      "p_stage": 0.010488097970625531,
+      "p_top15": 0.07114664001895998,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.2886539336061845,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 26537,
-      "e_horizon": 47308,
-      "roi_per_million": -488.0388583536947,
+      "e_stage": 8718,
+      "e_horizon": 15313,
+      "roi_per_million": -4310.077935145058,
       "efficiency": "high",
-      "captain_ceiling": 26787
+      "captain_ceiling": 8968
     },
     {
       "name": "Mauro Schmid",
@@ -3270,17 +3383,19 @@
       "owned": false,
       "isOut": false,
       "growth": -252000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0025651360210793596,
+      "p_top15": 0.0178183629995029,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5472.781712508867,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1988,
+      "e_horizon": 3656,
+      "roi_per_million": -5432.989979515337,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 2238
     },
     {
       "name": "Max Kanter",
@@ -3308,17 +3423,19 @@
       "owned": false,
       "isOut": false,
       "growth": -280000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0000515540786158336,
+      "p_top15": 0.00036082274082260835,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4569.291609243149,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": -205,
+      "e_horizon": 1253,
+      "roi_per_million": -5570.978322266758,
+      "efficiency": "low",
+      "captain_ceiling": 45
     },
     {
       "name": "Maxim Van Gils",
@@ -3327,20 +3444,21 @@
       "owned": false,
       "isOut": false,
       "growth": -165000,
-      "p_stage": 0.01123915905459191,
-      "p_top15": 0.07607055609548552,
+      "p_stage": 0.006304406509051085,
+      "p_top15": 0.0433049041339727,
       "p_gc": 0,
-      "confidence": 0.3910984848484848,
-      "coverage": 2,
+      "confidence": 0.3161764705882352,
+      "coverage": 3,
       "sources": [
+        "stageOdds",
         "stars",
         "csFav"
       ],
-      "e_stage": 9341,
-      "e_horizon": 16415,
-      "roi_per_million": -3507.8204036242487,
+      "e_stage": 5198,
+      "e_horizon": 9115,
+      "roi_per_million": -4677.59682224674,
       "efficiency": "high",
-      "captain_ceiling": 9591
+      "captain_ceiling": 5448
     },
     {
       "name": "Michael Matthews",
@@ -3349,17 +3467,19 @@
       "owned": false,
       "isOut": false,
       "growth": 81000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5606.952745035258,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5865.9822581570015,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 564
     },
     {
       "name": "Michael Storer",
@@ -3368,19 +3488,20 @@
       "owned": false,
       "isOut": false,
       "growth": -267000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.004882772552526168,
+      "p_top15": 0.03368279164379351,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.4337837837837838,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4627.3389066106765,
+      "e_stage": 3985,
+      "e_horizon": 6987,
+      "roi_per_million": -4902.703698604969,
       "efficiency": "med",
-      "captain_ceiling": 5123
+      "captain_ceiling": 4235
     },
     {
       "name": "Michael Valgren",
@@ -3389,17 +3510,19 @@
       "owned": false,
       "isOut": false,
       "growth": -253000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006865410655618518,
+      "p_top15": 0.004795900665598429,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5207.432683668526,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 352,
+      "e_horizon": 1809,
+      "roi_per_million": -5652.366415341827,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 602
     },
     {
       "name": "Michal Kwiatkowski",
@@ -3408,17 +3531,19 @@
       "owned": false,
       "isOut": false,
       "growth": -153000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5096.557356187086,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5549.884254956153,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 752
     },
     {
       "name": "Michel Hessmann",
@@ -3427,17 +3552,19 @@
       "owned": false,
       "isOut": false,
       "growth": -283000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4567.1726777450085,
-      "efficiency": "high",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5454.689407217095,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Mike Teunissen",
@@ -3455,7 +3582,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5318.003651338808,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -3484,17 +3611,19 @@
       "owned": false,
       "isOut": false,
       "growth": -208000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5079.204879072861,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5631.233945583124,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Nico Denz",
@@ -3503,17 +3632,19 @@
       "owned": false,
       "isOut": false,
       "growth": -186000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4899.831369020346,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5545.630831334413,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Nicolas Breuillard",
@@ -3522,19 +3653,20 @@
       "owned": false,
       "isOut": false,
       "growth": -66000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.0036645385836850874,
+      "p_top15": 0.025371480452284656,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3692982456140351,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3205.505545740481,
+      "e_stage": 2938,
+      "e_horizon": 5155,
+      "roi_per_million": -4368.894459957851,
       "efficiency": "high",
-      "captain_ceiling": 5123
+      "captain_ceiling": 3188
     },
     {
       "name": "Nicolas Prodhomme",
@@ -3543,19 +3675,20 @@
       "owned": false,
       "isOut": false,
       "growth": -7000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.0036645385836850874,
+      "p_top15": 0.025371480452284656,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3692982456140351,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3262.913627837276,
+      "e_stage": 2938,
+      "e_horizon": 5155,
+      "roi_per_million": -4403.526441158754,
       "efficiency": "high",
-      "captain_ceiling": 5123
+      "captain_ceiling": 3188
     },
     {
       "name": "Nicolas Vinokurov",
@@ -3564,17 +3697,19 @@
       "owned": false,
       "isOut": false,
       "growth": -309000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006865410655618518,
+      "p_top15": 0.004795900665598429,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5045.781598647616,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 352,
+      "e_horizon": 1809,
+      "roi_per_million": -5568.240606037103,
+      "efficiency": "low",
+      "captain_ceiling": 602
     },
     {
       "name": "Niklas Märkl",
@@ -3640,19 +3775,20 @@
       "owned": true,
       "isOut": false,
       "growth": 149000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.007148778961241435,
+      "p_top15": 0.04898094270846465,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.33577194752774975,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -1086.5978020633304,
+      "e_stage": 5914,
+      "e_horizon": 10373,
+      "roi_per_million": -3613.200787106386,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 6164
     },
     {
       "name": "Pascal Ackermann",
@@ -3689,7 +3825,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4645.774686789165,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -3699,22 +3835,23 @@
       "owned": false,
       "isOut": false,
       "growth": 857000,
-      "p_stage": 0.05822417059310905,
-      "p_top15": 0.3428980124035883,
-      "p_gc": 0.07676338227611622,
-      "confidence": 0.6596839053323765,
-      "coverage": 4,
+      "p_stage": 0.032639612732863185,
+      "p_top15": 0.2072831392982366,
+      "p_gc": 0.03854741436106096,
+      "confidence": 0.5,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
         "csFav",
         "ctc"
       ],
-      "e_stage": 50553,
-      "e_horizon": 90252,
-      "roi_per_million": 1365.2607790757017,
+      "e_stage": 29456,
+      "e_horizon": 51801,
+      "roi_per_million": -1832.816926816964,
       "efficiency": "high",
-      "captain_ceiling": 50803
+      "captain_ceiling": 29706
     },
     {
       "name": "Pavel Bittner",
@@ -3751,7 +3888,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5132.217001597272,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -3799,17 +3936,19 @@
       "owned": false,
       "isOut": false,
       "growth": -255000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4868.7788398410785,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5489.789122483774,
+      "efficiency": "low",
+      "captain_ceiling": 564
     },
     {
       "name": "Quinn Simmons",
@@ -3818,19 +3957,20 @@
       "owned": false,
       "isOut": false,
       "growth": 308000,
-      "p_stage": 0.02947166934148515,
-      "p_top15": 0.18893152438538563,
+      "p_stage": 0.008142190154962333,
+      "p_top15": 0.05562187013774056,
       "p_gc": 0,
-      "confidence": 0.34375,
-      "coverage": 1,
+      "confidence": 0.2518892277238316,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "csFav"
       ],
-      "e_stage": 23773,
-      "e_horizon": 42273,
-      "roi_per_million": 2756.4669126874587,
+      "e_stage": 6753,
+      "e_horizon": 11849,
+      "roi_per_million": -3645.453736128799,
       "efficiency": "high",
-      "captain_ceiling": 24023
+      "captain_ceiling": 7003
     },
     {
       "name": "Quinten Hermans",
@@ -3839,17 +3979,19 @@
       "owned": false,
       "isOut": false,
       "growth": -145000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5099.0339573916945,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5640.697053353478,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 452
     },
     {
       "name": "Ramses Debruyne",
@@ -3858,19 +4000,20 @@
       "owned": false,
       "isOut": false,
       "growth": 270000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.004149262235958147,
+      "p_top15": 0.028685781618430384,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3946808510638298,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4326.444704742848,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 3355,
+      "e_horizon": 5885,
+      "roi_per_million": -4890.343064528695,
+      "efficiency": "med",
+      "captain_ceiling": 3605
     },
     {
       "name": "Raul Garcia Pierna",
@@ -3879,17 +4022,19 @@
       "owned": false,
       "isOut": false,
       "growth": 42000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0025651360210793596,
+      "p_top15": 0.0178183629995029,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5369.819450653829,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1988,
+      "e_horizon": 3656,
+      "roi_per_million": -5324.705768440855,
+      "efficiency": "med",
+      "captain_ceiling": 2238
     },
     {
       "name": "Remco Evenepoel",
@@ -3898,22 +4043,23 @@
       "owned": false,
       "isOut": false,
       "growth": 1146000,
-      "p_stage": 0.03977953005185332,
-      "p_top15": 0.24734366729885837,
-      "p_gc": 0.03377588820149113,
-      "confidence": 0.7076572173747412,
-      "coverage": 4,
+      "p_stage": 0.031202351445815357,
+      "p_top15": 0.1990018146835114,
+      "p_gc": 0.016960862318866822,
+      "confidence": 0.6214746326760942,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
         "csFav",
         "ctc"
       ],
-      "e_stage": 34255,
-      "e_horizon": 60732,
-      "roi_per_million": -785.6884983375256,
+      "e_stage": 26530,
+      "e_horizon": 46929,
+      "roi_per_million": -2000.1541764564022,
       "efficiency": "high",
-      "captain_ceiling": 34505
+      "captain_ceiling": 26780
     },
     {
       "name": "Richard Carapaz",
@@ -3922,21 +4068,23 @@
       "owned": false,
       "isOut": false,
       "growth": 189000,
-      "p_stage": 0.010528065738101777,
-      "p_top15": 0.07140923198769267,
-      "p_gc": 0.006755177640298227,
-      "confidence": 0.5022039649848755,
-      "coverage": 3,
+      "p_stage": 0.019721223132254828,
+      "p_top15": 0.13014432426231126,
+      "p_gc": 0.0033921724637733645,
+      "confidence": 0.5,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
-        "csFav"
+        "csFav",
+        "ctc"
       ],
-      "e_stage": 9331,
-      "e_horizon": 16274,
-      "roi_per_million": -4114.283262577193,
+      "e_stage": 16514,
+      "e_horizon": 29114,
+      "roi_per_million": -2514.147024697541,
       "efficiency": "high",
-      "captain_ceiling": 9581
+      "captain_ceiling": 16764
     },
     {
       "name": "Rick Pluimers",
@@ -3954,7 +4102,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -5358.186761241968,
-      "efficiency": "low",
+      "efficiency": "med",
       "captain_ceiling": 2269
     },
     {
@@ -3992,7 +4140,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4569.996647683998,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -4002,17 +4150,19 @@
       "owned": false,
       "isOut": false,
       "growth": -39000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.004092002700293264,
+      "p_top15": 0.028294773051688482,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5597.141955844714,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 3306,
+      "e_horizon": 5798,
+      "roi_per_million": -5226.765709378743,
+      "efficiency": "med",
+      "captain_ceiling": 3556
     },
     {
       "name": "Sean Quinn",
@@ -4021,19 +4171,20 @@
       "owned": false,
       "isOut": false,
       "growth": 378000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.002523866462500542,
+      "p_top15": 0.017533858566537774,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31355140186915886,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3588.287158738712,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 1952,
+      "e_horizon": 3615,
+      "roi_per_million": -5059.728637666808,
+      "efficiency": "med",
+      "captain_ceiling": 2202
     },
     {
       "name": "Sebastian Berwick",
@@ -4042,17 +4193,19 @@
       "owned": false,
       "isOut": false,
       "growth": -285000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.001029126427618665,
+      "p_top15": 0.007181681977027288,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5199.441303402999,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 651,
+      "e_horizon": 2113,
+      "roi_per_million": -5566.422904172822,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 901
     },
     {
       "name": "Sepp Kuss",
@@ -4061,19 +4214,20 @@
       "owned": false,
       "isOut": false,
       "growth": null,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.006116379986728109,
+      "p_top15": 0.042037007420880346,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31584043377226945,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -3034.400827865685,
-      "efficiency": "high",
-      "captain_ceiling": 12039
+      "e_stage": 5038,
+      "e_horizon": 8834,
+      "roi_per_million": -4816.987500317262,
+      "efficiency": "med",
+      "captain_ceiling": 5288
     },
     {
       "name": "Sergio Higuita",
@@ -4082,19 +4236,20 @@
       "owned": false,
       "isOut": false,
       "growth": -105000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.003315550153635271,
+      "p_top15": 0.022979272184831978,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3514925373134328,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -4372.187930853272,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 2637,
+      "e_horizon": 4628,
+      "roi_per_million": -5181.488391513475,
+      "efficiency": "med",
+      "captain_ceiling": 2887
     },
     {
       "name": "Silvan Dillier",
@@ -4112,7 +4267,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4574.213581690336,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -4122,17 +4277,19 @@
       "owned": false,
       "isOut": false,
       "growth": -279000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006865410655618518,
+      "p_top15": 0.004795900665598429,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5311.614908136719,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 352,
+      "e_horizon": 1809,
+      "roi_per_million": -5706.584510737964,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 602
     },
     {
       "name": "Søren Wærenskjold",
@@ -4160,17 +4317,19 @@
       "owned": false,
       "isOut": false,
       "growth": -345000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4825.849919619777,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5566.9514598230235,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Tadej Pogacar",
@@ -4179,22 +4338,23 @@
       "owned": true,
       "isOut": false,
       "growth": 2394000,
-      "p_stage": 0.21052542659052542,
-      "p_top15": 0.8088532004709937,
-      "p_gc": 0.6348851165693822,
-      "confidence": 1,
-      "coverage": 4,
+      "p_stage": 0.21868229477282755,
+      "p_top15": 0.8222565273349877,
+      "p_gc": 0.24942444586568857,
+      "confidence": 0.954489544895449,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
         "csFav",
         "ctc"
       ],
-      "e_stage": 168015,
-      "e_horizon": 322348,
-      "roi_per_million": 11149.438154772026,
+      "e_stage": 137406,
+      "e_horizon": 271897,
+      "roi_per_million": 8571.003761458718,
       "efficiency": "high",
-      "captain_ceiling": 168265
+      "captain_ceiling": 137656
     },
     {
       "name": "Thibault Guernalec",
@@ -4222,21 +4382,23 @@
       "owned": false,
       "isOut": false,
       "growth": 336000,
-      "p_stage": 0.012051472612531521,
-      "p_top15": 0.08137083908643061,
-      "p_gc": 0.006755177640298227,
-      "confidence": 0.40625,
-      "coverage": 3,
+      "p_stage": 0.013572095550932148,
+      "p_top15": 0.09122275373707112,
+      "p_gc": 0.0033921724637733645,
+      "confidence": 0.5,
+      "coverage": 5,
       "sources": [
+        "stageOdds",
         "gcOdds",
         "stars",
-        "csFav"
+        "csFav",
+        "ctc"
       ],
-      "e_stage": 10594,
-      "e_horizon": 18507,
-      "roi_per_million": -4001.6583963308776,
+      "e_stage": 11555,
+      "e_horizon": 20275,
+      "roi_per_million": -3796.3141910067175,
       "efficiency": "high",
-      "captain_ceiling": 10844
+      "captain_ceiling": 11805
     },
     {
       "name": "Thymen Arensman",
@@ -4245,20 +4407,20 @@
       "owned": false,
       "isOut": false,
       "growth": 15000,
-      "p_stage": 0.028370920184221826,
-      "p_top15": 0.1824703169714409,
+      "p_stage": 0.008940303723429141,
+      "p_top15": 0.06092840465648841,
       "p_gc": 0,
-      "confidence": 0.41605392156862736,
+      "confidence": 0.37301013024602026,
       "coverage": 2,
       "sources": [
-        "stars",
-        "ctc"
+        "stageOdds",
+        "stars"
       ],
-      "e_stage": 22939,
-      "e_horizon": 40760,
-      "roi_per_million": -615.6858714536538,
+      "e_stage": 7424,
+      "e_horizon": 13031,
+      "roi_per_million": -4373.129262530208,
       "efficiency": "high",
-      "captain_ceiling": 23189
+      "captain_ceiling": 7674
     },
     {
       "name": "Tiesj Benoot",
@@ -4267,19 +4429,20 @@
       "owned": false,
       "isOut": false,
       "growth": -16000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.002839189138283708,
+      "p_top15": 0.01970584183747448,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.32816091954022986,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3973.039704415399,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 2225,
+      "e_horizon": 3930,
+      "roi_per_million": -5142.12925710023,
+      "efficiency": "med",
+      "captain_ceiling": 2475
     },
     {
       "name": "Tim Marsman",
@@ -4297,7 +4460,7 @@
       "e_stage": 2019,
       "e_horizon": 3476,
       "roi_per_million": -4580.4965493299205,
-      "efficiency": "med",
+      "efficiency": "high",
       "captain_ceiling": 2269
     },
     {
@@ -4345,17 +4508,19 @@
       "owned": false,
       "isOut": false,
       "growth": 153000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0025651360210793596,
+      "p_top15": 0.0178183629995029,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5388.077615593532,
-      "efficiency": "low",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 1988,
+      "e_horizon": 3656,
+      "roi_per_million": -5343.907667763414,
+      "efficiency": "med",
+      "captain_ceiling": 2238
     },
     {
       "name": "Tobias Foss",
@@ -4364,19 +4529,20 @@
       "owned": false,
       "isOut": false,
       "growth": -61000,
-      "p_stage": 0.005922659631753245,
-      "p_top15": 0.04072921007514607,
+      "p_stage": 0.003315550153635271,
+      "p_top15": 0.022979272184831978,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.3514925373134328,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 4873,
-      "e_horizon": 8545,
-      "roi_per_million": -3948.538069973529,
-      "efficiency": "high",
-      "captain_ceiling": 5123
+      "e_stage": 2637,
+      "e_horizon": 4628,
+      "roi_per_million": -4952.0189736024195,
+      "efficiency": "med",
+      "captain_ceiling": 2887
     },
     {
       "name": "T. Halland Johannessen",
@@ -4385,19 +4551,21 @@
       "owned": false,
       "isOut": false,
       "growth": 563000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.028801609794918793,
+      "p_top15": 0.18500362489149225,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.38027041617603874,
+      "coverage": 3,
       "sources": [
-        "stars"
+        "stageOdds",
+        "stars",
+        "ctc"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -3798.7111086671193,
+      "e_stage": 23266,
+      "e_horizon": 41353,
+      "roi_per_million": -1475.2212457285596,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 23516
     },
     {
       "name": "Tom Van Asbroeck",
@@ -4425,17 +4593,19 @@
       "owned": false,
       "isOut": false,
       "growth": -142000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5099.959640562312,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5551.801549490265,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 752
     },
     {
       "name": "V. Paret-Peintre",
@@ -4444,19 +4614,20 @@
       "owned": false,
       "isOut": false,
       "growth": -13000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.015032431795834147,
+      "p_top15": 0.10059869010082634,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.5067975830815711,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -1927.1202327606209,
+      "e_stage": 12456,
+      "e_horizon": 21938,
+      "roi_per_million": -1686.7472639892276,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 12706
     },
     {
       "name": "Victor Campenaerts",
@@ -4465,17 +4636,19 @@
       "owned": false,
       "isOut": false,
       "growth": 56000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5278.111809539973,
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5698.396135440909,
       "efficiency": "low",
-      "captain_ceiling": 2269
+      "captain_ceiling": 564
     },
     {
       "name": "Vlad Van Mechelen",
@@ -4484,17 +4657,19 @@
       "owned": false,
       "isOut": false,
       "growth": -164000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0003434992273397409,
+      "p_top15": 0.0024020181833407372,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4909.414483823478,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 51,
+      "e_horizon": 1509,
+      "roi_per_million": -5603.217230381876,
+      "efficiency": "low",
+      "captain_ceiling": 301
     },
     {
       "name": "Warren Barguil",
@@ -4503,17 +4678,19 @@
       "owned": true,
       "isOut": false,
       "growth": -297000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0006436858180236596,
+      "p_top15": 0.004497109094554919,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -4849.101099495466,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 314,
+      "e_horizon": 1772,
+      "roi_per_million": -5479.760820492211,
+      "efficiency": "low",
+      "captain_ceiling": 564
     },
     {
       "name": "X. Mikel Azparren",
@@ -4522,17 +4699,19 @@
       "owned": false,
       "isOut": false,
       "growth": -277000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0005150772629739774,
+      "p_top15": 0.003599974224864022,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5056.597860641752,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 202,
+      "e_horizon": 1659,
+      "roi_per_million": -5620.44511070436,
+      "efficiency": "low",
+      "captain_ceiling": 452
     },
     {
       "name": "Xandro Meurisse",
@@ -4541,17 +4720,19 @@
       "owned": false,
       "isOut": false,
       "growth": -229000,
-      "p_stage": 0.001,
-      "p_top15": 0.02,
+      "p_stage": 0.0008578907491463418,
+      "p_top15": 0.0059898018163502265,
       "p_gc": 0,
-      "confidence": 0,
-      "coverage": 0,
-      "sources": [],
-      "e_stage": 2019,
-      "e_horizon": 3476,
-      "roi_per_million": -5072.425447934607,
-      "efficiency": "med",
-      "captain_ceiling": 2269
+      "confidence": 0.39705882352941174,
+      "coverage": 1,
+      "sources": [
+        "stageOdds"
+      ],
+      "e_stage": 502,
+      "e_horizon": 1959,
+      "roi_per_million": -5536.285163672934,
+      "efficiency": "low",
+      "captain_ceiling": 752
     },
     {
       "name": "Yannis Voisard",
@@ -4560,72 +4741,72 @@
       "owned": false,
       "isOut": false,
       "growth": -66000,
-      "p_stage": 0.014214383116207782,
-      "p_top15": 0.09535676258916581,
+      "p_stage": 0.006116379986728109,
+      "p_top15": 0.042037007420880346,
       "p_gc": 0,
-      "confidence": 0.39583333333333337,
-      "coverage": 1,
+      "confidence": 0.31584043377226945,
+      "coverage": 2,
       "sources": [
+        "stageOdds",
         "stars"
       ],
-      "e_stage": 11789,
-      "e_horizon": 20753,
-      "roi_per_million": -813.2291183022186,
+      "e_stage": 5038,
+      "e_horizon": 8834,
+      "roi_per_million": -3871.5063102252007,
       "efficiency": "high",
-      "captain_ceiling": 12039
+      "captain_ceiling": 5288
     }
   ],
   "boards": {
     "topByEv": [
       "Tadej Pogacar",
       "Jonas Vingegaard",
-      "Paul Seixas",
       "Isaac Del Toro",
+      "Paul Seixas",
       "Remco Evenepoel",
+      "T. Halland Johannessen",
       "Ben Healy",
-      "Mattias Skjelmose",
-      "Quinn Simmons",
-      "Juan Ayuso",
+      "Richard Carapaz",
       "Lenny Martinez",
-      "Florian Lipowitz",
-      "Thymen Arensman",
-      "L. Van Eetvelt",
-      "Adam Yates",
-      "Alex Baudin",
       "Derek Gee",
-      "Egan Bernal",
+      "Juan Ayuso",
+      "V. Paret-Peintre",
+      "Florian Lipowitz",
+      "Thomas Pidcock",
+      "L. Van Eetvelt",
+      "Alex Baudin",
+      "Mattias Skjelmose",
       "Harold Tejada",
-      "Ilan van Wilder",
-      "Jordan Jegat"
+      "Thymen Arensman",
+      "Quinn Simmons"
     ],
     "topByRoi": [
       "Tadej Pogacar",
-      "Jonas Vingegaard",
-      "Ben Healy",
       "Olav Kooij",
-      "Quinn Simmons",
+      "Jonas Vingegaard",
       "Phil Bauhaus",
       "Tim Merlier",
-      "Paul Seixas",
       "Biniam Girmay",
       "Max Kanter",
-      "Isaac Del Toro",
       "Jasper Philipsen",
-      "Mattias Skjelmose",
-      "Thymen Arensman",
-      "Remco Evenepoel",
-      "Yannis Voisard",
+      "Isaac Del Toro",
+      "Ben Healy",
       "Pavel Bittner",
       "Pascal Ackermann",
-      "Pablo Castrillo",
-      "Lenny Martinez"
+      "T. Halland Johannessen",
+      "Søren Wærenskjold",
+      "V. Paret-Peintre",
+      "Paul Seixas",
+      "Remco Evenepoel",
+      "Derek Gee",
+      "Richard Carapaz",
+      "Mads Pedersen"
     ],
     "lowConfidence": [
       "Aaron Gate",
       "Abel Balderstone",
       "Adam Yates",
       "Alex Aranburu",
-      "Alex Baudin",
       "Alex Kirsch",
       "Alexandre Delettre",
       "A. Halland Johannessen",
@@ -4665,6 +4846,7 @@
       "F. Grossschartner",
       "F. Gaviria Rendon",
       "Filippo Ganna",
+      "Florian Lipowitz",
       "Florian Vermeersch",
       "F. van den Broek",
       "Fred Wright",
@@ -4700,9 +4882,9 @@
       "J. van den Berg",
       "Kamil Gradek",
       "Kasper Asgreen",
-      "Kevin Vauquelin",
       "Krists Neilands",
       "Lars Craps",
+      "Lenny Martinez",
       "Lewis Askey",
       "Liam Slock",
       "Lorenzo Germani",
@@ -4719,7 +4901,6 @@
       "M. van der Poel",
       "Mathis Le Berre",
       "Matis Louvel",
-      "Matteo Jorgenson",
       "Matteo Trentin",
       "Matteo Vercher",
       "Matthew Riccitello",
@@ -4730,7 +4911,6 @@
       "Max Walker",
       "Maxim Van Gils",
       "Michael Matthews",
-      "Michael Storer",
       "Michael Valgren",
       "Michal Kwiatkowski",
       "Michel Hessmann",
@@ -4769,6 +4949,7 @@
       "Søren Wærenskjold",
       "Stefano Oldani",
       "Thibault Guernalec",
+      "Thymen Arensman",
       "Tiesj Benoot",
       "Tim Marsman",
       "Tim Merlier",
@@ -4778,7 +4959,6 @@
       "T. Halland Johannessen",
       "Tom Van Asbroeck",
       "Toms Skujins",
-      "V. Paret-Peintre",
       "Victor Campenaerts",
       "Vlad Van Mechelen",
       "Warren Barguil",
@@ -4788,6 +4968,16 @@
     ]
   },
   "brainJournal": [
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-13T23:05:13Z (night pass, third tonight) — **FROZE** (GC-internal soft transition S9 hilly→S10 mountain; freeze ADVERSARIALLY RE-VERIFIED, 0/3 skeptic lenses refuted, all HIGH). S10 Le Lioran (Bastille Day, window closes 11:10Z). Concur with 19:40Z definitive + 21:23Z/22:36Z second opinions — same 8, captain Pogacar (eS 137,406 conf 0.95, RP 4/7 ~64%, pool #1 by 1.76×). NEW: exhaustive swap enumeration (verify agent) — ALL 748 funded 2-per-team-legal single swaps fail the 1.2×-fee bar (best short 23.6k pre-round-trip-fee); Vingegaard unfundable by 447k, Del Toro short 27k + 4× under bar. **REAL DEFECT FOUND & CHIPPED: snapshot identity merge DEAD this run (persons=[] + statistik fullName null ⇒ isOut attached to 0/176 pool rows — pool-level \"0 isOut\" was VACUOUSLY true).** DNS safety confirmed 3 independent ways instead: market.players price-join (8/8 owned isOut=false; 30 isOut pids all non-owned), pool == exactly the 176 non-out players, grey-name owned-dns.json fresh 22:37Z + empty. OPS: live==plan every full tick through 22:52 local; 00:52 iframe-not-found = known self-recovering transient (4th occurrence); freeze needs no trades. Bank 327,413. Rewrite refreshes the 24h gate through close. Forward: Tue evening = S10→S11 HARD FLIP (full sprint reshape, anchor-lease decision on Pogacar, sprint-chalk captain bought fresh). matchRate 0.6875."
+    },
+    {
+      "ts": "-",
+      "action": "other",
+      "text": "2026-07-13T19:40:19Z (REST-DAY evening definitive) — **FROZE (GC-internal soft transition, freeze RE-EARNED on sharp data)** S10 Aurillac→Le Lioran (Bastille Day 14 Jul; window closes 11:10Z). The promised fresh-odds re-sizing: matchRate 0.165→**0.6875** (RP/bet365 S10 board ingested: Pogacar 4/7 ~64%, Del Toro 9/1, Carapaz 11/1, Vingegaard 18/1) and the 12-Jul freeze SURVIVES on real numbers. 3-agent adversarial verify (swap-search / captain / legality-ops) = **0 refuted, all HIGH**: full-pool scan finds NO funded swap within an order of magnitude of the 1.2×-fee doctrine bar for a 1-day climber hold (best ratios Vingegaard 0.41×, Del Toro 0.25×; only funded 2-swap Charmig+Vacek→Paret-Peintre+fodder nets +12.7k vs 85.3k bar AND strands Vacek's squad-best S13 read p15 0.57). CAPTAIN **Pogacar** held (eS 137,406 conf 0.95 p15 0.822 pool-#1, unanimous 9/9 sources); strategy.md's 24/25-Pedersen-captain WATCH evaluated & not followed (Pedersen best-case doubled marginal ~55-70k < half Pogacar; observation likely stale mid-window snapshot) — confirm/kill vs S10 actual tomorrow. Research deltas: Vacek CORRECTED to GC 24th +16:58 (GC floor dead; pure S13+Lidl hold, top S11-flip rotation candidate); Castrillo identity RESOLVED (pool has exactly one: Pablo, Movistar = ours; researcher's Álvaro warning was the confusion); Kalshi TLS-blocked tonight (RP corroborates, no signal lost). Sprinters held (single-island rule; Pedersen GREEN 268 +45, Kanter points 5th). 0 isOut/unconf pool-wide; no new abandons; Healy heat = soft watch. Rewrite was MANDATORY (prior plan crossed the 24h gate ~23:21 CEST tonight). Live==plan verified through 21:36 CEST. Bank 327,413. Forward: Tue evening = S10→S11 HARD FLIP (full sprint reshape, anchor-lease Pogacar decision, captain = sprint chalk bought fresh). matchRate 0.6875"
+    },
     {
       "ts": "-",
       "action": "other",
@@ -5110,13 +5300,14 @@
         "coverageNote": "none"
       }
     ],
-    "matchRate": 0.26136363636363635,
+    "matchRate": 0.6875,
     "fusionWeightsSummary": {
       "channelBase": {
         "stageOdds": 1,
         "gcOdds": 0.7,
         "stars": 0.6,
         "uci": 0.5,
+        "ctc": 0.36,
         "feltet": 0.35
       },
       "byTypeCurrent": {
